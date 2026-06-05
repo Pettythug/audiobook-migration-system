@@ -1,0 +1,1 @@
+This is the entry log for our source code folder. This folder will contain the python scripts developed by our team. We plan to write the manifest scanner script here to index files, the verification script to check sizes, and the safe cleanup script to delete files after everything is validated. Right now, the folder is empty and we are ready for the developers to start.

@@ -1,0 +1,1 @@
+This is the entry log for the archive folder. We will use this folder to store old scripts, deprecated specs, and backup lists of our files. This keeps the active folders clean and ensures we do not lose past work. Currently, this folder is empty.

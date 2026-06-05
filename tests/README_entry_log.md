@@ -1,0 +1,1 @@
+This is the entry log for our test files folder. We will use this directory to create mock folders simulating pcloud and google drive structures. This lets our developers test their scanning, comparison, and deletion scripts safely on fake zero-byte files before touching any real data. Right now, we have no test files here.
