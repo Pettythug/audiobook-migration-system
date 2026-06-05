@@ -10,6 +10,9 @@ This plan details the design and implementation of `manifest_scanner.py` under `
 > [!WARNING]
 > Testing will be performed recursively using a mock folder structure with 0-byte dummy files under `/tests/`. We will use Python's `unittest.mock` to simulate file sizes, metadata, and durations during unit tests, ensuring no live drives are accessed.
 
+> [!CAUTION]
+> All binary byte-parsing logic must be wrapped in strict `try...except` blocks. If any file has a corrupted header, missing headers, or is 0-bytes, the parsers must handle this gracefully without crashing, logging a warning to the terminal and defaulting the duration/metadata to `None`/`0`.
+
 ## Open Questions
 
 There are no unresolved open questions. The requirements in `ticket-1-1.md` are fully specified.
@@ -27,7 +30,8 @@ Update the root entry log to record the addition of the new scanner script and u
 Create the scanner script in `src/` with the following components:
 - **CLI Interface**: Uses `argparse` to accept `--source-path` (required) and `--output-csv` (optional). Defaults to a dry-run mode unless a `--write` or `--no-dry-run` flag is explicitly set.
 - **Directory Traversal**: Recursively scans all folders down to leaf nodes using `os.walk`, tracking all audio files (e.g., `.mp3`, `.m4a`, `.m4b`, `.wav`, `.flac`, `.ogg`, `.aac`, `.wma`).
-- **Metadata and Duration Parsers**:
+- **Defensive Metadata and Duration Parsers**:
+  - All binary parsers will be wrapped in strict `try...except` blocks to handle any errors, missing/corrupted headers, or 0-byte files, defaulting to `0` duration and `None` metadata, and logging a warning.
   - Pure-Python ID3v2 tag parser to read `TCON` (genre), and `TPE1`/`TXXX` (narrator) tags.
   - QuickTime/MP4 `mvhd` atom parser to extract duration for `.m4a`/`.m4b` files.
   - Xing/VBRI/CBR estimator for `.mp3` duration.
@@ -53,6 +57,11 @@ Create unit tests under `tests/` verifying:
 - Folder-level majority rule overrides.
 - Highest common parent folder path calculation.
 - Dry-run console output and CSV file generation.
+- **Parser Robustness Verification**: Direct tests of the custom binary parsers using:
+  - 0-byte files (must return 0/None and log a warning).
+  - Random corrupted bytes (must return 0/None and log a warning).
+  - Files with missing headers (must return 0/None and log a warning).
+
 
 #### [MODIFY] [README_entry_log.md](file:///C:/Users/wance/Documents/Git/audiobook-migration-system/tests/README_entry_log.md)
 Update the test folder entry log to document the new unit tests.
