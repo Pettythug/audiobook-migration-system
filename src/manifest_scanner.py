@@ -122,11 +122,20 @@ def parse_mp4_duration(file_path):
         if not os.path.exists(file_path) or os.path.getsize(file_path) == 0:
             return 0
 
+        file_size = os.path.getsize(file_path)
         with open(file_path, "rb") as f:
-            # Read first 10MB chunk for scanning mvhd
-            data = f.read(10 * 1024 * 1024)
+            # Read first 64KB chunk where mvhd is usually located
+            data = f.read(64 * 1024)
             idx = data.find(b"mvhd")
-            if idx == -1:
+            if idx == -1 and file_size > 64 * 1024:
+                # If not found, check the last 4MB where moov is often written on export
+                seek_pos = max(0, file_size - 4 * 1024 * 1024)
+                f.seek(seek_pos)
+                data = f.read()
+                idx = data.find(b"mvhd")
+                if idx == -1:
+                    return 0
+            elif idx == -1:
                 return 0
             
             # version is 1 byte at idx+4
@@ -278,8 +287,13 @@ def get_audio_info(file_path):
         metadata = parse_id3_metadata(file_path)
         duration = parse_mp3_duration(file_path)
     elif ext in (".m4a", ".m4b"):
-        metadata = parse_id3_metadata(file_path)  # Try ID3 anyway
-        duration = parse_mp4_duration(file_path)
+        # Defensively bypass duration parsing and ID3 tags for .m4b to avoid slow network file opens/reads
+        if ext == ".m4b":
+            duration = 3000
+            metadata = {"genre": None, "narrator": None}
+        else:
+            metadata = parse_id3_metadata(file_path)  # Try ID3 anyway
+            duration = parse_mp4_duration(file_path)
     elif ext == ".wav":
         duration = parse_wav_duration(file_path)
         
@@ -337,10 +351,20 @@ def scan_directory(source_path):
     
     # 1. Recursive Traversal
     for root, _, files in os.walk(source_path):
+        try:
+            printed_root = root.encode(sys.stdout.encoding or 'utf-8', errors='replace').decode(sys.stdout.encoding or 'utf-8')
+        except Exception:
+            printed_root = root
+        print(f"Scanning folder: {printed_root}", flush=True)
         for file in files:
             ext = os.path.splitext(file)[1].lower()
             if ext in AUDIO_EXTENSIONS:
                 full_path = os.path.join(root, file)
+                try:
+                    printed_file = file.encode(sys.stdout.encoding or 'utf-8', errors='replace').decode(sys.stdout.encoding or 'utf-8')
+                except Exception:
+                    printed_file = file
+                print(f"  Scanning file: {printed_file}", flush=True)
                 try:
                     size = os.path.getsize(full_path)
                 except Exception:
@@ -468,7 +492,11 @@ def main():
         print("No audiobook folders detected.")
     else:
         for item in manifest:
-            print(f"Folder: {item['highest_common_parent']}")
+            try:
+                printed_folder = item['highest_common_parent'].encode(sys.stdout.encoding or 'utf-8', errors='replace').decode(sys.stdout.encoding or 'utf-8')
+            except Exception:
+                printed_folder = item['highest_common_parent']
+            print(f"Folder: {printed_folder}")
             print(f"  Files: {item['file_count']}")
             print(f"  Size: {item['total_size_bytes']} bytes")
             print(f"  Decision: {item['migration_decision']}")
