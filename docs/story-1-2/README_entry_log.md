@@ -1,0 +1,1 @@
+This is the entry log for the story-1-2 directory, representing the migration validation and verifier phase. This directory houses the ticket.md spec for validating path normalization and sizes, and the dev-plan.md file which describes the verifier's architecture, path normalization rules, and testing strategies.
