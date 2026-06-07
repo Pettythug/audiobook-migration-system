@@ -1,1 +1,0 @@
-This is the entry log for the story-1-1 directory, which represents our multi-heuristic scanner phase. This directory contains the ticket.md spec outlining the requirements for the scanner, and the dev-plan.md file detailing the implementation approach and heuristics designed by the developer.

@@ -1,1 +1,9 @@
-This is the entry log for the documentation folder. This folder stores our project backlog, ticket details, and developer instructions. We reorganized the documentation folder to group files by story instead of keeping them in a flat tickets folder. Right now, this directory contains our backlog.md and three story subdirectories named story-1-1, story-1-2, and story-1-3, which house the tickets, implementation plans, and logs for the respective project phases. We have also added three new documentation files under this folder, which are confluence_overview.md for high-level project and audit tracking, operations_guide.md to explain how to run the scripts, and safety_and_rollback_plan.md to document our safety controls and rollback procedure.
+# AudioBook Migration Project - /docs Entry Log
+
+| File | Status | Notes |
+|---|---|---|
+| `jira_board.md` | Active | Jira board for sandbox developers |
+| `developer_instructions.md` | Active | Rules and guidelines for sandbox developers |
+| `audit_checklist.md` | Active | Manager's pass/fail QA rubric |
+| `style_guide.md` | Active | Enforced PowerShell coding standards |
+| `rollback_runbook.md` | Active | Emergency restore procedures |
