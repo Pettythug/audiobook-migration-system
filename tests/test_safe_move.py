@@ -35,10 +35,10 @@ class TestSafeMove(unittest.TestCase):
         
         # Write mock report
         with open(self.report_path, "w", newline="", encoding="utf-8") as f:
-            f.write("source_path,status\n")
-            f.write("Author/Book_OK,OK\n")
-            f.write("Author/Empty_Book,OK\n")
-            f.write("Author/Book_FAIL,SIZE_MISMATCH\n")
+            f.write("source_path,target_path,normalized_path,status\n")
+            f.write("Mock/OK_Src,Author/Book_OK,author/book_ok,OK\n")
+            f.write("Mock/Empty_Src,Author/Empty_Book,author/empty_book,OK\n")
+            f.write("Mock/Fail_Src,Author/Book_FAIL,author/book_fail,SIZE_MISMATCH\n")
             
         # Suppress prints during test
         self.held_stdout = sys.stdout

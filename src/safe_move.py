@@ -32,14 +32,16 @@ def read_migration_report(report_path):
             reader = csv.DictReader(f)
             if not reader.fieldnames:
                 return ok_paths
-            required = {'source_path', 'status'}
-            if not required.issubset(set(reader.fieldnames)):
+            required = {'status'}
+            if not required.issubset(set(reader.fieldnames)) or ('target_path' not in reader.fieldnames and 'normalized_path' not in reader.fieldnames):
                 print(f"Warning: Manifest '{report_path}' is missing required headers.", file=sys.stderr)
                 return ok_paths
                 
             for row in reader:
                 if row.get('status', '').strip() == 'OK':
-                    path = row.get('source_path', '').strip()
+                    path = row.get('target_path', '').strip()
+                    if not path:
+                        path = row.get('normalized_path', '').strip()
                     if path:
                         ok_paths.add(path)
     except Exception as e:
