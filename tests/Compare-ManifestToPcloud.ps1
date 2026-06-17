@@ -8,7 +8,6 @@ param (
     [Parameter(Mandatory=$false)]
     [string]$ReportOutputPath = "migration_report.csv"
 )
-
 function Get-CleanTitle {
     param([string]$Title)
     try {
@@ -23,25 +22,19 @@ function Get-CleanTitle {
         return $Title
     }
 }
-
 try {
     if (-not (Test-Path -LiteralPath $TargetDirectory -PathType Container)) {
         throw "Target directory not found: $TargetDirectory"
     }
-
     if (-not (Test-Path -LiteralPath $PCloudManifestPath -PathType Leaf)) {
         throw "PCloud manifest not found: $PCloudManifestPath"
     }
-
     if (-not (Test-Path -LiteralPath $GDriveManifestPath -PathType Leaf)) {
         throw "GDrive manifest not found: $GDriveManifestPath"
     }
-
     $pcloud = Import-Csv -LiteralPath $PCloudManifestPath
     $gdrive = Import-Csv -LiteralPath $GDriveManifestPath
-
     $manifestTitles = @{}
-
     if ($pcloud) {
         foreach ($row in $pcloud) {
             $clean = Get-CleanTitle -Title $row.highest_common_parent
@@ -50,7 +43,6 @@ try {
             }
         }
     }
-
     if ($gdrive) {
         foreach ($row in $gdrive) {
             $clean = Get-CleanTitle -Title $row.highest_common_parent
@@ -59,10 +51,8 @@ try {
             }
         }
     }
-
     $localFolders = Get-ChildItem -LiteralPath $TargetDirectory -Directory
     $results = @()
-
     foreach ($folder in $localFolders) {
         $cleanFolderName = Get-CleanTitle -Title $folder.Name
         
@@ -77,7 +67,6 @@ try {
             Status      = $status
         }
     }
-
     $results | Export-Csv -LiteralPath $ReportOutputPath -NoTypeInformation -Encoding UTF8
     Write-Host "Manifest comparison completed successfully. Report exported to $ReportOutputPath"
 }
