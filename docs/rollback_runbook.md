@@ -9,18 +9,18 @@ This procedure must be executed immediately if a migration script incorrectly mo
 1. **Halt Operations**: Stop any currently running migration scripts.
 2. **Identify Errors**: Review the developer's console output logs to determine which files were incorrectly moved.
 3. **Restore Command**:
-   Execute the following base logic to move files back to their parent directory.
-   `powershell
+   Execute the following base logic to move the isolated directories back to their parent directory.
+   ```powershell
    $stagingDir = "G:\My Drive\pcloud\To Delete Audio Books"
    $restoreDir = "G:\My Drive\pcloud"
    
-   Get-ChildItem -Path $stagingDir -File | ForEach-Object {
+   Get-ChildItem -Path $stagingDir -Directory | ForEach-Object {
        try {
            Move-Item -Path $_.FullName -Destination $restoreDir -ErrorAction Stop
-           Write-Output "Restored: $($_.Name)"
+           Write-Output "Restored Directory: $($_.Name)"
        } catch {
            Write-Error "Restore Failed for $($_.Name): $($_.Exception.Message)"
        }
    }
-   `
-4. **Verify**: Check `G:\My Drive\pcloud` to confirm the files have been fully restored.
+   ```
+4. **Verify**: Check `G:\My Drive\pcloud` to confirm the directories have been fully restored.
