@@ -4,30 +4,23 @@ param (
     [Parameter(Mandatory=$false)]
     [string]$LogFile = ".\Manual_Review_Log.csv"
 )
-
 $ErrorActionPreference = "Stop"
-
 $audioExtensions = @('.mp3', '.m4a', '.m4b', '.flac', '.wav', '.wma', '.ogg')
-
 Try {
     $targetRoot = (Resolve-Path -LiteralPath $TargetDirectory).Path
     $deleteDir = Join-Path -Path $targetRoot -ChildPath "To Delete Audio Books"
     if (-not (Test-Path -LiteralPath $deleteDir)) {
         New-Item -ItemType Directory -Path $deleteDir -Force | Out-Null
     }
-
     # 1. Dynamic Anchor: Scan for all audio files infinitely deep
     $audioFiles = Get-ChildItem -LiteralPath $targetRoot -Recurse -File | Where-Object { $audioExtensions -contains $_.Extension.ToLower() }
     
     $bookFolders = @{}
-
     foreach ($file in $audioFiles) {
         # Ensure we don't process files already in the delete dir
         if ($file.FullName.StartsWith($deleteDir)) { continue }
-
         $curr = $file.Directory
         $isBookFolder = $false
-
         # Step up looking for [ID]
         while ($curr -and $curr.FullName -ne $targetRoot) {
             if ($curr.Name -match '\[.*?\]') {
@@ -55,7 +48,6 @@ Try {
             }
         }
     }
-
     # Establish Clean Titles
     $cleanTitles = @{}
     foreach ($folder in $bookFolders.Values) {
@@ -67,7 +59,6 @@ Try {
     $allDirs = Get-ChildItem -LiteralPath $targetRoot -Directory -Recurse
     foreach ($dir in $allDirs) {
         if ($dir.FullName.StartsWith($deleteDir)) { continue }
-
         $cleanTitle = ($dir.Name -replace '\s*\[.*?\]\s*', '').Trim()
         if ($cleanTitles.ContainsKey($cleanTitle) -and -not $bookFolders.ContainsKey($dir.FullName)) {
             # Make sure it's not a child of an existing book folder
@@ -85,7 +76,6 @@ Try {
             }
         }
     }
-
     # Group Folders
     $groupedFolders = @{}
     foreach ($folder in $bookFolders.Values) {
@@ -95,7 +85,6 @@ Try {
         }
         $groupedFolders[$cleanTitle] += $folder
     }
-
     # Process Groups
     foreach ($group in $groupedFolders.GetEnumerator()) {
         $title = $group.Key
@@ -140,7 +129,6 @@ Try {
             if (Test-Path -LiteralPath $destPath) {
                 $destPath = Join-Path -Path $deleteDir -ChildPath ($candidate.Folder.Name + "_" + [guid]::NewGuid().ToString().Substring(0,8))
             }
-
             if ($candidate.TotalFiles -eq $keeper.TotalFiles -and $candidate.TotalSizeMB -eq $keeper.TotalSizeMB) {
                 # Apples-to-Apples
                 Try {
