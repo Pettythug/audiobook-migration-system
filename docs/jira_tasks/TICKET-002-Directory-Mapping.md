@@ -1,7 +1,7 @@
 # [TICKET-002] Directory Mapping & Manifest Comparison
 
-**Status:** IN PROGRESS
-**Assignee:** Sandbox Developer
+**Status:** [x] DONE
+**Assignee:** Gatekeeper (Merged)
 
 ## Goal Description
 Build `tests/Compare-ManifestToPcloud.ps1`. This script must compare the local cleaned audiobook directories against the existing cloud manifests to identify which audiobooks are already backed up and which are missing from the cloud.
