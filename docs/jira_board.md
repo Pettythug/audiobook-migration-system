@@ -7,7 +7,7 @@
 
 ## Epic 2: Directory Mapping & Comparison Script
 - **Assignee Model**: Gemini 3.1 Pro (High)
-- **Status**: TO DO
+- **Status**: COMPLETED
 - **Task 2.1**: Write a PowerShell script that parses gdrive_manifest.csv.
 - **Task 2.2**: Script must scan the G:\My Drive\pcloud equivalent (mocked initially) and find titles not in the manifest.
 
