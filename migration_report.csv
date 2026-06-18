@@ -1,0 +1,59 @@
+source_path,target_path,normalized_path,status,source_size_bytes,target_size_bytes,source_files,target_files,details
+P:\Audio Books,Audio Books,audio books,OK,26229642795,26229642795,176,176,Successfully migrated. Paths and sizes match.
+,Drive E\Books\Books,books,PRE_EXISTING,0,748105650,0,70,Folder exists on target but is not present in source manifest.
+,Drive E\Books\All the Skills [B0BLTLDSYM],all the skills [b0bltldsym],PRE_EXISTING,0,723842110,0,61,Folder exists on target but is not present in source manifest.
+,Drive E\Books\Back to One [B09PSVRV4J],back to one [b09psvrv4j],PRE_EXISTING,0,361279127,0,1,Folder exists on target but is not present in source manifest.
+,Drive E\Books\Promise of the Witch-King [B00IIW28OI],promise of the witch-king [b00iiw28oi],PRE_EXISTING,0,375264574,0,1,Folder exists on target but is not present in source manifest.
+,Drive E\Books\Raze [1977374573],raze [1977374573],PRE_EXISTING,0,542078163,0,1,Folder exists on target but is not present in source manifest.
+,Drive E\Books\Ranger Boxed Set [1705290949],ranger boxed set [1705290949],PRE_EXISTING,0,1342815711,0,1,Folder exists on target but is not present in source manifest.
+,Drive E\Books\Reality Benders Series Boxed Set [B09GDHV74D],reality benders series boxed set [b09gdhv74d],PRE_EXISTING,0,1494243971,0,1,Folder exists on target but is not present in source manifest.
+,Drive E\Books\Reborn as a Demonic Tree 2 [B0CQPVXD1X],reborn as a demonic tree 2 [b0cqpvxd1x],PRE_EXISTING,0,1179967859,0,1,Folder exists on target but is not present in source manifest.
+,Drive E\Books\Reborn as a Demonic Tree [B0CJKXYH8Y],reborn as a demonic tree [b0cjkxyh8y],PRE_EXISTING,0,1080125538,0,1,Folder exists on target but is not present in source manifest.
+,Drive E\Books\Red Claw [B0C5BFG6PJ],red claw [b0c5bfg6pj],PRE_EXISTING,0,1249069651,0,1,Folder exists on target but is not present in source manifest.
+,Drive E\Books\Regicide [B07FKYC3LD],regicide [b07fkyc3ld],PRE_EXISTING,0,385349659,0,1,Folder exists on target but is not present in source manifest.
+,Drive E\Books\Relentless [0062688693],relentless [0062688693],PRE_EXISTING,0,805762782,0,1,Folder exists on target but is not present in source manifest.
+,Drive E\Books\Revisionist History [B08JD7QC4M],revisionist history [b08jd7qc4m],PRE_EXISTING,0,207509352,0,7,Folder exists on target but is not present in source manifest.
+,Drive E\Books\Ritualist [B07BTHWMFF],ritualist [b07bthwmff],PRE_EXISTING,0,343440732,0,1,Folder exists on target but is not present in source manifest.
+,Drive E\Books\Roadkill [B0B6QBNK4J],roadkill [b0b6qbnk4j],PRE_EXISTING,0,502858966,0,1,Folder exists on target but is not present in source manifest.
+,Drive E\Books\Royal Assassin [B003NTPCVM],royal assassin [b003ntpcvm],PRE_EXISTING,0,748459953,0,1,Folder exists on target but is not present in source manifest.
+,Drive E\Books\Savage Dominion [1705231985],savage dominion [1705231985],PRE_EXISTING,0,932826055,0,1,Folder exists on target but is not present in source manifest.
+,Drive E\Books\Scamps & Scoundrels [1541435362],scamps & scoundrels [1541435362],PRE_EXISTING,0,493826778,0,1,Folder exists on target but is not present in source manifest.
+,Drive E\Books\Seas the Day [1705236561],seas the day [1705236561],PRE_EXISTING,0,433000221,0,1,Folder exists on target but is not present in source manifest.
+,Drive E\Books\Second Story Man [154143644X],second story man [154143644x],PRE_EXISTING,0,382944388,0,1,Folder exists on target but is not present in source manifest.
+,Drive E\Books\Secondhand Souls [B00XQS0AS0],secondhand souls [b00xqs0as0],PRE_EXISTING,0,323199884,0,1,Folder exists on target but is not present in source manifest.
+,Drive E\Books\Sherlock Holmes [B06WLMWF2S],sherlock holmes [b06wlmwf2s],PRE_EXISTING,0,3518424298,0,1,Folder exists on target but is not present in source manifest.
+,Drive E\Books\Siege Tactics [1977378889],siege tactics [1977378889],PRE_EXISTING,0,834868452,0,2,Folder exists on target but is not present in source manifest.
+,Drive E\Books\Silver Spines [B0CBCWKPL1],silver spines [b0cbcwkpl1],PRE_EXISTING,0,1047972575,0,1,Folder exists on target but is not present in source manifest.
+,Drive E\Books\Skull and Thrones [1541436458],skull and thrones [1541436458],PRE_EXISTING,0,456195355,0,1,Folder exists on target but is not present in source manifest.
+,Drive E\Books\SmartLess [B08JJN6G5G],smartless [b08jjn6g5g],PRE_EXISTING,0,125996925,0,2,Folder exists on target but is not present in source manifest.
+,Drive E\Books\Split the Party [B018UG3DJK],split the party [b018ug3djk],PRE_EXISTING,0,343339969,0,1,Folder exists on target but is not present in source manifest.
+,Drive E\Books\Star Wars [B002V0KP4I],star wars [b002v0kp4i],PRE_EXISTING,0,191979914,0,1,Folder exists on target but is not present in source manifest.
+,Drive E\Books\Star Wars [B0D9C77HBL],star wars [b0d9c77hbl],PRE_EXISTING,0,197432127,0,1,Folder exists on target but is not present in source manifest.
+,Drive E\Books\Star Wars [B0DDZQ52XP],star wars [b0ddzq52xp],PRE_EXISTING,0,238525671,0,1,Folder exists on target but is not present in source manifest.
+,Drive E\Books\Stargazer [B08VYFG11M],stargazer [b08vyfg11m],PRE_EXISTING,0,206574736,0,1,Folder exists on target but is not present in source manifest.
+,Drive E\Books\Starlight Enclave [0063029804],starlight enclave [0063029804],PRE_EXISTING,0,825481102,0,1,Folder exists on target but is not present in source manifest.
+,Drive E\Books\Steamborn [B0764H1QWG],steamborn [b0764h1qwg],PRE_EXISTING,0,671058838,0,1,Folder exists on target but is not present in source manifest.
+,Drive E\Books\Stories of Jedi and Sith [B0B4BKLFQW],stories of jedi and sith [b0b4bklfqw],PRE_EXISTING,0,286030591,0,1,Folder exists on target but is not present in source manifest.
+,Drive E\Books\Street Cultivation [1541438299],street cultivation [1541438299],PRE_EXISTING,0,724697859,0,1,Folder exists on target but is not present in source manifest.
+,Drive E\Books\Stuff To Blow Your Mind [B08K57RMBJ],stuff to blow your mind [b08k57rmbj],PRE_EXISTING,0,387263308,0,9,Folder exists on target but is not present in source manifest.
+,Drive E\Books\Stuff You Should Know [B08JJMNHTS],stuff you should know [b08jjmnhts],PRE_EXISTING,0,234361204,0,5,Folder exists on target but is not present in source manifest.
+,Drive E\Books\Super Powereds [1648816606],super powereds [1648816606],PRE_EXISTING,0,293601532,0,1,Folder exists on target but is not present in source manifest.
+,Drive E\Books\Super Powereds [1648817696],super powereds [1648817696],PRE_EXISTING,0,258673432,0,1,Folder exists on target but is not present in source manifest.
+,Drive E\Books\Super Powereds [B01FEAXNKO],super powereds [b01feaxnko],PRE_EXISTING,0,760855581,0,1,Folder exists on target but is not present in source manifest.
+,Drive E\Books\Super Powereds [B01I5OS9MI],super powereds [b01i5os9mi],PRE_EXISTING,0,937785538,0,1,Folder exists on target but is not present in source manifest.
+,Drive E\Books\Super Powereds [B01KP2IAP4],super powereds [b01kp2iap4],PRE_EXISTING,0,1202117079,0,1,Folder exists on target but is not present in source manifest.
+,Drive E\Books\Super Powereds [B07D84P11M],super powereds [b07d84p11m],PRE_EXISTING,0,1467654095,0,1,Folder exists on target but is not present in source manifest.
+,Drive E\Books\Super Powereds [B09JQPMHLY],super powereds [b09jqpmhly],PRE_EXISTING,0,804547991,0,1,Folder exists on target but is not present in source manifest.
+,Drive E\Books\Super Powereds [B09ZQ2SCNW],super powereds [b09zq2scnw],PRE_EXISTING,0,364515116,0,1,Folder exists on target but is not present in source manifest.
+,Drive E\Books\Survival Quest [B01CRDD6ZS],survival quest [b01crdd6zs],PRE_EXISTING,0,330699074,0,1,Folder exists on target but is not present in source manifest.
+,Drive E\Books\The 13th Paladin Boxed Set [B09R52QXV8],the 13th paladin boxed set [b09r52qxv8],PRE_EXISTING,0,239263695,0,1,Folder exists on target but is not present in source manifest.
+,Drive E\Books\The Bare Hunt [1494548682],the bare hunt [1494548682],PRE_EXISTING,0,71081935,0,1,Folder exists on target but is not present in source manifest.
+,Drive E\Books\The Battle for Hjalgar [B0B3KXZP1B],the battle for hjalgar [b0b3kxzp1b],PRE_EXISTING,0,34856960,0,1,Folder exists on target but is not present in source manifest.
+,Drive E\Books\The Centennial Tournament [B0B3C1D8WV],the centennial tournament [b0b3c1d8wv],PRE_EXISTING,0,6135710,0,1,Folder exists on target but is not present in source manifest.
+,Drive E\Books\The Chronicles of Lumineia Omnibus [B00XAK8OGE],the chronicles of lumineia omnibus [b00xak8oge],PRE_EXISTING,0,161112015,0,1,Folder exists on target but is not present in source manifest.
+,Drive E\Books\The Cycle of Arawn [B00W8DAB9M],the cycle of arawn [b00w8dab9m],PRE_EXISTING,0,161464320,0,1,Folder exists on target but is not present in source manifest.
+,Drive E\Books\The Dao of Drizzt [B09SGN4M9L],the dao of drizzt [b09sgn4m9l],PRE_EXISTING,0,150241280,0,2,Folder exists on target but is not present in source manifest.
+,Drive E\Books\The Dark Continent [1515948048],the dark continent [1515948048],PRE_EXISTING,0,166969295,0,1,Folder exists on target but is not present in source manifest.
+,Drive E\Books\The Demon Awakens (Dramatized Adaptation) [B0B7XNY87P],the demon awakens (dramatized adaptation) [b0b7xny87p],PRE_EXISTING,0,177700815,0,1,Folder exists on target but is not present in source manifest.
+,Drive G,drive g,PRE_EXISTING,0,4229974417,0,191,Folder exists on target but is not present in source manifest.
+,Drive I,drive i,PRE_EXISTING,0,1399877026,0,380,Folder exists on target but is not present in source manifest.

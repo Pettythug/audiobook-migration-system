@@ -1,0 +1,1644 @@
+Audit of Audiobookshelf Books Not in Libation
+Generated on: 2026-06-07
+
+Summary statistics:
+Total books in ABS: 2608
+Books not in Libation list: 1711
+
+Physical validation results:
+  Exist on disk with audio files: 1669
+  Exist on disk but NO audio files: 12
+  Missing from disk (Folder not found): 30
+
+Duplicate sets found among non-Libation books: 292
+
+1. Missing from disk (30 books):
+  1. Foodstuffs LitRPG Box Set: Books 1-3 by Arthur Stone (ASIN: B0BGML55KY)
+    Path: D:/Audio Books/renamed/Converted/On Phone/Alpha LitRPG/[01-] Foodstuffs LitRPG Box Set
+  2. Star Wars: La Alta República: Semillas de Luz Estelar by Lucasfilm Press, George Mann, Fernanda Riva Palacio - translator (ASIN: B0FYJX9FPL)
+    Path: D:/Audio Books/renamed/Converted/Lucasfilm Press; George Mann/Star Wars Adventures Audible Originals/Star Wars
+  3. Star Wars Storybook Collection by Disney Lucasfilm Press (ASIN: B0FK1CKLQR)
+    Path: D:/Audio Books/renamed/Converted/Disney Lucasfilm Press; Bryan Q. Miller/Star Wars/Star Wars
+  4. Beware of Chicken 5: A Xianxia Cultivation Novel by Casualfarmer (ASIN: B0FDCLSZ7G)
+    Path: D:/Audio Books/renamed/Converted/Casualfarmer/Beware of Chicken/[02] Beware of Chicken 2
+  5. Sojourn by R. A. Salvatore (ASIN: B00BWQUFRE)
+    Path: D:/Audio Books/renamed/Converted/On Phone/R. A. Salvatore/Legend of Drizzt/40 The Legend of Drizzt - Collect Stories
+  6. Encyclopedia Brown Super Sleuth by Donald Sobol (ASIN: B004USPBH0)
+    Path: D:/Audio Books/renamed/Converted/On Phone/Donald Sobol/Encyclopedia Brown/[25] Encyclopedia Brown Super Sleuth
+  7. Encyclopedia Brown Tracks Them Down by Donald Sobol (ASIN: B003LIMG0U)
+    Path: D:/Audio Books/renamed/Converted/On Phone/Donald Sobol/Encyclopedia Brown/[08] Encyclopedia Brown Tracks Them Down
+  8. Encyclopedia Brown Saves the Day by Donald Sobol (ASIN: B003TIQUWC)
+    Path: D:/Audio Books/renamed/Converted/On Phone/Donald Sobol/Encyclopedia Brown/[07] Encyclopedia Brown Saves the Day
+  9. Encyclopedia Brown Gets His Man by Donald Sobol (ASIN: B003LLUG90)
+    Path: D:/Audio Books/renamed/Converted/On Phone/Donald Sobol/Encyclopedia Brown/[04] Encyclopedia Brown Gets His Man
+  10. Encyclopedia Brown Finds the Clues by Donald Sobol (ASIN: B003R65H3Y)
+    Path: D:/Audio Books/renamed/Converted/On Phone/Donald Sobol/Encyclopedia Brown/[03] Encyclopedia Brown Finds the Clues
+  11. The Complete Sherlock Holmes by Sir Arthur Conan Doyle (ASIN: B00FEFE4XK)
+    Path: D:/Audio Books/renamed/Converted/On Phone/Arthur Conan Doyle; Stephen Fry - introductions/Sherlock Holmes/[01-] Sherlock Holmes
+  12. Awaken Online: Evolution by Travis Bagwell (ASIN: B07DWDD8L9)
+    Path: D:/Audio Books/renamed/Converted/Not On Phone/Travis Bagwell/Awaken Online Tarot/[03] Awaken Online
+  13. Awaken Online: Evolution by Travis Bagwell (ASIN: B07DWDD8L9)
+    Path: D:/Audio Books/renamed/Converted/Not On Phone/Travis Bagwell/Awaken Online Tarot/[02] Awaken Online
+  14. Awaken Online: Catharsis by Travis Bagwell (ASIN: B01L7UC1SU)
+    Path: D:/Audio Books/renamed/Converted/Not On Phone/Travis Bagwell/Awaken Online Tarot/[01] Awaken Online
+  15. A Thousand Li: The First War by Tao Wong (ASIN: 1515933989)
+    Path: D:/Audio Books/renamed/Converted/Not On Phone/Tao Wong/A Thousand Li Series/[03] A Thousand Li
+  16. A Thousand Li: The First War by Tao Wong (ASIN: 1515933989)
+    Path: D:/Audio Books/renamed/Converted/Not On Phone/Tao Wong/A Thousand Li Series/[02] A Thousand Li
+  17. A Thousand Li: The First Step by Tao Wong (ASIN: B0D7N19JGL)
+    Path: D:/Audio Books/renamed/Converted/Not On Phone/Tao Wong/A Thousand Li Series/[01] A Thousand Li
+  18. Way to the East by Kirill Klevanski (ASIN: B0C3WNFKL9)
+    Path: D:/Audio Books/renamed/Converted/Not On Phone/Kirill Klevanski/Dragon Heart Series/[03] Dragon Heart
+  19. Corpies by Drew Hayes (ASIN: B01G11ZFYC)
+    Path: D:/Audio Books/renamed/Converted/Not On Phone/Drew Hayes/Super Powereds/[01] Super Powereds (3)
+  20. Encyclopedia Brown Super Sleuth by Donald Sobol (ASIN: B004USPBH0)
+    Path: D:/Audio Books/renamed/Converted/Not On Phone/Donald Sobol/Encyclopedia Brown/[25] Encyclopedia Brown Super Sleuth
+  21. Encyclopedia Brown Tracks Them Down by Donald Sobol (ASIN: B003LIMG0U)
+    Path: D:/Audio Books/renamed/Converted/Not On Phone/Donald Sobol/Encyclopedia Brown/[08] Encyclopedia Brown Tracks Them Down
+  22. Encyclopedia Brown Saves the Day by Donald Sobol (ASIN: B003TIQUWC)
+    Path: D:/Audio Books/renamed/Converted/Not On Phone/Donald Sobol/Encyclopedia Brown/[07] Encyclopedia Brown Saves the Day
+  23. Encyclopedia Brown Gets His Man by Donald Sobol (ASIN: B003LLUG90)
+    Path: D:/Audio Books/renamed/Converted/Not On Phone/Donald Sobol/Encyclopedia Brown/[04] Encyclopedia Brown Gets His Man
+  24. Encyclopedia Brown Finds the Clues by Donald Sobol (ASIN: B003R65H3Y)
+    Path: D:/Audio Books/renamed/Converted/Not On Phone/Donald Sobol/Encyclopedia Brown/[03] Encyclopedia Brown Finds the Clues
+  25. Hitchhikers Guide To The Galaxy-.Macmillan.-READNFO by Douglas Adams (ASIN: )
+    Path: P:/04_Media/Audiobooks/Douglas Adams/Douglas Adams/Hitchhiker's Guide To The Galaxy/Complete/5. Mostly Harmless
+  26. Hitchhikers Guide To The Galaxy-.Macmillan.-READNFO by Douglas Adams (ASIN: )
+    Path: P:/04_Media/Audiobooks/Douglas Adams/Douglas Adams/Hitchhiker's Guide To The Galaxy/Complete/4. So Long And Thanks For All The Fish
+  27. Hitchhikers Guide To The Galaxy .Macmillan. READNFO by Douglas Adams (ASIN: )
+    Path: P:/04_Media/Audiobooks/Douglas Adams/Douglas Adams/Hitchhiker's Guide To The Galaxy/Complete/3. Life The Universe And Everything
+  28. Hitchhikers Guide To The Galaxy .Macmillan. READNFO by Douglas Adams (ASIN: )
+    Path: P:/04_Media/Audiobooks/Douglas Adams/Douglas Adams/Hitchhiker's Guide To The Galaxy/Complete/2 Restaurant At The End Of The Universe
+  29. Hitchhikers Guide To The Galaxy .Macmillan. READNFO by Douglas Adams (ASIN: )
+    Path: P:/04_Media/Audiobooks/Douglas Adams/Douglas Adams/Hitchhiker's Guide To The Galaxy/Complete/1. Hitchhikers Guide To The Galaxy
+  30. The Eye of the World by Robert Jordan (ASIN: B0036NHZ10)
+    Path: P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/Robert Jordan - Wheel of Time 1 - 11 + prequal new spring + The Conan Chronicles [2 Complete Collections] (2)/Robert Jordan - Wheel of Time All 11 Audio BooKs_dup_0/Robert Jordan - Wheel of Time All 11 Audio BooKs/Book 1 - Eye of the World
+
+2. Empty folders (Folder exists but no audio files found) (12 books):
+  1. Libation by Libation (ASIN: B0F712Q3RY)
+    Path: P:/04_Media/Audiobooks/Libation/Libation/Libation
+  2. R. A. Salvatore pdf format collection by Fantasy (ASIN: )
+    Path: P:/04_Media/Audiobooks/Fantasy/R. A. Salvatore Audiobook Collection 1 to 28 (2)/R. A. Salvatore pdf format collection
+  3. Torchwood - Everyone Says Hello by Burn Gorman (ASIN: )
+    Path: P:/04_Media/Audiobooks/To_Sort/From_Drive_I/Torchwood Everyone Says Hello Audiobook/Torchwood - Everyone Says Hello Disc 1
+  4. The Mystery of a Hansom Cab (Unabridged) by Fergus Hume (ASIN: B002V8L75G)
+    Path: P:/04_Media/Audiobooks/The Mystery of a Hansom Cab/The Mystery of a Hansom Cab/The Mystery of a Hansom Cab - Superlative Victorian Crime Novel - BBC Audiobook - cheops/The Mystery of a Hansom Cab - Superlative Victorian Crime Novel - BBC Audiobook - cheops
+  5. The Premium Science Fiction Collection. Fifty Novels and Stories by Robert A. Heinlein, Arthur C. Clarke, Clifford D. Simak, Fredric Brown, H.G. Wells, Isaac Asimov, Jerry Sohl, Poul Anderson, Ray Bradbury, Robert Sheckley, Roger Zelazny (ASIN: B0FSL7ZDCB)
+    Path: P:/04_Media/Audiobooks/Fantasy/Robert Heinlein Audiobook collection @ fenopy.com (2)/Heinlein,Robert A Book Collection/Heinlein,Robert.A
+  6. -Anne Rice ebooks by Collection (ASIN: )
+    Path: P:/04_Media/Audiobooks/Anne Rice/Anne Rice/Vampire Chronicles/Collection/Anne Rice/-Anne Rice ebooks
+  7. Red Rabbit [German Edition] by Tom Clancy (ASIN: B00TKML9EK)
+    Path: P:/04_Media/Audiobooks/Tom Clancy/Tom Clancy/Jack Ryan/Jack Ryan Serie/Jack Ryan Serie/Jack Ryan Serie/11 Red Rabbit
+  8. The Bear and the Dragon by Tom Clancy (ASIN: B002V5GXQ2)
+    Path: P:/04_Media/Audiobooks/Tom Clancy/Tom Clancy/Jack Ryan/Jack Ryan Serie/Jack Ryan Serie/Jack Ryan Serie/10 The Bear And The Dragon
+  9. Without Remorse by Tom Clancy (ASIN: B002VA9AVM)
+    Path: P:/04_Media/Audiobooks/Tom Clancy/Tom Clancy/Jack Ryan/Jack Ryan Serie/Jack Ryan Serie/Jack Ryan Serie/06 Without Remorse
+  10. The Boxcar Children Collection Volume 22 by Gertrude Chandler Warner (ASIN: B0CPFYFZ68)
+    Path: P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Marvel/Audio Books/Marvel audio books/Marvel audio books/Black Panther [Who Is The Black Panther]
+  11. Torchwood - Everyone Says Hello Disc 2 by Burn Gorman (ASIN: )
+    Path: P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Doctor Who Universe/Torchwood/Torchwood/Torchwood/Torchwood Everyone Says Hello Audiobook/Torchwood - Everyone Says Hello Disc 2
+  12. Torchwood - Everyone Says Hello by Burn Gorman (ASIN: )
+    Path: P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Doctor Who Universe/Torchwood/Torchwood/Torchwood/Torchwood Everyone Says Hello Audiobook/Torchwood - Everyone Says Hello Disc 1
+
+3. Duplicate sets (292 sets):
+  Set 1: Foodstuffs LitRPG Box Set: Books 1-3 by Arthur Stone
+    - D:/Audio Books/renamed/Converted/On Phone/Alpha LitRPG/[01-] Foodstuffs LitRPG Box Set
+    - P:/04_Media/Audiobooks/Alpha LitRPG/Alpha LitRPG/[01-] Foodstuffs LitRPG Box Set
+  Set 2: Star Wars: La Alta República: Semillas de Luz Estelar by Lucasfilm Press, George Mann, Fernanda Riva Palacio - translator
+    - D:/Audio Books/renamed/Converted/Lucasfilm Press; George Mann/Star Wars Adventures Audible Originals/Star Wars
+    - P:/04_Media/Audiobooks/Lucasfilm Press; George Mann/Lucasfilm Press; George Mann/Star Wars Adventures Audible Originals/Star Wars
+  Set 3: Star Wars Storybook Collection by Disney Lucasfilm Press
+    - D:/Audio Books/renamed/Converted/Disney Lucasfilm Press; Bryan Q. Miller/Star Wars/Star Wars
+    - P:/04_Media/Audiobooks/Disney Lucasfilm Press; Bryan Q. Miller/Disney Lucasfilm Press; Bryan Q. Miller/Star Wars/Star Wars
+  Set 4: Beware of Chicken 5: A Xianxia Cultivation Novel by Casualfarmer
+    - D:/Audio Books/renamed/Converted/Casualfarmer/Beware of Chicken/[02] Beware of Chicken 2
+    - P:/04_Media/Audiobooks/Casualfarmer/Beware of Chicken/Beware of Chicken A _B09Y7JX3RR_LC_128_44100_Stereo.m4b
+    - P:/04_Media/Audiobooks/Casualfarmer/Beware of Chicken/Beware of Chicken A _B09Y74RHLC_LC_128_44100_Stereo.m4b
+    - P:/04_Media/Audiobooks/Casualfarmer/Beware of Chicken/Beware of Chicken 3 _B0CM3MJX6B_LC_128_44100_Stereo.m4b
+    - P:/04_Media/Audiobooks/Casualfarmer/Beware of Chicken/Beware of Chicken 3 _B0CM3LRPVD_LC_128_44100_Stereo.m4b
+    - P:/04_Media/Audiobooks/Casualfarmer/Beware of Chicken/Beware of Chicken 2 _B0BVDQSZVN_LC_128_44100_Stereo.m4b
+    - P:/04_Media/Audiobooks/Casualfarmer/Beware of Chicken/Beware of Chicken 2 _B0BVD38YJJ_LC_128_44100_Stereo.m4b
+    - P:/04_Media/Audiobooks/Casualfarmer/Casualfarmer/Beware of Chicken/[02] Beware of Chicken 2
+  Set 5: Sojourn by R. A. Salvatore
+    - D:/Audio Books/renamed/Converted/On Phone/R. A. Salvatore/Legend of Drizzt/40 The Legend of Drizzt - Collect Stories
+    - P:/04_Media/Audiobooks/Fantasy/FORGOTTEN REALMS/03 Sojourn
+    - P:/04_Media/Audiobooks/Fantasy/R. A. Salvatore Audiobook Collection 1 to 28 (2)/03 Sojourn
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/R. A. Salvatore Audiobook Collection 1 to 28 (2)/03 Sojourn
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/FORGOTTEN REALMS/03 Sojourn
+    - P:/04_Media/Audiobooks/@MERGE_TO_ROOT/@MERGE_TO_ROOT/R. A. Salvatore/Legend of Drizzt/40 The Legend of Drizzt - Collect Stories
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/R. A. Salvatore Audiobook Collection 1 to 28 (2)/FORGOTTEN REALMS/03 Sojourn
+    - P:/04_Media/Audiobooks/R.A. Salvatore/R.A. Salvatore/Legend of Drizzt/Collection 1-28/R. A. Salvatore Audiobook Collection 1 to 28/03 Sojourn
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Forgotten Realms/Main Collection/FORGOTTEN REALMS/FORGOTTEN REALMS/03 Sojourn
+  Set 6: Encyclopedia Brown Super Sleuth by Donald Sobol
+    - D:/Audio Books/renamed/Converted/On Phone/Donald Sobol/Encyclopedia Brown/[25] Encyclopedia Brown Super Sleuth
+    - D:/Audio Books/renamed/Converted/Not On Phone/Donald Sobol/Encyclopedia Brown/[25] Encyclopedia Brown Super Sleuth
+    - P:/04_Media/Audiobooks/Donald Sobol/Donald Sobol/Encyclopedia Brown/[25] Encyclopedia Brown Super Sleuth
+    - P:/04_Media/Audiobooks/@MERGE_TO_ROOT/@MERGE_TO_ROOT/Donald Sobol/Encyclopedia Brown/[25] Encyclopedia Brown Super Sleuth
+  Set 7: Encyclopedia Brown Tracks Them Down by Donald Sobol
+    - D:/Audio Books/renamed/Converted/On Phone/Donald Sobol/Encyclopedia Brown/[08] Encyclopedia Brown Tracks Them Down
+    - D:/Audio Books/renamed/Converted/Not On Phone/Donald Sobol/Encyclopedia Brown/[08] Encyclopedia Brown Tracks Them Down
+    - P:/04_Media/Audiobooks/Donald Sobol/Donald Sobol/Encyclopedia Brown/[08] Encyclopedia Brown Tracks Them Down
+    - P:/04_Media/Audiobooks/@MERGE_TO_ROOT/@MERGE_TO_ROOT/Donald Sobol/Encyclopedia Brown/[08] Encyclopedia Brown Tracks Them Down
+  Set 8: Encyclopedia Brown Saves the Day by Donald Sobol
+    - D:/Audio Books/renamed/Converted/On Phone/Donald Sobol/Encyclopedia Brown/[07] Encyclopedia Brown Saves the Day
+    - D:/Audio Books/renamed/Converted/Not On Phone/Donald Sobol/Encyclopedia Brown/[07] Encyclopedia Brown Saves the Day
+    - P:/04_Media/Audiobooks/Donald Sobol/Donald Sobol/Encyclopedia Brown/[07] Encyclopedia Brown Saves the Day
+    - P:/04_Media/Audiobooks/@MERGE_TO_ROOT/@MERGE_TO_ROOT/Donald Sobol/Encyclopedia Brown/[07] Encyclopedia Brown Saves the Day
+  Set 9: Encyclopedia Brown Gets His Man by Donald Sobol
+    - D:/Audio Books/renamed/Converted/On Phone/Donald Sobol/Encyclopedia Brown/[04] Encyclopedia Brown Gets His Man
+    - D:/Audio Books/renamed/Converted/Not On Phone/Donald Sobol/Encyclopedia Brown/[04] Encyclopedia Brown Gets His Man
+    - P:/04_Media/Audiobooks/Donald Sobol/Donald Sobol/Encyclopedia Brown/[04] Encyclopedia Brown Gets His Man
+    - P:/04_Media/Audiobooks/@MERGE_TO_ROOT/@MERGE_TO_ROOT/Donald Sobol/Encyclopedia Brown/[04] Encyclopedia Brown Gets His Man
+  Set 10: Encyclopedia Brown Finds the Clues by Donald Sobol
+    - D:/Audio Books/renamed/Converted/On Phone/Donald Sobol/Encyclopedia Brown/[03] Encyclopedia Brown Finds the Clues
+    - D:/Audio Books/renamed/Converted/Not On Phone/Donald Sobol/Encyclopedia Brown/[03] Encyclopedia Brown Finds the Clues
+    - P:/04_Media/Audiobooks/Donald Sobol/Donald Sobol/Encyclopedia Brown/[03] Encyclopedia Brown Finds the Clues
+    - P:/04_Media/Audiobooks/@MERGE_TO_ROOT/@MERGE_TO_ROOT/Donald Sobol/Encyclopedia Brown/[03] Encyclopedia Brown Finds the Clues
+  Set 11: The Complete Sherlock Holmes by Sir Arthur Conan Doyle
+    - D:/Audio Books/renamed/Converted/On Phone/Arthur Conan Doyle; Stephen Fry - introductions/Sherlock Holmes/[01-] Sherlock Holmes
+    - P:/04_Media/Audiobooks/Arthur Conan Doyle; Stephen Fry - introductions/Arthur Conan Doyle; Stephen Fry - introductions/Sherlock Holmes/[01-] Sherlock Holmes
+  Set 12: Awaken Online: Evolution by Travis Bagwell
+    - D:/Audio Books/renamed/Converted/Not On Phone/Travis Bagwell/Awaken Online Tarot/[03] Awaken Online
+    - D:/Audio Books/renamed/Converted/Not On Phone/Travis Bagwell/Awaken Online Tarot/[02] Awaken Online
+    - P:/04_Media/Audiobooks/Travis Bagwell/Travis Bagwell/Awaken Online Tarot/[03] Awaken Online
+    - P:/04_Media/Audiobooks/Travis Bagwell/Travis Bagwell/Awaken Online Tarot/[02] Awaken Online
+  Set 13: Awaken Online: Catharsis by Travis Bagwell
+    - D:/Audio Books/renamed/Converted/Not On Phone/Travis Bagwell/Awaken Online Tarot/[01] Awaken Online
+    - P:/04_Media/Audiobooks/Travis Bagwell/Travis Bagwell/Awaken Online Tarot/[01] Awaken Online
+  Set 14: A Thousand Li: The First War by Tao Wong
+    - D:/Audio Books/renamed/Converted/Not On Phone/Tao Wong/A Thousand Li Series/[03] A Thousand Li
+    - D:/Audio Books/renamed/Converted/Not On Phone/Tao Wong/A Thousand Li Series/[02] A Thousand Li
+    - P:/04_Media/Audiobooks/Tao Wong/Tao Wong/A Thousand Li Series/[03] A Thousand Li
+    - P:/04_Media/Audiobooks/Tao Wong/Tao Wong/A Thousand Li Series/[02] A Thousand Li
+  Set 15: A Thousand Li: The First Step by Tao Wong
+    - D:/Audio Books/renamed/Converted/Not On Phone/Tao Wong/A Thousand Li Series/[01] A Thousand Li
+    - P:/04_Media/Audiobooks/Tao Wong/Tao Wong/A Thousand Li Series/[01] A Thousand Li
+  Set 16: Way to the East by Kirill Klevanski
+    - D:/Audio Books/renamed/Converted/Not On Phone/Kirill Klevanski/Dragon Heart Series/[03] Dragon Heart
+    - P:/04_Media/Audiobooks/@MERGE_TO_ROOT/@MERGE_TO_ROOT/Kirill Klevanski/Dragon Heart Series/[03] Dragon Heart
+  Set 17: Corpies by Drew Hayes
+    - D:/Audio Books/renamed/Converted/Not On Phone/Drew Hayes/Super Powereds/[01] Super Powereds (3)
+    - P:/04_Media/Audiobooks/@MERGE_TO_ROOT/@MERGE_TO_ROOT/Drew Hayes/Super Powereds/[01] Super Powereds (3)
+  Set 18: Murder in the Trembling Lands by Barbara Hambly
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/64-Planet of Twilight[Callista Trilogy Book 3]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/62-Children Of The Jedi[Callista Trilogy Book 1]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/64-Planet of Twilight[Callista Trilogy Book 3]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/62-Children Of The Jedi[Callista Trilogy Book 1]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/Star Wars/Star Wars/62-Children Of The Jedi[Callista Trilogy Book 1]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/Star Wars/Star Wars/64-Planet of Twilight[Callista Trilogy Book 3]
+  Set 19: Star Wars: I, Jedi by Michael A. Stackpole
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/61-I, Jedi
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/61-I, Jedi
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/61-I, Jedi
+  Set 20: Star Wars: The Jedi Academy Trilogy, Volume 3: Champions of the Force by Kevin J. Anderson
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/60-Champions Of The Force[The Jedi Academy Trilogy Book 3]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/58-Jedi Search[The Jedi Academy Trilogy Book 1]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/60-Champions Of The Force[The Jedi Academy Trilogy Book 3]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/58-Jedi Search[The Jedi Academy Trilogy Book 1]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/Star Wars/Star Wars/60-Champions Of The Force[The Jedi Academy Trilogy Book 3]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/Star Wars/Star Wars/58-Jedi Search[The Jedi Academy Trilogy Book 1]
+  Set 21: Rogue Planet: Star Wars Legends by Greg Bear
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/6-Rogue Planet
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/6-Rogue Planet
+  Set 22: The British Empire of Magic and the Dark Knights' King: Book 2 by Joseph J. Jordan
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/55-Dark Empire II[Dark Empire Book 2]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/55-Dark Empire II[Dark Empire Book 2]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/Star Wars/Star Wars/55-Dark Empire II[Dark Empire Book 2]
+  Set 23: Star Wars: The Jedi Academy: Dark Apprentice by Kevin Anderson
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/59-Dark Apprentice[The Jedi Academy Trilogy Book 2]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/59-Dark Apprentice[The Jedi Academy Trilogy Book 2]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/Star Wars/Star Wars/59-Dark Apprentice[The Jedi Academy Trilogy Book 2]
+  Set 24: Crimsom Empire by Mike Richardson, Randy Stradley
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/57-Crimson Empire
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/57-Crimson Empire
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/Star Wars/Star Wars/57-Crimson Empire
+  Set 25: United Reign by Kylie Kent
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/56-Empire's End[Dark Empire Book 3]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/56-Empire's End[Dark Empire Book 3]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/Star Wars/Star Wars/56-Empire's End[Dark Empire Book 3]
+  Set 26: Dark Empire I by Tom Veitch
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/54-Dark Empire I[Dark Empire Book 1]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/54-Dark Empire I[Dark Empire Book 1]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/Star Wars/Star Wars/54-Dark Empire I[Dark Empire Book 1]
+  Set 27: Star Wars: X-Wing: Isard's Revenge by Michael A. Stackpole
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/53-Isard's Revenge[X-Wing Book 8]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/53-Isard's Revenge[X-Wing Book 8]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/Star Wars/Star Wars/53-Isard's Revenge[X-Wing Book 8]
+  Set 28: Star Wars: Dark Force Rising: The Thrawn Trilogy, Book 2 by Timothy Zahn
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/51-Dark Force Rising[The Thrawn Trilogy Book 2]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/51-Dark Force Rising[The Thrawn Trilogy Book 2]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/Star Wars/Star Wars/51-Dark Force Rising[The Thrawn Trilogy Book 2]
+  Set 29: Star Wars: Heir to the Empire by Timothy Zahn
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/50-Heir to the Empire[The Thrawn Trilogy Book 1]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/50-Heir to the Empire[The Thrawn Trilogy Book 1]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/Star Wars/Star Wars/50-Heir to the Empire[The Thrawn Trilogy Book 1]
+  Set 30: The Phantom Menace: Star Wars: Episode I by Terry Brooks
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/5-Phantom Menace
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/5-Phantom Menace
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/Star Wars/Star Wars/5-Phantom Menace
+  Set 31: Star Wars: Tatooine Ghost by Troy Denning
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/49-Tatooine Ghost
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/49-Tatooine Ghost
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/Star Wars/Star Wars/49-Tatooine Ghost
+  Set 32: Crickets 2 by William C. Dietz
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/48-Jedi Knight[Dark Forces Trilogy Book 3]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/35-Rebel Agent[Dark Forces Trilogy Book 2]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/26-Soldier For The Empire[Dark Forces Trilogy Book 1]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/48-Jedi Knight[Dark Forces Trilogy Book 3]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/35-Rebel Agent[Dark Forces Trilogy Book 2]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/26-Soldier For The Empire[Dark Forces Trilogy Book 1]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/35-Rebel Agent[Dark Forces Trilogy Book 2]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/48-Jedi Knight[Dark Forces Trilogy Book 3]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/Star Wars/Star Wars/26-Soldier For The Empire[Dark Forces Trilogy Book 1]
+  Set 33: Star Wars: The Courtship of Princess Leia by Dave Wolverton
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/47-The Courtship Of Princess Leia'
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/47-The Courtship Of Princess Leia'
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/Star Wars/Star Wars/47-The Courtship Of Princess Leia'
+  Set 34: Star Wars: X-Wing: Solo Command by Aaron Allston
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/46-Solo Command[X-Wing Book 7]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/65-Starfighters Of Adumar[X-Wing Book 9]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/46-Solo Command[X-Wing Book 7]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/65-Starfighters Of Adumar[X-Wing Book 9]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/65-Starfighters Of Adumar[X-Wing Book 9]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/Star Wars/Star Wars/46-Solo Command[X-Wing Book 7]
+  Set 35: Star Wars: X-Wing: Iron Fist by Aaron Allston
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/45-Iron Fist[X-Wing Book 6]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/45-Iron Fist[X-Wing Book 6]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/Star Wars/Star Wars/45-Iron Fist[X-Wing Book 6]
+  Set 36: Star Wars: X-Wing: Wraith Squadron by Aaron Allston
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/44-Wraith Squadron[X-Wing Book 5]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/44-Wraith Squadron[X-Wing Book 5]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/Star Wars/Star Wars/44-Wraith Squadron[X-Wing Book 5]
+  Set 37: Star Wars: X-Wing: The Bacta War by Michael A. Stackpole
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/43-The Bacta War[X-Wing Book 4]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/43-The Bacta War[X-Wing Book 4]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/Star Wars/Star Wars/43-The Bacta War[X-Wing Book 4]
+  Set 38: Star Wars: X-Wing: The Krytos Trap by Michael A. Stackpole
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/42-The Krytos Trap[X-Wing Book 3]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/42-The Krytos Trap[X-Wing Book 3]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/Star Wars/Star Wars/42-The Krytos Trap[X-Wing Book 3]
+  Set 39: Star Wars: X-Wing: Wedge's Gamble by Michael A. Stackpole
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/41-Wedge's Gamble[X-Wing Book 2]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/41-Wedge's Gamble[X-Wing Book 2]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/Star Wars/Star Wars/41-Wedge's Gamble[X-Wing Book 2]
+  Set 40: Star Wars: X-Wing: Rogue Squadron by Michael A. Stackpole
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/40-Rogue Squadron[X-Wing Book 1]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/40-Rogue Squadron[X-Wing Book 1]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/Star Wars/Star Wars/40-Rogue Squadron[X-Wing Book 1]
+  Set 41: Darth Maul - Shadow Hunter by Micheal Reeves
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/4-Shadow Hunter
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/4-Shadow Hunter
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/Star Wars/Star Wars/4-Shadow Hunter
+  Set 42: The Truce at Bakura: Star Wars by Kathy Tyers
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/39-The Truce At Bakura
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/39-The Truce At Bakura
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/Star Wars/Star Wars/39-The Truce At Bakura
+  Set 43: Star Wars: The Bounty Hunter Wars: Hard Merchandise by K. W. Jeter
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/38-Hard Merchandise[Bounty Hunter Wars Book 3]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/38-Hard Merchandise[Bounty Hunter Wars Book 3]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/Star Wars/Star Wars/38-Hard Merchandise[Bounty Hunter Wars Book 3]
+  Set 44: Star Wars: The Bounty Hunter Wars: Slave Ship by K. W. Jeter
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/37-Slave Ship[Bounty Hunter Wars Book 2]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/37-Slave Ship[Bounty Hunter Wars Book 2]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/37-Slave Ship[Bounty Hunter Wars Book 2]
+  Set 45: Star Wars: The Bounty Hunter Wars: The Mandalorian Armor by K. W. Jeter
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/36-The Mandalorian Armor[Bounty Hunter Wars Book 1]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/36-The Mandalorian Armor[Bounty Hunter Wars Book 1]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/Star Wars/Star Wars/36-The Mandalorian Armor[Bounty Hunter Wars Book 1]
+  Set 46: Radio Drama - Star Wars Episode VI by Brian Daley
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/34.2-Return Of The Jedi Radio Drama
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/34.2-Return Of The Jedi Radio Drama
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/Star Wars/Star Wars/34.2-Return Of The Jedi Radio Drama
+  Set 47: Die Rückkehr der Jedi-Ritter by James Kahn
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/34-Return Of The Jedi
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/34-Return Of The Jedi
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/Star Wars/Star Wars/34-Return Of The Jedi
+  Set 48: Star Wars: Shadows of the Empire by Steve Perry
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/33-Shadow Of The Empire
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/33-Shadow Of The Empire
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/Star Wars/Star Wars/33-Shadow Of The Empire
+  Set 49: Radio Drama - Star Wars Episode V by Brian Daley
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/32.2-The Empire Strikes Back Radio Drama
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/32.2-The Empire Strikes Back Radio Drama
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/32.2-The Empire Strikes Back Radio Drama
+  Set 50: Das Imperium schlägt zurück by Donald F. Glut
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/32-The Empire Strikes Back
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/32-The Empire Strikes Back
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/Star Wars/Star Wars/32-The Empire Strikes Back
+  Set 51: Rebel Mission To Ord Mantell by Brian Daley
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/31-Rebel Mission To Ord Mantell
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/31-Rebel Mission To Ord Mantell
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/Star Wars/Star Wars/31-Rebel Mission To Ord Mantell
+  Set 52: Star Wars: Cloak of Deception by James Luceno
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/3-Cloak of Deception
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/3-Cloak of Deception
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/Star Wars/Star Wars/3-Cloak of Deception
+  Set 53: Tales From The Mos Eisley Cantina by Kathy Tyers
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/28-30-Tales From The Mos Eisley Cantina
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/28-30-Tales From The Mos Eisley Cantina
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/28-30-Tales From The Mos Eisley Cantina
+  Set 54: Radio Drama - Star Wars Episode IV by Brian Daley
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/27.2-A New Hope Radio Drama
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/27.2-A New Hope Radio Drama
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/Star Wars/Star Wars/27.2-A New Hope Radio Drama
+  Set 55: Star Wars™ - Episode IV - Eine neue Hoffnung by George Lucas, Tony Westermayr
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/27-A New Hope
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/27-A New Hope
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/27-A New Hope
+  Set 56: Star Wars: The Han Solo Trilogy: Rebel Dawn by A. C. Crispin
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/25-Rebel Dawn[Han Solo Trilogy Book 3]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/23-Paradise Snare[Han Solo Trilogy Book 1]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/25-Rebel Dawn[Han Solo Trilogy Book 3]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/23-Paradise Snare[Han Solo Trilogy Book 1]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/23-Paradise Snare[Han Solo Trilogy Book 1]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/Star Wars/Star Wars/25-Rebel Dawn[Han Solo Trilogy Book 3]
+  Set 57: The Paradise Snare: Star Wars (The Han Solo Trilogy) by A. C. Crispin
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/24-The Hutt Gambit[Han Solo Trilogy Book 2]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/24-The Hutt Gambit[Han Solo Trilogy Book 2]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/24-The Hutt Gambit[Han Solo Trilogy Book 2]
+  Set 58: Star Wars Episode III: Revenge of the Sith by Matthew Stover
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/21-Revenge Of The Sith
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/21-Revenge Of The Sith
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/Star Wars/Star Wars/21-Revenge Of The Sith
+  Set 59: Labyrinth of Evil: Star Wars by James Luceno
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/20-Labyrinth Of Evil
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/20-Labyrinth Of Evil
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/Star Wars/Star Wars/20-Labyrinth Of Evil
+  Set 60: Tales Of The Jedi - Book 2 by Tom Veitch
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/2-Dark Lords Of The Sith[Tales Of The Jedi Book 2]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/2-Dark Lords Of The Sith[Tales Of The Jedi Book 2]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/Star Wars/Star Wars/2-Dark Lords Of The Sith[Tales Of The Jedi Book 2]
+  Set 61: Yoda: Dark Rendezvous: Star Wars Legends by Sean Stewart
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/19-Dark Rendezvous
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/19-Dark Rendezvous
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/Star Wars/Star Wars/19-Dark Rendezvous
+  Set 62: Star Wars: Jedi Trial by David Sherman, Dan Cragg
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/18-Jedi Trial
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/18-Jedi Trial
+  Set 63: Star Wars: MedStar II: Jedi Healer by Michael Reaves, Steve Perry
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/17-Jedi Healer[Medstar Book 2]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/17-Jedi Healer[Medstar Book 2]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/Star Wars/Star Wars/17-Jedi Healer[Medstar Book 2]
+  Set 64: Star Wars: Medstar I: Battle Surgeons by Michael Reaves, Steve Perry
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/16-Battle Surgeons[Medstar Book 1]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/16-Battle Surgeons[Medstar Book 1]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/Star Wars/Star Wars/16-Battle Surgeons[Medstar Book 1]
+  Set 65: Fundación e Imperio [Foundation and Empire] by Isaac Asimov
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_4263/Book 2 - Foundation and Empire
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_4263/Isaac Asimov/Book 2 - Foundation and Empire
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_4263/F02 - Foundation and Empire
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_1/F02 - Foundation and Empire
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_1/Book 2 - Foundation and Empire
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_134/F02 - Foundation and Empire
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_134/Book 2 - Foundation and Empire
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_0/F02 - Foundation and Empire
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_0/Book 2 - Foundation and Empire
+    - P:/04_Media/Audiobooks/Sci-FI/Sci-FI/Sci-FI/Isaac Asimov/F02 - Foundation and Empire
+    - P:/04_Media/Audiobooks/Sci-FI/Sci-FI/Sci-FI/Isaac Asimov/Book 2 - Foundation and Empire
+    - P:/04_Media/Audiobooks/Isaac Asimov/Isaac Asimov/Foundation/[AB].Isaac.Asimov.Foundation.Audio.Books.Complete-MaLiBu/Book 2 - Foundation and Empire
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_4263/Isaac Asimov/F02 - Foundation and Empire
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov/Foundation dled/Book 4 - Foundation's Edge
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_134/Foundation dled/Book 4 - Foundation's Edge
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_0/Isaac Asimov/F02 - Foundation and Empire
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_0/Isaac Asimov/Book 2 - Foundation and Empire
+  Set 66: A Thousand Splendid Suns by Khaled Hosseini
+    - P:/04_Media/Audiobooks/To_Sort/From_Drive_I/A Thousand Splendid Suns - by Khaled Hosseini - BBC Radio Audiobook - cheops
+    - P:/04_Media/Audiobooks/Khaled Hosseini/Khaled Hosseini/A Thousand Splendid Suns - by Khaled Hosseini - BBC Radio Audiobook - cheops/A Thousand Splendid Suns - by Khaled Hosseini - BBC Radio Audiobook - cheops
+  Set 67: LotR Part I: The Fellowship of the Ring by J.R.R. Tolkien
+    - P:/04_Media/Audiobooks/To_Sort/From_Drive_I/J.R.R. Tolkien - The Lord of the Rings (all Books Fellowship - Two Towers - Return Of The King) Unabridged Audiobook
+    - P:/04_Media/Audiobooks/J.R.R. Tolkien/J.R.R. Tolkien/The Lord of the Rings/Complete Trilogy/J.R.R. Tolkien - The Lord of the Rings (all Books Fellowship - Two Towers - Return Of The King) Unabridged Audiobook
+  Set 68: Make Love the Bruce Campbell Way by Bruce Campbell
+    - P:/04_Media/Audiobooks/To_Sort/From_Drive_I/Make Love The Bruce Campbell Way (Audio Book).mp3
+    - P:/04_Media/Audiobooks/To_Sort/From_Drive_I/Make Love The Bruce Campbell Way (Audio Book) (conflicted).mp3
+  Set 69: The White Dragon by Anne McCaffrey
+    - P:/04_Media/Audiobooks/Fantasy/Anne McCaffery (2)/The White Dragon
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/Anne McCaffery (2)/The White Dragon
+    - P:/04_Media/Audiobooks/Anne McCaffrey/Anne McCaffrey/Dragonriders of Pern/Collection/The White Dragon
+  Set 70: The Skies of Pern by Anne McCaffrey
+    - P:/04_Media/Audiobooks/Fantasy/Anne McCaffery (2)/The Skies of Pern
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/Anne McCaffery (2)/The Skies of Pern
+    - P:/04_Media/Audiobooks/Anne McCaffrey/Anne McCaffrey/Dragonriders of Pern/Collection/The Skies of Pern
+  Set 71: The Masterharper of Pern by Anne McCaffrey
+    - P:/04_Media/Audiobooks/Fantasy/Anne McCaffery (2)/The Masterharper of Pern
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/Anne McCaffery (2)/The Masterharper of Pern
+    - P:/04_Media/Audiobooks/Anne McCaffrey/Anne McCaffrey/Dragonriders of Pern/Collection/Anne McCaffery/The Masterharper of Pern
+  Set 72: The Dolphins of Pern by Anne McCaffrey
+    - P:/04_Media/Audiobooks/Fantasy/Anne McCaffery (2)/The Dolphins of Pern
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/Anne McCaffery (2)/The Dolphins of Pern
+    - P:/04_Media/Audiobooks/Anne McCaffrey/Anne McCaffrey/Dragonriders of Pern/Collection/Anne McCaffery/The Dolphins of Pern
+  Set 73: The Chronicles of Pern by Anne McCaffrey
+    - P:/04_Media/Audiobooks/Fantasy/Anne McCaffery (2)/The Chronicles of Pern_ First Fall
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/Anne McCaffery (2)/The Chronicles of Pern_ First Fall
+    - P:/04_Media/Audiobooks/Anne McCaffrey/Anne McCaffrey/Dragonriders of Pern/Collection/Anne McCaffery/The Chronicles of Pern_ First Fall
+  Set 74: Nerilka's Story by Anne McCaffery
+    - P:/04_Media/Audiobooks/Fantasy/Anne McCaffery (2)/Nerilka's Story
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/Anne McCaffery (2)/Nerilka's Story
+    - P:/04_Media/Audiobooks/Anne McCaffrey/Anne McCaffrey/Dragonriders of Pern/Collection/Nerilka's Story
+  Set 75: Moreta by Anne McCaffrey
+    - P:/04_Media/Audiobooks/Fantasy/Anne McCaffery (2)/Moreta_ Dragonlady of Pern
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/Anne McCaffery (2)/Moreta_ Dragonlady of Pern
+    - P:/04_Media/Audiobooks/Anne McCaffrey/Anne McCaffrey/Dragonriders of Pern/Collection/Anne McCaffery/Moreta_ Dragonlady of Pern
+  Set 76: Dragonsong: Harper Hall Trilogy, Volume 1 by Anne McCaffrey
+    - P:/04_Media/Audiobooks/Fantasy/Anne McCaffery (2)/Dragonsong
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/Anne McCaffery (2)/Dragonsong
+    - P:/04_Media/Audiobooks/Anne McCaffrey/Anne McCaffrey/Dragonriders of Pern/Collection/Anne McCaffery/Dragonsong
+  Set 77: Dragonsinger by Anne McCaffrey
+    - P:/04_Media/Audiobooks/Fantasy/Anne McCaffery (2)/Dragonsinger
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/Anne McCaffery (2)/Dragonsinger
+    - P:/04_Media/Audiobooks/Anne McCaffrey/Anne McCaffrey/Dragonriders of Pern/Collection/Dragonsinger
+  Set 78: Dragonseye by Anne McCaffrey
+    - P:/04_Media/Audiobooks/Fantasy/Anne McCaffery (2)/Dragonseye
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/Anne McCaffery (2)/Dragonseye
+    - P:/04_Media/Audiobooks/Anne McCaffrey/Anne McCaffrey/Dragonriders of Pern/Collection/Anne McCaffery/Dragonseye
+  Set 79: Dragonsdawn by Anne McCaffrey
+    - P:/04_Media/Audiobooks/Fantasy/Anne McCaffery (2)/Dragonsdawn
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/Anne McCaffery (2)/Dragonsdawn
+    - P:/04_Media/Audiobooks/Anne McCaffrey/Anne McCaffrey/Dragonriders of Pern/Collection/Dragonsdawn
+  Set 80: Dragonsblood by Anne McCaffery
+    - P:/04_Media/Audiobooks/Fantasy/Anne McCaffery (2)/Dragonsblood (2)
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/Anne McCaffery (2)/Dragonsblood (2)
+    - P:/04_Media/Audiobooks/Anne McCaffrey/Anne McCaffrey/Dragonriders of Pern/Collection/Dragonsblood
+    - P:/04_Media/Audiobooks/Anne McCaffrey/Anne McCaffrey/Dragonriders of Pern/Collection 2/Anne McCaffery (2)/Dragonsblood
+  Set 81: Dragonquest by Anne McCaffrey
+    - P:/04_Media/Audiobooks/Fantasy/Anne McCaffery (2)/Dragonquest
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/Anne McCaffery (2)/Dragonquest
+    - P:/04_Media/Audiobooks/Anne McCaffrey/Anne McCaffrey/Dragonriders of Pern/Collection/Dragonquest
+  Set 82: Dragonflight by Anne McCaffrey
+    - P:/04_Media/Audiobooks/Fantasy/Anne McCaffery (2)/Dragonflight
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/Anne McCaffery (2)/Dragonflight
+    - P:/04_Media/Audiobooks/Anne McCaffrey/Anne McCaffrey/Dragonriders of Pern/Collection/Dragonflight
+  Set 83: Dragondrums by Anne McCaffrey
+    - P:/04_Media/Audiobooks/Fantasy/Anne McCaffery (2)/Dragondrums
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/Anne McCaffery (2)/Dragondrums
+    - P:/04_Media/Audiobooks/Anne McCaffrey/Anne McCaffrey/Dragonriders of Pern/Collection/Dragondrums
+  Set 84: Dragon's Kin by Anne McCaffrey, Todd McCaffrey
+    - P:/04_Media/Audiobooks/Fantasy/Anne McCaffery (2)/Dragon's Kin
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/Anne McCaffery (2)/Dragon's Kin
+    - P:/04_Media/Audiobooks/Anne McCaffrey/Anne McCaffrey/Dragonriders of Pern/Collection/Dragon's Kin
+  Set 85: Dragon's Fire by Anne McCaffrey, Todd McCaffrey
+    - P:/04_Media/Audiobooks/Fantasy/Anne McCaffery (2)/Dragon's Fire
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/Anne McCaffery (2)/Dragon's Fire
+    - P:/04_Media/Audiobooks/Anne McCaffrey/Anne McCaffrey/Dragonriders of Pern/Collection/Dragon's Fire
+  Set 86: All the Weyrs of Pern by Anne McCaffrey
+    - P:/04_Media/Audiobooks/Fantasy/Anne McCaffery (2)/All the Weyrs of Pern
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/Anne McCaffery (2)/All the Weyrs of Pern
+    - P:/04_Media/Audiobooks/Anne McCaffrey/Anne McCaffrey/Dragonriders of Pern/Collection/Anne McCaffery/All the Weyrs of Pern
+  Set 87: A Gift of Dragons by Anne McCaffrey
+    - P:/04_Media/Audiobooks/Fantasy/Anne McCaffery (2)/A Gift of Dragons
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/Anne McCaffery (2)/A Gift of Dragons
+    - P:/04_Media/Audiobooks/Anne McCaffrey/Anne McCaffrey/Dragonriders of Pern/Collection/A Gift of Dragons
+  Set 88: Segunda Fundación [Second Foundation] by Isaac Asimov, Pilar Giralt Gorina - translator
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_1/F01 - Foundation
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_134/F01 - Foundation
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_0/F01 - Foundation
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_0/Book 1 - Foundation
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/[AB].Isaac.Asimov.Foundation.Audio.Books.Complete-MaLiBu/Book 3 - Second Foundation
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/[AB].Isaac.Asimov.Foundation.Audio.Books.Complete-MaLiBu/Book 1 - Foundation
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_4263/F01 - Foundation
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_4263/Book 3 - Second Foundation
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_4263/Book 1 - Foundation
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_1/Book 3 - Second Foundation
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_1/Book 1 - Foundation
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_134/Book 3 - Second Foundation
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_134/Book 1 - Foundation
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_0/Book 3 - Second Foundation
+    - P:/04_Media/Audiobooks/Sci-FI/Sci-FI/Sci-FI/Isaac Asimov/F01 - Foundation
+    - P:/04_Media/Audiobooks/Sci-FI/Sci-FI/Sci-FI/Isaac Asimov/Book 3 - Second Foundation
+    - P:/04_Media/Audiobooks/Sci-FI/Sci-FI/Sci-FI/Isaac Asimov/Book 1 - Foundation
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_4263/Isaac Asimov/F01 - Foundation
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_4263/Isaac Asimov/Book 3 - Second Foundation
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_4263/Isaac Asimov/Book 1 - Foundation
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov/Foundation dled/Book 1 - Foundation
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_134/Foundation dled/Book 1 - Foundation
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_0/Isaac Asimov/F01 - Foundation
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_0/Isaac Asimov/Book 3 - Second Foundation
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_0/Isaac Asimov/Book 1 - Foundation
+  Set 89: Timeless by R. A. Salvatore
+    - P:/04_Media/Audiobooks/Fantasy/FORGOTTEN REALMS/34 Timeless
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/FORGOTTEN REALMS/34 Timeless
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/R. A. Salvatore Audiobook Collection 1 to 28 (2)/FORGOTTEN REALMS/34 Timeless
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Forgotten Realms/Main Collection/FORGOTTEN REALMS/FORGOTTEN REALMS/34 Timeless
+  Set 90: Foundation and Earth by Isaac Asimov
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_1/Book 5 - Foundation And Earth
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_4263/Book 5 - Foundation And Earth
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_0/Isaac Asimov/Book 5 - Foundation And Earth
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_134/Book 5 - Foundation And Earth
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_0/Book 5 - Foundation And Earth
+    - P:/04_Media/Audiobooks/Sci-FI/Sci-FI/Sci-FI/Isaac Asimov/Book 5 - Foundation And Earth
+    - P:/04_Media/Audiobooks/Isaac Asimov/Isaac Asimov/Foundation/[AB].Isaac.Asimov.Foundation.Audio.Books.Complete-MaLiBu/Book 5 - Foundation and Earth
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_4263/Isaac Asimov/Book 5 - Foundation And Earth
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov/Foundation dled/Book 5 - Foundation and Earth
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_134/Foundation dled/Book 5 - Foundation and Earth
+  Set 91: Hero by R. A. Salvatore
+    - P:/04_Media/Audiobooks/Fantasy/FORGOTTEN REALMS/33 Hero
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/FORGOTTEN REALMS/33 Hero
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/R. A. Salvatore Audiobook Collection 1 to 28 (2)/FORGOTTEN REALMS/33 Hero
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Forgotten Realms/Main Collection/FORGOTTEN REALMS/FORGOTTEN REALMS/33 Hero
+  Set 92: Archmage by R. A. Salvatore
+    - P:/04_Media/Audiobooks/Fantasy/FORGOTTEN REALMS/31 Archmage
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/FORGOTTEN REALMS/31 Archmage
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/R. A. Salvatore Audiobook Collection 1 to 28 (2)/FORGOTTEN REALMS/31 Archmage
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Forgotten Realms/Main Collection/FORGOTTEN REALMS/FORGOTTEN REALMS/31 Archmage
+  Set 93: Maestro by R. A. Salvatore
+    - P:/04_Media/Audiobooks/Fantasy/FORGOTTEN REALMS/32 Maestro
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/FORGOTTEN REALMS/32 Maestro
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/R. A. Salvatore Audiobook Collection 1 to 28 (2)/FORGOTTEN REALMS/32 Maestro
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Forgotten Realms/Main Collection/FORGOTTEN REALMS/FORGOTTEN REALMS/32 Maestro
+  Set 94: Vengeance of the Iron Dwarf by R. A. Salvatore
+    - P:/04_Media/Audiobooks/Fantasy/FORGOTTEN REALMS/30 Vengeance Of The Iron Dwarf
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/FORGOTTEN REALMS/30 Vengeance Of The Iron Dwarf
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/R. A. Salvatore Audiobook Collection 1 to 28 (2)/FORGOTTEN REALMS/30 Vengeance Of The Iron Dwarf
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Forgotten Realms/Main Collection/FORGOTTEN REALMS/FORGOTTEN REALMS/30 Vengeance Of The Iron Dwarf
+  Set 95: Rise of the King by R. A. Salvatore
+    - P:/04_Media/Audiobooks/Fantasy/FORGOTTEN REALMS/29 Rise Of The King
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/FORGOTTEN REALMS/29 Rise Of The King
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/R. A. Salvatore Audiobook Collection 1 to 28 (2)/FORGOTTEN REALMS/29 Rise Of The King
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Forgotten Realms/Main Collection/FORGOTTEN REALMS/FORGOTTEN REALMS/29 Rise Of The King
+  Set 96: Soul Hunter by Aaron Dembski-Bowden
+    - P:/04_Media/Audiobooks/Fantasy/FORGOTTEN REALMS/28 Night Of The Hunter
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/FORGOTTEN REALMS/28 Night Of The Hunter
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Forgotten Realms/Main Collection/28 Night Of The Hunter
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/R. A. Salvatore Audiobook Collection 1 to 28 (2)/FORGOTTEN REALMS/28 Night Of The Hunter
+  Set 97: The Companions by R.A. Salvatore
+    - P:/04_Media/Audiobooks/Fantasy/FORGOTTEN REALMS/27 The Companions
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/FORGOTTEN REALMS/27 The Companions
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/R. A. Salvatore Audiobook Collection 1 to 28 (2)/FORGOTTEN REALMS/27 The Companions
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Forgotten Realms/Main Collection/FORGOTTEN REALMS/FORGOTTEN REALMS/27 The Companions
+  Set 98: The Last Threshold by R. A. Salvatore
+    - P:/04_Media/Audiobooks/Fantasy/FORGOTTEN REALMS/26 The Last Threshold
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/R. A. Salvatore Audiobook Collection 1 to 28 (2)/FORGOTTEN REALMS/26 The Last Threshold
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/FORGOTTEN REALMS/26 The Last Threshold
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Forgotten Realms/Main Collection/26 The Last Threshold
+  Set 99: Charon's Claw by R. A. Salvatore
+    - P:/04_Media/Audiobooks/Fantasy/FORGOTTEN REALMS/25 Charon's Claw
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/FORGOTTEN REALMS/25 Charon's Claw
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/R. A. Salvatore Audiobook Collection 1 to 28 (2)/FORGOTTEN REALMS/25 Charon's Claw
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Forgotten Realms/Main Collection/FORGOTTEN REALMS/FORGOTTEN REALMS/25 Charon's Claw
+  Set 100: Gauntlgrym by R. A. Salvatore
+    - P:/04_Media/Audiobooks/Fantasy/FORGOTTEN REALMS/23 Gauntlgrym
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/FORGOTTEN REALMS/23 Gauntlgrym
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/R. A. Salvatore Audiobook Collection 1 to 28 (2)/FORGOTTEN REALMS/23 Gauntlgrym
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Forgotten Realms/Main Collection/FORGOTTEN REALMS/FORGOTTEN REALMS/23 Gauntlgrym
+  Set 101: Robot Dreams by Isaac Asimov
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_134/Robot Dreams
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_4263/Robot Dreams
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_1/Robot Dreams
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_0/Robot Dreams
+    - P:/04_Media/Audiobooks/Sci-FI/Sci-FI/Sci-FI/Isaac Asimov/Robot Dreams
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_4263/Isaac Asimov/Robot Dreams
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_0/Isaac Asimov/Robot Dreams
+  Set 102: The Ghost King by R.A. Salvatore
+    - P:/04_Media/Audiobooks/Fantasy/FORGOTTEN REALMS/22 The Ghost King
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/FORGOTTEN REALMS/22 The Ghost King
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/R. A. Salvatore Audiobook Collection 1 to 28 (2)/FORGOTTEN REALMS/22 The Ghost King
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Forgotten Realms/Main Collection/FORGOTTEN REALMS/FORGOTTEN REALMS/22 The Ghost King
+  Set 103: The Pirate King by R.A. Salvatore
+    - P:/04_Media/Audiobooks/Fantasy/FORGOTTEN REALMS/21 The Pirate King
+    - P:/04_Media/Audiobooks/To_Sort/From_Drive_G/FORGOTTEN REALMS/21 The Pirate King
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/FORGOTTEN REALMS/21 The Pirate King
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/R. A. Salvatore Audiobook Collection 1 to 28 (2)/FORGOTTEN REALMS/21 The Pirate King
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Forgotten Realms/Main Collection/FORGOTTEN REALMS/FORGOTTEN REALMS/21 The Pirate King
+  Set 104: The Orc King by R.A. Salvatore
+    - P:/04_Media/Audiobooks/Fantasy/FORGOTTEN REALMS/20 The Orc King
+    - P:/04_Media/Audiobooks/Fantasy/R. A. Salvatore Audiobook Collection 1 to 28 (2)/R. A. Salvatore The Orc King - (TA)
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/FORGOTTEN REALMS/20 The Orc King
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/R. A. Salvatore Audiobook Collection 1 to 28 (2)/FORGOTTEN REALMS/20 The Orc King
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Forgotten Realms/Main Collection/FORGOTTEN REALMS/FORGOTTEN REALMS/20 The Orc King
+  Set 105: The Two Swords by R. A. Salvatore
+    - P:/04_Media/Audiobooks/Fantasy/FORGOTTEN REALMS/19 The Two Swords
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/R. A. Salvatore Audiobook Collection 1 to 28 (2)/17 The Two Swords
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/FORGOTTEN REALMS/19 The Two Swords
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/R. A. Salvatore Audiobook Collection 1 to 28 (2)/FORGOTTEN REALMS/19 The Two Swords
+    - P:/04_Media/Audiobooks/R.A. Salvatore/R.A. Salvatore/Legend of Drizzt/Collection 1-28/R. A. Salvatore Audiobook Collection 1 to 28/17 The Two Swords
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Forgotten Realms/Main Collection/FORGOTTEN REALMS/FORGOTTEN REALMS/19 The Two Swords
+  Set 106: The Lone Drow by R. A. Salvatore
+    - P:/04_Media/Audiobooks/Fantasy/FORGOTTEN REALMS/18 The Lone Drow
+    - P:/04_Media/Audiobooks/To_Sort/From_Drive_G/FORGOTTEN REALMS/18 The Lone Drow
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/R. A. Salvatore Audiobook Collection 1 to 28 (2)/16 The Lone Drow
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/FORGOTTEN REALMS/18 The Lone Drow
+    - P:/04_Media/Audiobooks/R.A. Salvatore/R.A. Salvatore/Legend of Drizzt/Collection 1-28/16 The Lone Drow
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/R. A. Salvatore Audiobook Collection 1 to 28 (2)/FORGOTTEN REALMS/18 The Lone Drow
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Forgotten Realms/Main Collection/FORGOTTEN REALMS/FORGOTTEN REALMS/18 The Lone Drow
+  Set 107: The Thousand Orcs by R. A. Salvatore
+    - P:/04_Media/Audiobooks/Fantasy/FORGOTTEN REALMS/17 The Thousand Orcs
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/R. A. Salvatore Audiobook Collection 1 to 28 (2)/15 The Thousand Orcs
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/FORGOTTEN REALMS/17 The Thousand Orcs
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/R. A. Salvatore Audiobook Collection 1 to 28 (2)/FORGOTTEN REALMS/17 The Thousand Orcs
+    - P:/04_Media/Audiobooks/R.A. Salvatore/R.A. Salvatore/Legend of Drizzt/Collection 1-28/R. A. Salvatore Audiobook Collection 1 to 28/15 The Thousand Orcs
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Forgotten Realms/Main Collection/FORGOTTEN REALMS/FORGOTTEN REALMS/17 The Thousand Orcs
+  Set 108: Road of the Patriarch by R. A. Salvatore
+    - P:/04_Media/Audiobooks/Fantasy/FORGOTTEN REALMS/16 Road Of The Patriarch
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/R. A. Salvatore Audiobook Collection 1 to 28 (2)/19 Road of the Patriarch
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/FORGOTTEN REALMS/16 Road Of The Patriarch
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Forgotten Realms/Main Collection/16 Road Of The Patriarch
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/R. A. Salvatore Audiobook Collection 1 to 28 (2)/FORGOTTEN REALMS/16 Road Of The Patriarch
+    - P:/04_Media/Audiobooks/R.A. Salvatore/R.A. Salvatore/Legend of Drizzt/Collection 1-28/R. A. Salvatore Audiobook Collection 1 to 28/19 Road of the Patriarch
+  Set 109: Servant of the Shard by R. A. Salvatore
+    - P:/04_Media/Audiobooks/Fantasy/FORGOTTEN REALMS/14 Servant Of The Shard
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/R. A. Salvatore Audiobook Collection 1 to 28 (2)/13 Servant Of The Shard (TA)
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/FORGOTTEN REALMS/14 Servant Of The Shard
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Forgotten Realms/Main Collection/14 Servant Of The Shard
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/R. A. Salvatore Audiobook Collection 1 to 28 (2)/FORGOTTEN REALMS/14 Servant Of The Shard
+    - P:/04_Media/Audiobooks/R.A. Salvatore/R.A. Salvatore/Legend of Drizzt/Collection 1-28/R. A. Salvatore Audiobook Collection 1 to 28/13 Servant Of The Shard (TA)
+  Set 110: The Spine of the World: Legend of Drizzt: Paths of Darkness, Book 2 by R. A. Salvatore
+    - P:/04_Media/Audiobooks/Fantasy/FORGOTTEN REALMS/12 The Spine Of The World
+    - P:/04_Media/Audiobooks/To_Sort/From_Drive_G/FORGOTTEN REALMS/12 The Spine Of The World
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/R. A. Salvatore Audiobook Collection 1 to 28 (2)/12 The Spine of the World (TA)
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/FORGOTTEN REALMS/12 The Spine Of The World
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Forgotten Realms/Main Collection/12 The Spine Of The World
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/R. A. Salvatore Audiobook Collection 1 to 28 (2)/FORGOTTEN REALMS/12 The Spine Of The World
+    - P:/04_Media/Audiobooks/R.A. Salvatore/R.A. Salvatore/Legend of Drizzt/Collection 1-28/R. A. Salvatore Audiobook Collection 1 to 28/12 The Spine of the World (TA)
+  Set 111: Sea of Swords: Legend of Drizzt: Paths of Darkness, Book 3 by R. A. Salvatore
+    - P:/04_Media/Audiobooks/Fantasy/FORGOTTEN REALMS/13 Sea Of Swords
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/R. A. Salvatore Audiobook Collection 1 to 28 (2)/14 Sea of Swords
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/FORGOTTEN REALMS/13 Sea Of Swords
+    - P:/04_Media/Audiobooks/R.A. Salvatore/R.A. Salvatore/Legend of Drizzt/Collection 1-28/14 Sea of Swords
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/R. A. Salvatore Audiobook Collection 1 to 28 (2)/FORGOTTEN REALMS/13 Sea Of Swords
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Forgotten Realms/Main Collection/FORGOTTEN REALMS/FORGOTTEN REALMS/13 Sea Of Swords
+  Set 112: The Silent Blade by R. A. Salvatore
+    - P:/04_Media/Audiobooks/Fantasy/FORGOTTEN REALMS/11 The Silent Blade
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/R. A. Salvatore Audiobook Collection 1 to 28 (2)/11 The Silent Blade (TA)
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/FORGOTTEN REALMS/11 The Silent Blade
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/R. A. Salvatore Audiobook Collection 1 to 28 (2)/FORGOTTEN REALMS/11 The Silent Blade
+    - P:/04_Media/Audiobooks/R.A. Salvatore/R.A. Salvatore/Legend of Drizzt/Collection 1-28/R. A. Salvatore Audiobook Collection 1 to 28/11 The Silent Blade (TA)
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Forgotten Realms/Main Collection/FORGOTTEN REALMS/FORGOTTEN REALMS/11 The Silent Blade
+  Set 113: Passage to Dawn by R. A. Salvatore
+    - P:/04_Media/Audiobooks/Fantasy/FORGOTTEN REALMS/10 Passage To Dawn
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/R. A. Salvatore Audiobook Collection 1 to 28 (2)/10 Passage to Dawn
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/FORGOTTEN REALMS/10 Passage To Dawn
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/R. A. Salvatore Audiobook Collection 1 to 28 (2)/FORGOTTEN REALMS/10 Passage To Dawn
+    - P:/04_Media/Audiobooks/R.A. Salvatore/R.A. Salvatore/Legend of Drizzt/Collection 1-28/R. A. Salvatore Audiobook Collection 1 to 28/10 Passage to Dawn
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Forgotten Realms/Main Collection/FORGOTTEN REALMS/FORGOTTEN REALMS/10 Passage To Dawn
+  Set 114: Siege of Darkness by R. A. Salvatore
+    - P:/04_Media/Audiobooks/Fantasy/FORGOTTEN REALMS/09 Siege Of Darkness
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/FORGOTTEN REALMS/09 Siege Of Darkness
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/R. A. Salvatore Audiobook Collection 1 to 28 (2)/FORGOTTEN REALMS/09 Siege Of Darkness
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Forgotten Realms/Main Collection/FORGOTTEN REALMS/FORGOTTEN REALMS/09 Siege Of Darkness
+  Set 115: Starless Night by R. A. Salvatore
+    - P:/04_Media/Audiobooks/Fantasy/FORGOTTEN REALMS/08 Starless Night
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/R. A. Salvatore Audiobook Collection 1 to 28 (2)/08 Starless Night
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/FORGOTTEN REALMS/08 Starless Night
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/R. A. Salvatore Audiobook Collection 1 to 28 (2)/FORGOTTEN REALMS/08 Starless Night
+    - P:/04_Media/Audiobooks/R.A. Salvatore/R.A. Salvatore/Legend of Drizzt/Collection 1-28/R. A. Salvatore Audiobook Collection 1 to 28/08 Starless Night
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Forgotten Realms/Main Collection/FORGOTTEN REALMS/FORGOTTEN REALMS/08 Starless Night
+  Set 116: The Legacy by R. A. Salvatore
+    - P:/04_Media/Audiobooks/Fantasy/FORGOTTEN REALMS/07 The Legacy
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/FORGOTTEN REALMS/07 The Legacy
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/R. A. Salvatore Audiobook Collection 1 to 28 (2)/FORGOTTEN REALMS/07 The Legacy
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Forgotten Realms/Main Collection/FORGOTTEN REALMS/FORGOTTEN REALMS/07 The Legacy
+  Set 117: The Halfling's Gem by R. A. Salvatore
+    - P:/04_Media/Audiobooks/Fantasy/FORGOTTEN REALMS/06 The Halfling's Gem
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/FORGOTTEN REALMS/06 The Halfling's Gem
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Forgotten Realms/Main Collection/06 The Halfling's Gem
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/R. A. Salvatore Audiobook Collection 1 to 28 (2)/FORGOTTEN REALMS/06 The Halfling's Gem
+  Set 118: Streams of Silver by R. A. Salvatore
+    - P:/04_Media/Audiobooks/Fantasy/FORGOTTEN REALMS/05 Streams Of Silver
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/R. A. Salvatore Audiobook Collection 1 to 28 (2)/05 Streams of Silver
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/FORGOTTEN REALMS/05 Streams Of Silver
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/R. A. Salvatore Audiobook Collection 1 to 28 (2)/FORGOTTEN REALMS/05 Streams Of Silver
+    - P:/04_Media/Audiobooks/R.A. Salvatore/R.A. Salvatore/Legend of Drizzt/Collection 1-28/R. A. Salvatore Audiobook Collection 1 to 28/05 Streams of Silver
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Forgotten Realms/Main Collection/FORGOTTEN REALMS/FORGOTTEN REALMS/05 Streams Of Silver
+  Set 119: The Crystal Shard by R. A. Salvatore
+    - P:/04_Media/Audiobooks/Fantasy/FORGOTTEN REALMS/04 The Crystal Shard
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/FORGOTTEN REALMS/04 The Crystal Shard
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/R. A. Salvatore Audiobook Collection 1 to 28 (2)/FORGOTTEN REALMS/04 The Crystal Shard
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Forgotten Realms/Main Collection/FORGOTTEN REALMS/FORGOTTEN REALMS/04 The Crystal Shard
+  Set 120: Exile by R. A. Salvatore
+    - P:/04_Media/Audiobooks/Fantasy/FORGOTTEN REALMS/02 Exile
+    - P:/04_Media/Audiobooks/Fantasy/R. A. Salvatore Audiobook Collection 1 to 28 (2)/02 Exile
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/R. A. Salvatore Audiobook Collection 1 to 28 (2)/02 Exile
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/FORGOTTEN REALMS/02 Exile
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/R. A. Salvatore Audiobook Collection 1 to 28 (2)/FORGOTTEN REALMS/02 Exile
+    - P:/04_Media/Audiobooks/R.A. Salvatore/R.A. Salvatore/Legend of Drizzt/Collection 1-28/R. A. Salvatore Audiobook Collection 1 to 28/02 Exile
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Forgotten Realms/Main Collection/FORGOTTEN REALMS/FORGOTTEN REALMS/02 Exile
+  Set 121: Homeland by R. A. Salvatore
+    - P:/04_Media/Audiobooks/Fantasy/FORGOTTEN REALMS/01 Homeland
+    - P:/04_Media/Audiobooks/Fantasy/R. A. Salvatore Audiobook Collection 1 to 28 (2)/01 Homeland
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/R. A. Salvatore Audiobook Collection 1 to 28 (2)/01 Homeland
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/FORGOTTEN REALMS/01 Homeland
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/R. A. Salvatore Audiobook Collection 1 to 28 (2)/FORGOTTEN REALMS/01 Homeland
+    - P:/04_Media/Audiobooks/R.A. Salvatore/R.A. Salvatore/Legend of Drizzt/Collection 1-28/R. A. Salvatore Audiobook Collection 1 to 28/01 Homeland
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Forgotten Realms/Main Collection/FORGOTTEN REALMS/FORGOTTEN REALMS/01 Homeland
+  Set 122: The Leader Who Had No Title by Robin Sharma
+    - P:/04_Media/Audiobooks/Fantasy/R. A. Salvatore Audiobook Collection 1 to 28 (2)/27 Demon Wars - Book 03 - The Demon Apostle
+    - P:/04_Media/Audiobooks/Fantasy/R. A. Salvatore Audiobook Collection 1 to 28 (2)/26 Demon Wars - Book 02 - The Demon Spirit
+    - P:/04_Media/Audiobooks/Fantasy/R. A. Salvatore Audiobook Collection 1 to 28 (2)/25 Demon Wars - Book 01 - The Demon Awakens
+    - P:/04_Media/Audiobooks/Orson Scott Card/Orson Scott Card/Ender's Game Series/Collection/Orson Scott Card Audiobook Collection @ Fenopy.com/Orson Scott Card - Enderverse 1 - 8/8 - Shadow of the Giant
+    - P:/04_Media/Audiobooks/Orson Scott Card/Orson Scott Card/Ender's Game Series/Collection/Orson Scott Card Audiobook Collection @ Fenopy.com/Orson Scott Card - Enderverse 1 - 8/7 - Shadow Puppets
+    - P:/04_Media/Audiobooks/Orson Scott Card/Orson Scott Card/Ender's Game Series/Collection/Orson Scott Card Audiobook Collection @ Fenopy.com/Orson Scott Card - Enderverse 1 - 8/6 - Shadow of the Hegemon
+    - P:/04_Media/Audiobooks/Orson Scott Card/Orson Scott Card/Ender's Game Series/Collection/Orson Scott Card Audiobook Collection @ Fenopy.com/Orson Scott Card - Enderverse 1 - 8/5 - Enders Shadow
+    - P:/04_Media/Audiobooks/Orson Scott Card/Orson Scott Card/Ender's Game Series/Collection/Orson Scott Card Audiobook Collection @ Fenopy.com/Orson Scott Card - Enderverse 1 - 8/1 - Ender's Game
+  Set 123: Night Masks by R. A. Salvatore
+    - P:/04_Media/Audiobooks/Fantasy/R. A. Salvatore Audiobook Collection 1 to 28 (2)/22 Night Masks
+    - P:/04_Media/Audiobooks/R.A. Salvatore/R.A. Salvatore/Legend of Drizzt/Collection 1-28/22 Night Masks
+  Set 124: Canticle by R. A. Salvatore
+    - P:/04_Media/Audiobooks/Fantasy/R. A. Salvatore Audiobook Collection 1 to 28 (2)/20 Canticle
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/R. A. Salvatore Audiobook Collection 1 to 28 (2)/20 Canticle
+    - P:/04_Media/Audiobooks/R.A. Salvatore/R.A. Salvatore/Legend of Drizzt/Collection 1-28/R. A. Salvatore Audiobook Collection 1 to 28/20 Canticle
+  Set 125: Letters from an Astrophysicist by Neil deGrasse Tyson
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Non Fiction/Neil Degrasse Tyson_dup_4263
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Non Fiction/Neil Degrasse Tyson_dup_399
+    - P:/04_Media/Audiobooks/Neil deGrasse Tyson/Neil deGrasse Tyson/Non-Fiction/Collection/Neil Degrasse Tyson/Neil Degrasse Tyson
+  Set 126: Torchwood - Everyone Says Hello by Burn Gorman
+    - P:/04_Media/Audiobooks/To_Sort/From_Drive_I/Torchwood Everyone Says Hello Audiobook/Torchwood - Everyone Says Hello Disc 1
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Doctor Who Universe/Torchwood/Torchwood/Torchwood/Torchwood Everyone Says Hello Audiobook/Torchwood - Everyone Says Hello Disc 1
+  Set 127: Forward the Foundation by Isaac Asimov
+    - P:/04_Media/Audiobooks/To_Sort/From_Drive_I/[AB].Isaac.Asimov.Foundation.Audio.Books.Complete-MaLiBu/Book 7 - Forward the Foundation
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_134/Foundation dled/Book 7 - Forward the Foundation
+    - P:/04_Media/Audiobooks/Isaac Asimov/Isaac Asimov/Foundation/[AB].Isaac.Asimov.Foundation.Audio.Books.Complete-MaLiBu/Book 7 - Forward the Foundation
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov/Foundation dled/Book 7 - Forward the Foundation
+  Set 128: The 30 Best Scary Stories to Tell in the Dark by Tom Black
+    - P:/04_Media/Audiobooks/To_Sort/From_Drive_I/Scary Stories To Tell In The Dark - Audio Books/Scary Stories To Tell In The Dark
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Horror/Scary Stories To Tell In The Dark - Audio Books/Scary Stories To Tell In The Dark
+  Set 129: State of Fear by Michael Crichton
+    - P:/04_Media/Audiobooks/To_Sort/From_Drive_I/State Of Fear - Michael Crichton [audiobooks-download.blogspot.com]/State Of Fear
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fiction/State Of Fear - Michael Crichton [audiobooks-download.blogspot.com]/State Of Fear
+  Set 130: Prey by Michael Crichton
+    - P:/04_Media/Audiobooks/To_Sort/From_Drive_I/Prey - Michael Crichton [audiobooks-download.blogspot.com]/Prey
+    - P:/04_Media/Audiobooks/Michael Crichton/Michael Crichton/Michael Crichton - Prey Audiobook In Proper Order [JabbaJr]/Michael Crichton - Prey Audiobook In Proper Order [JabbaJr]
+    - P:/04_Media/Audiobooks/Prey/Prey/Prey - Michael Crichton [audiobooks-download.blogspot.com]/Prey - Michael Crichton [audiobooks-download.blogspot.com]/Prey
+  Set 131: Desde Rusia con amor [From Russia with Love] by Ian Fleming
+    - P:/04_Media/Audiobooks/To_Sort/From_Drive_I/15 James bond 007 Audio Books - Ian Fleming/05 - Ian Fleming - From Russia with Love_unabridged
+    - P:/04_Media/Audiobooks/Ian Fleming/Ian Fleming/James bond 007 Audio Books - Ian Fleming/15 James bond 007 Audio Books - Ian Fleming/05 - Ian Fleming - From Russia with Love_unabridged
+  Set 132: Sólo para tus ojos [For Your Eyes Only] by Ian Fleming
+    - P:/04_Media/Audiobooks/To_Sort/From_Drive_I/15 James bond 007 Audio Books - Ian Fleming/08 - Ian Fleming - For Your Eyes Only_unabridged
+    - P:/04_Media/Audiobooks/Ian Fleming/Ian Fleming/James bond 007 Audio Books - Ian Fleming/15 James bond 007 Audio Books - Ian Fleming/08 - Ian Fleming - For Your Eyes Only_unabridged
+  Set 133: Live and Let Die (Hindi) by Ian Fleming
+    - P:/04_Media/Audiobooks/To_Sort/From_Drive_I/15 James bond 007 Audio Books - Ian Fleming/02 - Ian Fleming - Live and Let Die
+    - P:/04_Media/Audiobooks/Ian Fleming/Ian Fleming/James bond 007 Audio Books - Ian Fleming/15 James bond 007 Audio Books - Ian Fleming/02 - Ian Fleming - Live and Let Die
+  Set 134: The Man with the Golden Gun by Ian Fleming
+    - P:/04_Media/Audiobooks/To_Sort/From_Drive_I/15 James bond 007 Audio Books - Ian Fleming/13 - Ian Fleming - The Man With The Golden Gun_unabridged
+    - P:/04_Media/Audiobooks/Ian Fleming/Ian Fleming/James bond 007 Audio Books - Ian Fleming/15 James bond 007 Audio Books - Ian Fleming/13 - Ian Fleming - The Man With The Golden Gun_unabridged
+  Set 135: A Feast for Crows by George R. R. Martin
+    - P:/04_Media/Audiobooks/To_Sort/From_Drive_I/A Song of Ice and Fire (Audio Books 1-5 - Complete)/4 - A Feast For Crows
+    - P:/04_Media/Audiobooks/George R.R. Martin/George R.R. Martin/A Song of Ice and Fire/Complete Collection/4 - A Feast For Crows
+  Set 136: A Storm of Swords by George R. R. Martin
+    - P:/04_Media/Audiobooks/To_Sort/From_Drive_I/A Song of Ice and Fire (Audio Books 1-5 - Complete)/3 - A Storm of Swords
+    - P:/04_Media/Audiobooks/George R.R. Martin/George R.R. Martin/A Song of Ice and Fire/Complete Collection/3 - A Storm of Swords
+  Set 137: The Boxcar Children Collection Volume 22 by Gertrude Chandler Warner
+    - P:/04_Media/Audiobooks/To_Sort/From_Drive_G/Marvel audio books/Black Panther [The Young Prince]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Marvel/Audio Books/Marvel audio books/Marvel audio books/Black Panther [Who Is The Black Panther]
+  Set 138: Origins, Revised and Updated by Neil deGrasse Tyson, Donald Goldsmith
+    - P:/04_Media/Audiobooks/To_Sort/From_Drive_G/Neil Degrasse Tyson/Origins - Neil deGrasse Tyson - Audiobook - Unabridged mp3
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Non Fiction/Neil Degrasse Tyson/Origins - Neil deGrasse Tyson - Audiobook - Unabridged mp3
+  Set 139: Death by Black Hole by Neil deGrasse Tyson
+    - P:/04_Media/Audiobooks/To_Sort/From_Drive_G/Neil Degrasse Tyson/Death by Black Hole - Neil Degrasse Tyson
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Neil Degrasse Tyson/Death by Black Hole- And Other Cosmic Quandaries (Unabridged)/Death by Black Hole- And Other Cosmic Quandaries (Unabridged), Part 2
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Neil Degrasse Tyson/Death by Black Hole- And Other Cosmic Quandaries (Unabridged)/Death by Black Hole- And Other Cosmic Quandaries (Unabridged), Part 1
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Non Fiction/Neil Degrasse Tyson/Death by Black Hole - Neil Degrasse Tyson
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Non Fiction/Neil Degrasse Tyson/Death by Black Hole- And Other Cosmic Quandaries (Unabridged)/Death by Black Hole- And Other Cosmic Quandaries (Unabridged), Part 2
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Non Fiction/Neil Degrasse Tyson/Death by Black Hole- And Other Cosmic Quandaries (Unabridged)/Death by Black Hole- And Other Cosmic Quandaries (Unabridged), Part 1
+  Set 140: The Last Days Of Krypton by Kevin J Anderson
+    - P:/04_Media/Audiobooks/SUPERMAN/SUPERMAN/SUPERMAN - The Last Days Of Krypton - AUDIOBOOK [Tantor Media] Unabridged (2007)/SUPERMAN - The Last Days Of Krypton - AUDIOBOOK [Tantor Media] Unabridged (2007)
+    - P:/04_Media/Audiobooks/DC & MARVEL/DC & MARVEL/DC & MARVEL - GraphicAudio Collection/DC & MARVEL - GraphicAudio Collection/DC Comics - GraphicAudio Collection/Last Days of Krypton/LDK 5
+    - P:/04_Media/Audiobooks/DC & MARVEL/DC & MARVEL/DC & MARVEL - GraphicAudio Collection/DC & MARVEL - GraphicAudio Collection/DC Comics - GraphicAudio Collection/Last Days of Krypton/LDK 4
+    - P:/04_Media/Audiobooks/DC & MARVEL/DC & MARVEL/DC & MARVEL - GraphicAudio Collection/DC & MARVEL - GraphicAudio Collection/DC Comics - GraphicAudio Collection/Last Days of Krypton/LDK 3
+    - P:/04_Media/Audiobooks/DC & MARVEL/DC & MARVEL/DC & MARVEL - GraphicAudio Collection/DC & MARVEL - GraphicAudio Collection/DC Comics - GraphicAudio Collection/Last Days of Krypton/LDK 2
+    - P:/04_Media/Audiobooks/DC & MARVEL/DC & MARVEL/DC & MARVEL - GraphicAudio Collection/DC & MARVEL - GraphicAudio Collection/DC Comics - GraphicAudio Collection/Last Days of Krypton/LDK 1
+  Set 141: Dr. Strange - The Fate of Dreams by GraphicAudio
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Graphic Novel/Marvel audio books/GA - Doctor Strange - The Fate of Dreams/Dreams
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Marvel/Audio Books/Marvel audio books/Marvel audio books/GA - Doctor Strange - The Fate of Dreams/Dreams
+  Set 142: Betrayal by James Boyd
+    - P:/04_Media/Audiobooks/Fantasy/Robert Heinlein Audiobook collection @ fenopy.com (2)/Time Enough For Love/Time Enough For Love, Volume 1 Part 2
+    - P:/04_Media/Audiobooks/Fantasy/Robert Heinlein Audiobook collection @ fenopy.com (2)/Time Enough For Love/Time Enough For Love, Volume 1 Part 1
+  Set 143: New Spring by Robert Jordan
+    - P:/04_Media/Audiobooks/Fantasy/Robert Jordan - Wheel of Time 1 - 11 + prequal new spring + The Conan Chronicles [2 Complete Collections] (2)/Robert Jordan - Wheel of Time @ pimptorrent.com/Prequel 1 - New Spring
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/Robert Jordan - Wheel of Time 1 - 11 + prequal new spring + The Conan Chronicles [2 Complete Collections] (2)/Robert Jordan - Wheel of Time All 11 Audio BooKs/Prequel 1 - New Spring
+  Set 144: Winter's Heart by Robert Jordan
+    - P:/04_Media/Audiobooks/Fantasy/Robert Jordan - Wheel of Time 1 - 11 + prequal new spring + The Conan Chronicles [2 Complete Collections] (2)/Robert Jordan - Wheel of Time @ pimptorrent.com/Book 9 - Winters Heart
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/Robert Jordan - Wheel of Time 1 - 11 + prequal new spring + The Conan Chronicles [2 Complete Collections] (2)/Robert Jordan - Wheel of Time All 11 Audio BooKs/Book 9 - Winters Heart
+  Set 145: The Great Hunt by Robert Jordan
+    - P:/04_Media/Audiobooks/Fantasy/Robert Jordan - Wheel of Time 1 - 11 + prequal new spring + The Conan Chronicles [2 Complete Collections] (2)/Robert Jordan - Wheel of Time @ pimptorrent.com/Book 2 - The Great Hunt
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/Robert Jordan - Wheel of Time 1 - 11 + prequal new spring + The Conan Chronicles [2 Complete Collections] (2)/Robert Jordan - Wheel of Time All 11 Audio BooKs/Book 2 - The Great Hunt
+  Set 146: Little Bird by Alisha Williams
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Graphic Novel/Marvel audio books/Venom [Lethal Protector]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Marvel/Audio Books/Marvel audio books/Marvel audio books/Venom [Lethal Protector]
+  Set 147: The Amazing Spider-Man 2 Junior Novel by Marvel Press, Brittany Candau
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Graphic Novel/Marvel audio books/The Amazing Spider-Man (BBC Radio Play)
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Marvel/Audio Books/Marvel audio books/Marvel audio books/The Amazing Spider-Man (BBC Radio Play)
+  Set 148: Marvel's Phase Three by Marvel Press, Alexander Irvine
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Graphic Novel/Marvel audio books/Marvel’ Doctor Strange
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Marvel/Audio Books/Marvel audio books/Marvel audio books/Marvel’ Doctor Strange
+  Set 149: Marvel Super Heroes: Secret Wars by Alex Irvine, Marvel
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Graphic Novel/Marvel audio books/Marvel, Alex Irvine - Astonishing X-Men - Days of Future Past [GraphicAudio 256]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Marvel/Marvel audio books/Marvel audio books/Marvel audio books/Marvel - Alex Irvine - Marvel Super Heroes - Secret Wars 01 [GraphicAudio]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Marvel/Audio Books/Marvel audio books/Marvel audio books/Marvel, Alex Irvine - Astonishing X-Men - Days of Future Past [GraphicAudio 256]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Marvel/Audio Books/Marvel audio books/Marvel audio books/Marvel - Alex Irvine - Marvel Super Heroes - Secret Wars 01 [GraphicAudio]
+  Set 150: Marvel's Avengers Vs. X-Men by GraphicAudio
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Graphic Novel/Marvel audio books/Marvel's - Avengers Vs. X-men
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Marvel/Audio Books/Marvel audio books/Marvel audio books/Marvel's - Avengers Vs. X-men
+  Set 151: Divided We Fall: A Post-Apocalyptic Novel of America's Coming Civil War by Mark Goodwin
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Graphic Novel/Marvel audio books/Marvel civil war
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Marvel/Audio Books/Marvel audio books/Marvel audio books/Marvel civil war
+  Set 152: Marvel Comics for Dummies by Troy Brownfield
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Graphic Novel/Marvel audio books/Marvel Spider-Man Forever Young -
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Graphic Novel/Marvel audio books/Marvel Planet_Hulk
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Marvel/Audio Books/Marvel Spider-Man Forever Young -
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Marvel/Audio Books/Marvel audio books/Marvel audio books/Marvel Planet_Hulk
+  Set 153: Spider-Man - Drowned In Thunder by GraphicAudio
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Graphic Novel/Marvel audio books/Marvel -spider-Man - Drowned In Thunder
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Marvel/Audio Books/Marvel audio books/Marvel audio books/Marvel -spider-Man - Drowned In Thunder
+  Set 154: Spider-Man: The Lizard Sanction by Diane Duane
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Graphic Novel/Marvel audio books/Marvel -Spiderman - Lizard Sanction
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Marvel/Audio Books/Marvel -Spiderman - Lizard Sanction
+  Set 155: Guardians of the Galaxy: Rocket Raccoon and Groot Steal the Galaxy! by Dan Abnett, Marvel
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Graphic Novel/Marvel audio books/Marvel - guardians of the galaxy
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Marvel/Audio Books/Marvel - guardians of the galaxy
+  Set 156: The Ultimates: Tomorrow Men by Michael Jan Friedman, Marvel
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Graphic Novel/Marvel audio books/Marvel - The Ultimates - Tomorrow Men
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Marvel/Audio Books/Marvel audio books/Marvel audio books/Marvel - The Ultimates - Tomorrow Men
+  Set 157: The Ultimates: Against All Enemies by Alex Irvine, Marvel
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Graphic Novel/Marvel audio books/Marvel - The Ultimates - Against All Enemies (Graphic Audio)
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Marvel/Audio Books/Marvel - The Ultimates - Against All Enemies (Graphic Audio)
+  Set 158: Ms. Marvel Volume 1: No Normal by GraphicAudio
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Graphic Novel/Marvel audio books/Marvel - Ms. Marvel Volume 1 - No Normal
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Marvel/Audio Books/Marvel audio books/Marvel audio books/Marvel - Ms. Marvel Volume 1 - No Normal
+  Set 159: Iron Man: Extremis by Marie Javins, Marvel
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Graphic Novel/Marvel audio books/Marvel - Iron Man - Extremis [Graphic Audio 256]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Marvel/Audio Books/Marvel audio books/Marvel audio books/Marvel - Iron Man - Extremis [Graphic Audio 256]
+  Set 160: Guardians of the Galaxy by Corinne Duyvis, Marvel
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Graphic Novel/Marvel audio books/Marvel - Guardians of the Galaxy - Collect Them All
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Marvel/Audio Books/Marvel audio books/Marvel audio books/Marvel - Guardians of the Galaxy - Collect Them All
+  Set 161: The Death of Captain America by Larry Hama, Marvel
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Graphic Novel/Marvel audio books/Marvel - Death of Captain America - Larry Hama (GraphicAudio-256)
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Marvel/Audio Books/Marvel audio books/Marvel audio books/Marvel - Death of Captain America - Larry Hama (GraphicAudio-256)
+  Set 162: Deadpool: Paws by Stefan Petrucha, Marvel
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Graphic Novel/Marvel audio books/Marvel - Deadpool 01 - Paws [GraphicAudio-256]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Marvel/Audio Books/Marvel audio books/Marvel audio books/Marvel - Deadpool 01 - Paws [GraphicAudio-256]
+  Set 163: Daredevil: The Man Without Fear by Paul Crilley, Marvel
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Graphic Novel/Marvel audio books/Marvel - Daredevil - The Man Without Fear
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Marvel/Audio Books/Marvel audio books/Marvel audio books/Marvel - Daredevil - The Man Without Fear
+  Set 164: Daredevil: Guardian Devil by Kevin Smith, Marvel
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Graphic Novel/Marvel audio books/Marvel - Daredevil - Guardian Devil [GraphicAudio 256k]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Marvel/Audio Books/Marvel audio books/Marvel audio books/Marvel - Daredevil - Guardian Devil [GraphicAudio 256k]
+  Set 165: The Avengers: Everybody Wants to Rule the World by Marvel, Dan Abnett
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Graphic Novel/Marvel audio books/Marvel - Avengers - Everybody Wants To Rule The World [GraphicAudio 256]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Marvel/Audio Books/Marvel audio books/Marvel audio books/Marvel - Avengers - Everybody Wants To Rule The World [GraphicAudio 256]
+  Set 166: Iron Man: The Gauntlet by Eoin Colfer
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Graphic Novel/Marvel audio books/Eoin Colfer - Iron Man The Gauntlet (Unabridged)
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Marvel/Audio Books/Marvel audio books/Marvel audio books/Eoin Colfer - Iron Man The Gauntlet (Unabridged)
+  Set 167: Captain America: Dark Designs by Stefan Petrucha, Marvel
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Graphic Novel/Marvel audio books/Captain Marvel [Liberation Run]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Marvel/Audio Books/Captain Marvel [Liberation Run]
+  Set 168: Zero Point Four by Rear Admiral James Watson USCG, Carleen Lyden Walker, Rich Mason, Jonathan Kempe, Nishan Degnarain, Captain Anuj Chopra
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Graphic Novel/Marvel audio books/Captain America Dark Designs
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Marvel/Marvel audio books/Marvel audio books/Marvel audio books/Marvel 2016 05-30 - Captain America - Dark Designs
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Marvel/Audio Books/Marvel audio books/Marvel audio books/Captain America Dark Designs
+  Set 169: Marvel’s Black Panther: Sins of the King by Tananarive Due, Geoffrey Thorne, Mohale Mashigo, Ira Madison, Steven Barnes
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Graphic Novel/Marvel audio books/Black Panther [The Young Prince]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Marvel/Audio Books/Black Panther [The Young Prince]
+  Set 170: Ant-Man: Natural Enemy by Jason Starr, Marvel
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Graphic Novel/Marvel audio books/Ant-Man - Natural Enemy
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Marvel/Audio Books/Marvel audio books/Marvel audio books/Ant-Man - Natural Enemy
+  Set 171: Breaking Dawn by Stephenie Meyer
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/Stephenie.Meyers.Twilight.Saga.(Books.1-4).[Audiobooks.4.iPod].VoV/The Twilight Saga IV_  Breaking Dawn
+    - P:/04_Media/Audiobooks/Stephenie Meyer/Stephenie Meyer/Twilight Saga/Complete/Stephanie Meyer - Complete Twilight Saga/Stephanie Meyer - Twilight Saga (Book 4 of 4) - Breaking Dawn
+  Set 172: Eclipse by Stephenie Meyer
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/Stephenie.Meyers.Twilight.Saga.(Books.1-4).[Audiobooks.4.iPod].VoV/The Twilight Saga III_  Eclipse
+    - P:/04_Media/Audiobooks/Stephenie Meyer/Stephenie Meyer/Twilight Saga/Complete/Stephanie Meyer - Twilight Saga (Book 3 of 3) - Eclipse
+  Set 173: In Sylvan Shadows by R. A. Salvatore
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/R. A. Salvatore Audiobook Collection 1 to 28 (2)/21 In Sylvan Shadows
+    - P:/04_Media/Audiobooks/R.A. Salvatore/R.A. Salvatore/Legend of Drizzt/Collection 1-28/R. A. Salvatore Audiobook Collection 1 to 28/21 In Sylvan Shadows
+  Set 174: Overcoming Adult ADHD Challenges Series: 4 Books in 1 by Amy Harper
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/R. A. Salvatore Audiobook Collection 1 to 28 (2)/18 Promise of the Witch King (TA)
+    - P:/04_Media/Audiobooks/R.A. Salvatore/R.A. Salvatore/Legend of Drizzt/Collection 1-28/R. A. Salvatore Audiobook Collection 1 to 28/18 Promise of the Witch King (TA)
+  Set 175: Seige of Darkness by R A Salvatore
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/R. A. Salvatore Audiobook Collection 1 to 28 (2)/09 Siege of Darkness
+    - P:/04_Media/Audiobooks/R.A. Salvatore/R.A. Salvatore/Legend of Drizzt/Collection 1-28/R. A. Salvatore Audiobook Collection 1 to 28/09 Siege of Darkness
+  Set 176: Album by Artist
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/R. A. Salvatore Audiobook Collection 1 to 28 (2)/07 The Legacy (abr)
+    - P:/04_Media/Audiobooks/Terry Pratchett/Terry Pratchett/Discworld/Collection/Book 28 - Amazing Maurice
+    - P:/04_Media/Audiobooks/R.A. Salvatore/R.A. Salvatore/Legend of Drizzt/Collection 1-28/R. A. Salvatore Audiobook Collection 1 to 28/07 The Legacy (abr)
+  Set 177: The Haflings Gem by R.A Salvatore
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/R. A. Salvatore Audiobook Collection 1 to 28 (2)/06 The Halfling's Gem
+    - P:/04_Media/Audiobooks/R.A. Salvatore/R.A. Salvatore/Legend of Drizzt/Collection 1-28/R. A. Salvatore Audiobook Collection 1 to 28/06 The Halfling's Gem
+  Set 178: Dodge Tank by Rick Scott
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fantasy/R. A. Salvatore Audiobook Collection 1 to 28 (2)/04 The Crystal Shard
+    - P:/04_Media/Audiobooks/R.A. Salvatore/R.A. Salvatore/Legend of Drizzt/Collection 1-28/R. A. Salvatore Audiobook Collection 1 to 28/04 The Crystal Shard
+  Set 179: Master & Apprentice (Star Wars) by Claudia Gray
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/Star Wars Lost Stars
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/Star Wars Lost Stars
+  Set 180: Star Wars Darth Bane Audiobook Trilogy [Unabridged] by Sci-FI
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/Star Wars Darth Bane Audiobook Trilogy [Unabridged]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/Star Wars Darth Bane Audiobook Trilogy [Unabridged]
+  Set 181: Star Wars: Legacy of the Force: Betrayal by Aaron Allston
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/99-Betrayal[Legacy Of The Force Book 1]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/99-Betrayal[Legacy Of The Force Book 1]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/99-Betrayal[Legacy Of The Force Book 1]
+  Set 182: Star Wars: Dark Nest III: The Swarm War by Troy Denning
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/98-The Swarm War[Dark Nest Book 3]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/98-The Swarm War[Dark Nest Book 3]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/Star Wars/Star Wars/98-The Swarm War[Dark Nest Book 3]
+  Set 183: Star Wars: Dark Nest II: The Unseen Queen by Troy Denning
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/97-The Unseen Queen[Dark Nest Book 2]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/97-The Unseen Queen[Dark Nest Book 2]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/Star Wars/Star Wars/97-The Unseen Queen[Dark Nest Book 2]
+  Set 184: Star Wars: Dark Nest I: The Joiner King by Troy Denning
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/96-The Joiner King[Dark Nest Book 1]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/96-The Joiner King[Dark Nest Book 1]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/Star Wars/Star Wars/96-The Joiner King[Dark Nest Book 1]
+  Set 185: Star Wars: The New Jedi Order: The Unifying Force by James Luceno
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/95-The Unifying Force[The New Jedi Order Book 19]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/95-The Unifying Force[The New Jedi Order Book 19]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/Star Wars/Star Wars/95-The Unifying Force[The New Jedi Order Book 19]
+  Set 186: Star Wars: The New Jedi Order: Force Heretic II: Refugee by Sean Williams
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/94-The Final Prophecy[The New Jedi Order Book 18]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/92-Refugee[The New Jedi Order Book 16]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/91-Remnant[The New Jedi Order Book 15]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/94-The Final Prophecy[The New Jedi Order Book 18]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/92-Refugee[The New Jedi Order Book 16]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/91-Remnant[The New Jedi Order Book 15]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/Star Wars/Star Wars/92-Refugee[The New Jedi Order Book 16]
+  Set 187: Star Wars: The New Jedi Order: Force Heretic III: Reunion by Sean Williams
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/93-Reunion[The New Jedi Order Book 17]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/93-Reunion[The New Jedi Order Book 17]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/Star Wars/Star Wars/93-Reunion[The New Jedi Order Book 17]
+  Set 188: Star Wars: The New Jedi Order: Destiny's Way by Walter Jon Williams
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/90-Destiny's Way[The New Jedi Order Book 14]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/90-Destiny's Way[The New Jedi Order Book 14]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/90-Destiny's Way[The New Jedi Order Book 14]
+  Set 189: Star Wars: Jedi Quest #2: The Trail of the Jedi by Jude Watson
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/9-The Trial of the Jedi[Jedi Quest Book 2]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/9-The Trial of the Jedi[Jedi Quest Book 2]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/9-The Trial of the Jedi[Jedi Quest Book 2]
+  Set 190: Star Wars: The Corellian Trilogy: Ambush at Corellia by Roger MacBride Allen
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/72-Assault At Selonia[The Corellian Trilogy Book 2]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/71-Ambush At Corellia[The Corellian Trilogy Book 1]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/73-Showdown At Centerpoint[The Corellian Trilogy Book 3]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/73-Showdown At Centerpoint[The Corellian Trilogy Book 3]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/72-Assault At Selonia[The Corellian Trilogy Book 2]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/71-Ambush At Corellia[The Corellian Trilogy Book 1]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/Star Wars/Star Wars/71-Ambush At Corellia[The Corellian Trilogy Book 1]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/Star Wars/Star Wars/72-Assault At Selonia[The Corellian Trilogy Book 2]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/Star Wars/Star Wars/73-Showdown At Centerpoint[The Corellian Trilogy Book 3]
+  Set 191: Star Wars: The New Jedi Order: Traitor by Matthew Stover
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/89-Traitor[The New Jedi Order Book 13]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/89-Traitor[The New Jedi Order Book 13]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/Star Wars/Star Wars/89-Traitor[The New Jedi Order Book 13]
+  Set 192: Star Wars: Jedi Quest #1: The Way of the Apprentice by Jude Watson
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/8-The Way of the Apprentice[Jedi Queset Book 1]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/8-The Way of the Apprentice[Jedi Queset Book 1]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/Star Wars/Star Wars/8-The Way of the Apprentice[Jedi Queset Book 1]
+  Set 193: Star Wars: The New Jedi Order: Dark Journey by Elaine Cunningham
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/86-Dark Journey[The New Jedi Order Book 10]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/86-Dark Journey[The New Jedi Order Book 10]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/86-Dark Journey[The New Jedi Order Book 10]
+  Set 194: Star Wars: The New Jedi Order: Rebel Dreams by Aaron Allston
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/87-Rebel Dream[The New Jedi Order Book 11]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/87-Rebel Dream[The New Jedi Order Book 11]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/87-Rebel Dream[The New Jedi Order Book 11]
+  Set 195: Star Wars: The New Jedi Order: Edge of Victory I: Conquest by Greg Keyes
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/83-Conquest[The New Jedi Order Book 7]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/83-Conquest[The New Jedi Order Book 7]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/Star Wars/Star Wars/83-Conquest[The New Jedi Order Book 7]
+  Set 196: Star by Star: Star Wars (The New Jedi Order) by Troy Denning
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/85-Star by Star[The New Jedi Order Book 9]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/85-Star by Star[The New Jedi Order Book 9]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/85-Star by Star[The New Jedi Order Book 9]
+  Set 197: Star Wars: The New Jedi Order: Edge of Victory II: Rebirth by Greg Keyes
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/84-Rebirth[The New Jedi Order Book 8]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/84-Rebirth[The New Jedi Order Book 8]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/Star Wars/Star Wars/84-Rebirth[The New Jedi Order Book 8]
+  Set 198: Star Wars: The New Jedi Order: Agents of Chaos I: Hero's Trial by James Luceno
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/81-Jedi Ecli[The New Jedi Order Book 5]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/80-Hero's Trial[The New Jedi Order Book 4]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/81-Jedi Ecli[The New Jedi Order Book 5]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/80-Hero's Trial[The New Jedi Order Book 4]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/81-Jedi Ecli[The New Jedi Order Book 5]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/80-Hero's Trial[The New Jedi Order Book 4]
+  Set 199: Star Wars: The New Jedi Order: Dark Tide 1: Onslaught by Michael A. Stackpole
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/79-Ruin[The New Jedi Order Book 3]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/78-Onslaught[The New Jedi Order Book 2]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/79-Ruin[The New Jedi Order Book 3]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/78-Onslaught[The New Jedi Order Book 2]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/78-Onslaught[The New Jedi Order Book 2]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/Star Wars/Star Wars/79-Ruin[The New Jedi Order Book 3]
+  Set 200: Vector Prime: Star Wars (The New Jedi Order) by R.A. Salvatore
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/77-Vector Prime[The New Jedi Order Book 1]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/77-Vector Prime[The New Jedi Order Book 1]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/77-Vector Prime[The New Jedi Order Book 1]
+  Set 201: Pawn by Timothy Zahn
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/75-Vision Of The Future[The Thrawn Duologuy Book 2]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/74-Specter Of The Past[The Thrawn Duologuy Book 1]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/74-Specter Of The Past[The Thrawn Duologuy Book 1]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/75-Vision Of The Future[The Thrawn Duologuy Book 2]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/Star Wars/Star Wars/74-Specter Of The Past[The Thrawn Duologuy Book 1]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/Star Wars/Star Wars/75-Vision Of The Future[The Thrawn Duologuy Book 2]
+  Set 202: Star Wars: The New Rebellion by Kristine Kathryn Rusch
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/70-New Rebellion
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/70-New Rebellion
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/Star Wars/Star Wars/70-New Rebellion
+  Set 203: Star Wars: The Crystal Star by Vonda McIntyre
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/66-The Crystal Star
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/66-The Crystal Star
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/Star Wars/Star Wars/66-The Crystal Star
+  Set 204: Star Wars: Outbound Flight by Timothy Zahn
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/7-Outbound Flight
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/7-Outbound Flight
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/Star Wars/Star Wars/7-Outbound Flight
+  Set 205: Star Wars: The Black Fleet Crisis: Tyrant's Test by Michael P. Kube-Mcdowell
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/69-Tyrant's Test[The Black Fleet Crisis Book 3]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/69-Tyrant's Test[The Black Fleet Crisis Book 3]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/Star Wars/Star Wars/69-Tyrant's Test[The Black Fleet Crisis Book 3]
+  Set 206: Star Wars: The Black Fleet Crisis: Shield of Lies by Michael P. Kube-Mcdowell
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/68-Shield Of Lies[The Black Fleet Crisis Book 2]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/68-Shield Of Lies[The Black Fleet Crisis Book 2]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/Star Wars/Star Wars/68-Shield Of Lies[The Black Fleet Crisis Book 2]
+  Set 207: Star Wars: The Black Fleet Crisis: Before the Storm by Michael P. Kube-Mcdowell
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/67-Before The Storm[The Black Fleet Crisis Book 1]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/67-Before The Storm[The Black Fleet Crisis Book 1]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/Star Wars/Star Wars/67-Before The Storm[The Black Fleet Crisis Book 1]
+  Set 208: Paul of Dune by Brian Herbert, Kevin J. Anderson
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/63-Darksaber[Callista Trilogy Book 2]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/63-Darksaber[Callista Trilogy Book 2]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/Star Wars/Star Wars/63-Darksaber[Callista Trilogy Book 2]
+  Set 209: Star Wars: Clone Wars: The Cestus Deception by Steven Barnes
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/15-The Cestus Deception
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/15-The Cestus Deception
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/Star Wars/Star Wars/15-The Cestus Deception
+  Set 210: Star Wars: Shatterpoint by Matthew Stover
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/14-Shatterpoint
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/14-Shatterpoint
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/Star Wars/Star Wars/14-Shatterpoint
+  Set 211: Star Wars: Episode II: Attack of the Clones by R.A. Salvatore
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/13-Attack Of The Clones
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/13-Attack Of The Clones
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/Star Wars/Star Wars/13-Attack Of The Clones
+  Set 212: Star Wars: The Approaching Storm by Alan Dean Foster
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/12-The Approaching Storm
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/12-The Approaching Storm
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/Star Wars/Star Wars/12-The Approaching Storm
+  Set 213: Star Wars: Jedi Quest #4: The Master of Disguise by Jude Watson
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/11-The Master of Disguise[Jedi Quest Book 4]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/11-The Master of Disguise[Jedi Quest Book 4]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/11-The Master of Disguise[Jedi Quest Book 4]
+  Set 214: Star Wars: Legacy of the Force: Revelation by Karen Traviss
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/106-Revelation[Legacy Of The Force Book 8]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/106-Revelation[Legacy Of The Force Book 8]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/106-Revelation[Legacy Of The Force Book 8]
+  Set 215: Star Wars: Legacy of the Force: Fury by Aaron Allston
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/105-Fury[Legacy Of The Force Book 7]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/105-Fury[Legacy Of The Force Book 7]
+  Set 216: Star Wars: Legacy of the Force: Tempest by Troy Denning
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/104-Inferno[Legacy Of The Force Book 6]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/101-Tempest[Legacy Of The Force Book 3]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/104-Inferno[Legacy Of The Force Book 6]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/101-Tempest[Legacy Of The Force Book 3]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/104-Inferno[Legacy Of The Force Book 6]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/Star Wars/Star Wars/101-Tempest[Legacy Of The Force Book 3]
+  Set 217: Star Wars: Legacy of the Force: Sacrifice by Karen Traviss
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/103-Sacrifice[Legacy Of The Force Book 5]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/103-Sacrifice[Legacy Of The Force Book 5]
+  Set 218: Star Wars: Legacy of the Force: Exile by Aaron Allston
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/102-Exile[Legacy Of The Force Book 4]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/102-Exile[Legacy Of The Force Book 4]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/Star Wars/Star Wars/102-Exile[Legacy Of The Force Book 4]
+  Set 219: Star Wars: Jedi Quest #3: The Dangerous Games by Jude Watson
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/10-The Dangerous Games[Jedi Quest Book 3]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/10-The Dangerous Games[Jedi Quest Book 3]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/10-The Dangerous Games[Jedi Quest Book 3]
+  Set 220: Tales Of The Jedi - Book 1 by Tom Veitch
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/star warz bukz/1-Tales Of The Jedi[Tales Of The Jedi Book 1]
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/1-Tales Of The Jedi[Tales Of The Jedi Book 1]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/Star Wars/Star Wars/1-Tales Of The Jedi[Tales Of The Jedi Book 1]
+  Set 221: Steamboats and Sailors of the Great Lakes by Mark L. Thompson
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Star Wars/100-Bloodlines[Legacy Of The Force Book 2]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Star Wars/Expanded Universe/100-Bloodlines[Legacy Of The Force Book 2]
+  Set 222: The Robots of Dawn by Isaac Asimov
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_4263/The Robots of Dawn
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_4263/Asimov - R. Daneel Olivaw - Book 03 - The Robots of Dawn
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_1/The Robots of Dawn
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_1/Asimov - R. Daneel Olivaw - Book 03 - The Robots of Dawn
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_134/The Robots of Dawn
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_134/Asimov - R. Daneel Olivaw - Book 03 - The Robots of Dawn
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_0/The Robots of Dawn
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_0/Asimov - R. Daneel Olivaw - Book 03 - The Robots of Dawn
+    - P:/04_Media/Audiobooks/Sci-FI/Sci-FI/Sci-FI/Isaac Asimov/The Robots of Dawn
+    - P:/04_Media/Audiobooks/Sci-FI/Sci-FI/Sci-FI/Isaac Asimov/Asimov - R. Daneel Olivaw - Book 03 - The Robots of Dawn
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_4263/Isaac Asimov/Asimov - R. Daneel Olivaw - Book 03 - The Robots of Dawn
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_0/Isaac Asimov/The Robots of Dawn
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_0/Isaac Asimov/Asimov - R. Daneel Olivaw - Book 03 - The Robots of Dawn
+  Set 223: The Return of the Black Widowers by Isaac Asimov
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_4263/The Return of the Black Widowers
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_1/The Return of the Black Widowers
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_134/The Return of the Black Widowers
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_0/The Return of the Black Widowers
+    - P:/04_Media/Audiobooks/Sci-FI/Sci-FI/Sci-FI/Isaac Asimov/The Return of the Black Widowers
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_0/Isaac Asimov/The Return of the Black Widowers
+  Set 224: Realm of Numbers by Isaac Asimov
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_4263/The Realm of Numbers
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_1/The Realm of Numbers
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_134/The Realm of Numbers
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_0/The Realm of Numbers
+    - P:/04_Media/Audiobooks/Sci-FI/Sci-FI/Sci-FI/Isaac Asimov/The Realm of Numbers
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_0/Isaac Asimov/The Realm of Numbers
+  Set 225: The Naked Sun by Isaac Asimov
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_4263/The Naked Sun
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_4263/Asimov - R. Daneel Olivaw - Book 02 - The Naked Sun
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_1/The Naked Sun
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_1/Asimov - R. Daneel Olivaw - Book 02 - The Naked Sun
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_134/The Naked Sun
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_134/Asimov - R. Daneel Olivaw - Book 02 - The Naked Sun
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_0/The Naked Sun
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_0/Asimov - R. Daneel Olivaw - Book 02 - The Naked Sun
+    - P:/04_Media/Audiobooks/Sci-FI/Sci-FI/Sci-FI/Isaac Asimov/The Naked Sun
+    - P:/04_Media/Audiobooks/Sci-FI/Sci-FI/Sci-FI/Isaac Asimov/Asimov - R. Daneel Olivaw - Book 02 - The Naked Sun
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_4263/Isaac Asimov/Asimov - R. Daneel Olivaw - Book 02 - The Naked Sun
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_0/Isaac Asimov/The Naked Sun
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_0/Isaac Asimov/Asimov - R. Daneel Olivaw - Book 02 - The Naked Sun
+  Set 226: Odyssey by Stephen Fry
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_4263/The Greeks
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_1/The Greeks
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_134/The Greeks
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_0/The Greeks
+    - P:/04_Media/Audiobooks/Sci-FI/Sci-FI/Sci-FI/Isaac Asimov/The Greeks
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_0/Isaac Asimov/The Greeks
+  Set 227: The Currents of Space by Isaac Asimov
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_4263/The Currents of Space
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_1/The Currents of Space
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_134/The Currents of Space
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_0/The Currents of Space
+    - P:/04_Media/Audiobooks/Sci-FI/Sci-FI/Sci-FI/Isaac Asimov/The Currents of Space
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_0/Isaac Asimov/The Currents of Space
+  Set 228: The Caves of Steel by Isaac Asimov
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_4263/The Caves of Steel
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_1/The Caves of Steel
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_134/The Caves of Steel
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_0/The Caves of Steel
+    - P:/04_Media/Audiobooks/Sci-FI/Sci-FI/Sci-FI/Isaac Asimov/The Caves of Steel
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_4263/Isaac Asimov/The Caves of Steel
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_0/Isaac Asimov/The Caves of Steel
+  Set 229: Bóvedas de acero [The Caves of Steel] by Isaac Asimov, Luis García Prado
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_4263/The Caves of Steel(not mine)
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_1/The Caves of Steel(not mine)
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_134/The Caves of Steel(not mine)
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_0/The Caves of Steel(not mine)
+    - P:/04_Media/Audiobooks/Sci-FI/Sci-FI/Sci-FI/Isaac Asimov/The Caves of Steel(not mine)
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_0/Isaac Asimov/The Caves of Steel(not mine)
+  Set 230: Robots e Imperio [Robots and Empire] by Isaac Asimov, Rosa Sánchez de Naveira - translator
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_4263/Robots & Empire
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_1/Robots & Empire
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_134/Robots & Empire
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_0/Robots & Empire
+    - P:/04_Media/Audiobooks/Sci-FI/Sci-FI/Sci-FI/Isaac Asimov/Robots & Empire
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_4263/Isaac Asimov/Robots & Empire
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_0/Isaac Asimov/Robots & Empire
+  Set 231: Robot Visions by Isaac Asimov
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_4263/Robot Visions
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_1/Robot Visions
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_134/Robot Visions
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_0/Robot Visions
+    - P:/04_Media/Audiobooks/Sci-FI/Sci-FI/Sci-FI/Isaac Asimov/Robot Visions
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_4263/Isaac Asimov/Robot Visions
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_0/Isaac Asimov/Robot Visions
+  Set 232: Our Angry Earth by Isaac Asimov
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_4263/Our Angry Earth
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_1/Our Angry Earth
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_134/Our Angry Earth
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_0/Our Angry Earth
+    - P:/04_Media/Audiobooks/Sci-FI/Sci-FI/Sci-FI/Isaac Asimov/Our Angry Earth
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_4263/Isaac Asimov/Our Angry Earth
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_0/Isaac Asimov/Our Angry Earth
+  Set 233: Opus 200 by Isaac Asimov
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_4263/Opus 200
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_1/Opus 200
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_134/Opus 200
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_0/Opus 200
+    - P:/04_Media/Audiobooks/Sci-FI/Sci-FI/Sci-FI/Isaac Asimov/Opus 200
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_4263/Isaac Asimov/Opus 200
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_0/Isaac Asimov/Opus 200
+  Set 234: Nemesis by Isaac Asimov
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_4263/Nemesis
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_1/Nemesis
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_134/Nemesis
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_0/Nemesis
+    - P:/04_Media/Audiobooks/Sci-FI/Sci-FI/Sci-FI/Isaac Asimov/Nemesis
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_4263/Isaac Asimov/Nemesis
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_0/Isaac Asimov/Nemesis
+  Set 235: I, Robot by Isaac Asimov
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_4263/I, Robot
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_1/I, Robot
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_134/I, Robot
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_0/I, Robot
+    - P:/04_Media/Audiobooks/Sci-FI/Sci-FI/Sci-FI/Isaac Asimov/I, Robot
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_4263/Isaac Asimov/I, Robot
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_0/Isaac Asimov/I, Robot
+  Set 236: This Is Your Captain Speaking by Gavin MacLeod, Mark Dagostino
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_4263/Fantastic Voyage
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_1/Fantastic Voyage
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_134/Fantastic Voyage
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_0/Fantastic Voyage
+    - P:/04_Media/Audiobooks/Sci-FI/Sci-FI/Sci-FI/Isaac Asimov/Fantastic Voyage
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_4263/Isaac Asimov/Fantastic Voyage
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_0/Isaac Asimov/Fantastic Voyage
+  Set 237: Foward the Foundation by Isaac Asimov
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_4263/F07 - Foward the Foundation
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_1/F07 - Foward the Foundation
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_134/F07 - Foward the Foundation
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_0/F07 - Foward the Foundation
+    - P:/04_Media/Audiobooks/Sci-FI/Sci-FI/Sci-FI/Isaac Asimov/F07 - Foward the Foundation
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_4263/Isaac Asimov/F07 - Foward the Foundation
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_0/Isaac Asimov/F07 - Foward the Foundation
+  Set 238: Prelude to Foundation by Isaac Asimov
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_4263/F06 - Prelude to Foundation
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_1/F06 - Prelude to Foundation
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_134/F06 - Prelude to Foundation
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_0/F06 - Prelude to Foundation
+    - P:/04_Media/Audiobooks/Sci-FI/Sci-FI/Sci-FI/Isaac Asimov/F06 - Prelude to Foundation
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_4263/Isaac Asimov/F06 - Prelude to Foundation
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_0/Isaac Asimov/F06 - Prelude to Foundation
+  Set 239: Foundation's Edge by Isaac Asimov
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_4263/F04 - Foundation's Edge
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_4263/Book 4 - Foundations Edge
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_1/F04 - Foundation's Edge
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_1/Book 4 - Foundations Edge
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_0/Isaac Asimov/F04 - Foundation's Edge
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_134/F04 - Foundation's Edge
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_134/Book 4 - Foundations Edge
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_0/F04 - Foundation's Edge
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_0/Book 4 - Foundations Edge
+    - P:/04_Media/Audiobooks/Sci-FI/Sci-FI/Sci-FI/Isaac Asimov/F04 - Foundation's Edge
+    - P:/04_Media/Audiobooks/Sci-FI/Sci-FI/Sci-FI/Isaac Asimov/Book 4 - Foundations Edge
+    - P:/04_Media/Audiobooks/Isaac Asimov/Isaac Asimov/Foundation/[AB].Isaac.Asimov.Foundation.Audio.Books.Complete-MaLiBu/Book 4 - Foundation's Edge
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_4263/Isaac Asimov/F04 - Foundation's Edge
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_4263/Isaac Asimov/Book 4 - Foundations Edge
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_0/Isaac Asimov/Book 4 - Foundations Edge
+  Set 240: F03 Second Foundation by Isaac Asimov
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_4263/F03 - Second Foundation
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_1/F03 - Second Foundation
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_134/F03 - Second Foundation
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_0/F03 - Second Foundation
+    - P:/04_Media/Audiobooks/Sci-FI/Sci-FI/Sci-FI/Isaac Asimov/F03 - Second Foundation
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_4263/Isaac Asimov/F03 - Second Foundation
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_0/Isaac Asimov/F03 - Second Foundation
+  Set 241: The Book of Azazel by E.A. Koetting
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_4263/Azazel
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_1/Azazel
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_134/Azazel
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_0/Azazel
+    - P:/04_Media/Audiobooks/Sci-FI/Sci-FI/Sci-FI/Isaac Asimov/Azazel
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_4263/Isaac Asimov/Azazel
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_0/Isaac Asimov/Azazel
+  Set 242: The Caves of Steel Disc 1 by Isaac Asimov
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_4263/Asimov - R. Daneel Olivaw - Book 01 - Caves Of Steel
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_1/Asimov - R. Daneel Olivaw - Book 01 - Caves Of Steel
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_134/Asimov - R. Daneel Olivaw - Book 01 - Caves Of Steel
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_0/Asimov - R. Daneel Olivaw - Book 01 - Caves Of Steel
+    - P:/04_Media/Audiobooks/Sci-FI/Sci-FI/Sci-FI/Isaac Asimov/Asimov - R. Daneel Olivaw - Book 01 - Caves Of Steel
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_4263/Isaac Asimov/Asimov - R. Daneel Olivaw - Book 01 - Caves Of Steel
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_0/Isaac Asimov/Asimov - R. Daneel Olivaw - Book 01 - Caves Of Steel
+  Set 243: The Stars, Like Dust by Isaac Asimov
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_1/The Stars, Like Dust
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_1/The Stars Like Dust(dled)
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_134/The Stars, Like Dust
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_134/The Stars Like Dust(dled)
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_0/The Stars, Like Dust
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_0/The Stars Like Dust(dled)
+    - P:/04_Media/Audiobooks/Sci-FI/Sci-FI/Sci-FI/Isaac Asimov/The Stars, Like Dust
+    - P:/04_Media/Audiobooks/Sci-FI/Sci-FI/Sci-FI/Isaac Asimov/The Stars Like Dust(dled)
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_0/Isaac Asimov/The Stars, Like Dust
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_0/Isaac Asimov/The Stars Like Dust(dled)
+  Set 244: Fundación [Foundation] by Isaac Asimov, Pilar Giralt Gorina - translator
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_134/Foundation dled/Book 3 - Second Foundation
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov/Foundation dled/Book 3 - Second Foundation
+  Set 245: The Hitchhiker's Guide To The Galaxy: Tertiary Phase by Douglas Adams
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Hitchhikers Guide to the Galaxy Radio Series MP3/Tertiary Phase
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Hitchhikers Guide to the Galaxy Radio Series MP3/Secondary phase
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Hitchhikers Guide to the Galaxy Radio Series MP3/Primary phase
+    - P:/04_Media/Audiobooks/Douglas Adams/Douglas Adams/Douglas Adams/Douglas Adams/Hitchhiker's Guide To The Galaxy - 2 - Secondary Phase
+    - P:/04_Media/Audiobooks/Douglas Adams/Douglas Adams/Douglas Adams/Douglas Adams/Hitchhiker's Guide To The Galaxy - 1 - Primary Phase
+  Set 246: The Hitchhiker's Guide To The Galaxy: Quandary Phase by Douglas Adams
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Hitchhikers Guide to the Galaxy Radio Series MP3/Quintissential Phase
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Hitchhikers Guide to the Galaxy Radio Series MP3/Quandary phase
+    - P:/04_Media/Audiobooks/Douglas Adams/Douglas Adams/Douglas Adams/Douglas Adams/Hitchhiker's Guide To The Galaxy - 5 - Quintessential Phase
+    - P:/04_Media/Audiobooks/Douglas Adams/Douglas Adams/Douglas Adams/Douglas Adams/Hitchhiker's Guide To The Galaxy - 4 - Quandary Phase
+  Set 247: 23.6 Cleaning the Gold by Karin Slaughter, Lee Child
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fiction/Jack Reacher/23.6 Cleaning The Gold
+    - P:/04_Media/Audiobooks/Lee Child/Lee Child/Jack Reacher/Series/23.6 Cleaning The Gold
+  Set 248: 23.5 The Fourth Man by Lee Child
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fiction/Jack Reacher/23.5 The Fourth Man
+    - P:/04_Media/Audiobooks/Lee Child/Lee Child/Jack Reacher/Series/23.5 The Fourth Man
+  Set 249: 22.5 The Christmas Scorpion by Lee Child
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fiction/Jack Reacher/22.5 The Christmas Scorpion
+    - P:/04_Media/Audiobooks/Lee Child/Lee Child/Jack Reacher/Series/Jack Reacher/Jack Reacher/22.5 The Christmas Scorpion
+  Set 250: 19.5 Small Wars by Lee Child
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fiction/Jack Reacher/19.5 Small Wars
+    - P:/04_Media/Audiobooks/Lee Child/Lee Child/Jack Reacher/Series/Jack Reacher/Jack Reacher/19.5 Small Wars
+  Set 251: 18.5 Not a Drill by Lee Child
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fiction/Jack Reacher/18.5 Not A Drill
+    - P:/04_Media/Audiobooks/Lee Child/Lee Child/Jack Reacher/Series/18.5 Not A Drill
+  Set 252: 17.5 High Heat by Lee Child
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fiction/Jack Reacher/17.5 High Heat
+    - P:/04_Media/Audiobooks/Lee Child/Lee Child/Jack Reacher/Series/Jack Reacher/Jack Reacher/17.5 High Heat
+  Set 253: 16.5 Deep Down by Lee Child
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fiction/Jack Reacher/16.5 Deep Down
+    - P:/04_Media/Audiobooks/Lee Child/Lee Child/Jack Reacher/Series/Jack Reacher/Jack Reacher/16.5 Deep Down
+  Set 254: 15.5 Second Son by Lee Child
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fiction/Jack Reacher/15.5 Second Son
+    - P:/04_Media/Audiobooks/Lee Child/Lee Child/Jack Reacher/Series/Jack Reacher/Jack Reacher/15.5 Second Son
+  Set 255: 12.5 James Penney’s New Identity - Guy Walks into a Bar by Lee Child
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fiction/Jack Reacher/12.5 James Penney’s New Identity - Guy Walks into a Bar
+    - P:/04_Media/Audiobooks/Lee Child/Lee Child/Jack Reacher/Series/Jack Reacher/Jack Reacher/12.5 James Penney’s New Identity - Guy Walks into a Bar
+  Set 256: The Pluto Files by Neil Degrasse Tyson
+    - P:/04_Media/Audiobooks/To_Sort/From_Drive_G/Neil Degrasse Tyson/Neil Degrasse Tyson - The Pluto Files/Neil Degrasse Tyson - The Pluto Files
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Non Fiction/Neil Degrasse Tyson/Neil Degrasse Tyson - The Pluto Files/Neil Degrasse Tyson - The Pluto Files
+  Set 257: Mockingjay by Suzanne Collins
+    - P:/04_Media/Audiobooks/Suzanne Collins/Suzanne Collins/The Hunger Games/Trilogy/Hunger Games 3
+    - P:/04_Media/Audiobooks/Suzanne Collins/Suzanne Collins/The Hunger Games/Trilogy/Hunger Games 1
+  Set 258: Paperweight Volume 2 by Stephen Fry
+    - P:/04_Media/Audiobooks/Stephen Fry/Stephen Fry/Stephen Fry/Stephen Fry - Paperweight/Stephen Fry - Paperweight Vol 2
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fiction/Stephen Fry/Stephen Fry - Paperweight/Stephen Fry - Paperweight Vol 2
+  Set 259: Paperweight Volume 1 by Stephen Fry
+    - P:/04_Media/Audiobooks/Stephen Fry/Stephen Fry/Stephen Fry/Stephen Fry - Paperweight/Stephen Fry - Paperweight Vol 1
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Fiction/Stephen Fry/Stephen Fry - Paperweight/Stephen Fry - Paperweight Vol 1
+  Set 260: The Golden Compass by Philip Pullman
+    - P:/04_Media/Audiobooks/Philip Pullman/Philip Pullman/His Dark Materials/Trilogy/The Golden Compass
+    - P:/04_Media/Audiobooks/Philip Pullman/Philip Pullman/His Dark Materials/Trilogy/His Dark Materials/Philip.Pullman-The.Golden.Compass_audiobook-JB-24601
+  Set 261: The Amber Spyglass by Philip Pullman
+    - P:/04_Media/Audiobooks/Philip Pullman/Philip Pullman/His Dark Materials/Trilogy/The Amber Spyglass
+    - P:/04_Media/Audiobooks/Philip Pullman/Philip Pullman/His Dark Materials/Trilogy/His Dark Materials/Philip.Pullman-The.Amber.Spyglass_audiobook-JB-24601
+  Set 262: The Ionian Mission by Patrick O'brian
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/The Ionian Mission - Cd 9(1994)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/The Ionian Mission - Cd 8(1994)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/The Ionian Mission - Cd 7(1994)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/The Ionian Mission - Cd 6(1994)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/The Ionian Mission - Cd 5(1994)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/The Ionian Mission - Cd 4(1994)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/The Ionian Mission - Cd 3(1994)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/The Ionian Mission - Cd 13(1994)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/The Ionian Mission - Cd 12(1994)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/The Ionian Mission - Cd 11(1994)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/The Ionian Mission - Cd 10(1994)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/8 The Ionian Mission/The Ionian Mission - Cd 2(1994)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/8 The Ionian Mission/The Ionian Mission - Cd 1(1994)
+  Set 263: The Surgeon's Mate by Patrick O'brian
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/The Surgeon's Mate - Cd 13(1993)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/The Surgeon's Mate - Cd 12(1993)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/The Surgeon's Mate - Cd 11(1993)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/The Surgeon's Mate - Cd 10(1993)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/7 The Surgoen's Mate/The Surgeon's Mate - Cd 9(1993)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/7 The Surgoen's Mate/The Surgeon's Mate - Cd 8(1993)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/7 The Surgoen's Mate/The Surgeon's Mate - Cd 7(1993)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/7 The Surgoen's Mate/The Surgeon's Mate - Cd 6(1993)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/7 The Surgoen's Mate/The Surgeon's Mate - Cd 5(1993)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/7 The Surgoen's Mate/The Surgeon's Mate - Cd 4(1993)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/7 The Surgoen's Mate/The Surgeon's Mate - Cd 3(1993)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/7 The Surgoen's Mate/The Surgeon's Mate - Cd 2(1993)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/7 The Surgoen's Mate/The Surgeon's Mate - Cd 1(1993)
+  Set 264: The Fortune of War by Patrick O'brian
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/The Fortune Of War - Cd 12(1993)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/The Fortune Of War - Cd 11(1993)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/The Fortune Of War - Cd 10(1993)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/6 The fortune of war/The Fortune Of War - Cd 9(1993)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/6 The fortune of war/The Fortune Of War - Cd 8(1993)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/6 The fortune of war/The Fortune Of War - Cd 7(1993)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/6 The fortune of war/The Fortune Of War - Cd 6(1993)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/6 The fortune of war/The Fortune Of War - Cd 5(1993)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/6 The fortune of war/The Fortune Of War - Cd 4(1993)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/6 The fortune of war/The Fortune Of War - Cd 3(1993)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/6 The fortune of war/The Fortune Of War - Cd 2(1993)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/6 The fortune of war/The Fortune Of War - Cd 1(1993)
+  Set 265: Primo comando by Patrick O' Brian
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Master And Commander - Cd 9(1991)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Master And Commander - Cd 8(1991)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Master And Commander - Cd 7(1991)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Master And Commander - Cd 6(1991)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Master And Commander - Cd 5(1991)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Master And Commander - Cd 4(1991)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Master And Commander - Cd 3(1991)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Master And Commander - Cd 2(1991)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Master And Commander - Cd 1(1991)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/1 Master and Commander/Master And Commander - Cd 15(1991)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/1 Master and Commander/Master And Commander - Cd 14(1991)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/1 Master and Commander/Master And Commander - Cd 13(1991)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/1 Master and Commander/Master And Commander - Cd 12(1991)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/1 Master and Commander/Master And Commander - Cd 11(1991)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/1 Master and Commander/Master And Commander - Cd 10(1991)
+  Set 266: Torchwood: The Exodus Code by John Barrowman, Carole E. Barrowman
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Doctor Who Universe/Torchwood/Torchwood - Another Life - iPod Audiobook
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Torchwood/Torchwood - Another Life/Torchwood - Another Life Disc 3
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Torchwood/Torchwood - Another Life/Torchwood - Another Life Disc 2
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Torchwood/Torchwood - Another Life/Torchwood - Another Life Disc 1
+  Set 267: The Hobbit by J. R. R. Tolkien
+    - P:/04_Media/Audiobooks/J.R.R. Tolkien/J.R.R. Tolkien/Middle-earth/The Hobbit/The Hobbit
+    - P:/04_Media/Audiobooks/Marion Zimmer Bradley/Marion Zimmer Bradley/Darkover/Collection 1-4/Marion Zimmer Bradley Audiobook collection 1 - 4/JRR Tolkien - The Hobbit Audiobook In Proper Order [JabbaJr]
+  Set 268: Preludio a la Fundación [Prelude to Foundation] by Isaac Asimov, Rosa Sánchez de Naveira - translator
+    - P:/04_Media/Audiobooks/Isaac Asimov/Isaac Asimov/Foundation/[AB].Isaac.Asimov.Foundation.Audio.Books.Complete-MaLiBu/Book 6 - Prelude to Foundation
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov/Foundation dled/Book 6 - Prelude to Foundation
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_134/Foundation dled/Book 6 - Prelude to Foundation
+  Set 269: Casino Royale by Ian Fleming
+    - P:/04_Media/Audiobooks/Ian Fleming/Ian Fleming/James bond 007 Audio Books - Ian Fleming/15 James bond 007 Audio Books - Ian Fleming/James Bond - Casino Royale - by Ian Fleming - BBC Radio Audiobook - cheops
+    - P:/04_Media/Audiobooks/Ian Fleming/Ian Fleming/James bond 007 Audio Books - Ian Fleming/15 James bond 007 Audio Books - Ian Fleming/01 - Ian Fleming - Casino Royale_unabridged
+  Set 270: Hitchhikers Guide To The Galaxy-.Macmillan.-READNFO by Douglas Adams
+    - P:/04_Media/Audiobooks/Douglas Adams/Douglas Adams/Hitchhiker's Guide To The Galaxy/Complete/5. Mostly Harmless
+    - P:/04_Media/Audiobooks/Douglas Adams/Douglas Adams/Hitchhiker's Guide To The Galaxy/Complete/4. So Long And Thanks For All The Fish
+    - P:/04_Media/Audiobooks/Douglas Adams/Douglas Adams/Hitchhiker's Guide To The Galaxy/Complete/3. Life The Universe And Everything
+    - P:/04_Media/Audiobooks/Douglas Adams/Douglas Adams/Hitchhiker's Guide To The Galaxy/Complete/2 Restaurant At The End Of The Universe
+    - P:/04_Media/Audiobooks/Douglas Adams/Douglas Adams/Hitchhiker's Guide To The Galaxy/Complete/1. Hitchhikers Guide To The Galaxy
+    - P:/04_Media/Audiobooks/Douglas Adams/Douglas Adams/Douglas Adams - Hitchhiker's Guide To The Galaxy (Stephen Fry and Martin Freeman)/Douglas Adams - Hitchhiker's Guide To The Galaxy (Stephen Fry and Martin Freeman)/3. Life The Universe And Everything
+    - P:/04_Media/Audiobooks/Douglas Adams/Douglas Adams/Douglas Adams - Hitchhiker's Guide To The Galaxy (Stephen Fry and Martin Freeman)/Douglas Adams - Hitchhiker's Guide To The Galaxy (Stephen Fry and Martin Freeman)/2 Restaurant At The End Of The Universe
+    - P:/04_Media/Audiobooks/Douglas Adams/Douglas Adams/Hitchhiker's Guide to the Galaxy/Complete/5. Mostly Harmless
+    - P:/04_Media/Audiobooks/Douglas Adams/Douglas Adams/Hitchhiker's Guide to the Galaxy/Complete/4. So Long And Thanks For All The Fish
+    - P:/04_Media/Audiobooks/Douglas Adams/Douglas Adams/Hitchhiker's Guide to the Galaxy/Complete/3. Life The Universe And Everything
+    - P:/04_Media/Audiobooks/Douglas Adams/Douglas Adams/Hitchhiker's Guide to the Galaxy/Complete/2 Restaurant At The End Of The Universe
+    - P:/04_Media/Audiobooks/Douglas Adams/Douglas Adams/Hitchhiker's Guide to the Galaxy/Complete/1. Hitchhikers Guide To The Galaxy
+  Set 271: Lamb by Christopher Moore
+    - P:/04_Media/Audiobooks/Christopher Moore/Christopher Moore/Christopher Moore/Christopher Moore/Lamb The Gospel According to Biff, Christ's Childhood Pal
+    - P:/04_Media/Audiobooks/Comedy/Comedy/Comedy/Comedy/Comedy/Comedy/Comedy
+  Set 272: Sweet Addiction by Bella Matthews
+    - P:/04_Media/Audiobooks/C.S. Lewis/C.S. Lewis/The Chronicles of Narnia/BBC Audio/5 The Voyage of the Dawn Treader
+    - P:/04_Media/Audiobooks/C.S. Lewis/C.S. Lewis/The Chronicles of Narnia/BBC Audio/The Chronicles of Narnia (BBC)/7 The Last Battle
+    - P:/04_Media/Audiobooks/C.S. Lewis/C.S. Lewis/The Chronicles of Narnia/BBC Audio/The Chronicles of Narnia (BBC)/6 The Silver Chair
+    - P:/04_Media/Audiobooks/C.S. Lewis/C.S. Lewis/The Chronicles of Narnia/BBC Audio/The Chronicles of Narnia (BBC)/4 Prince Caspian
+    - P:/04_Media/Audiobooks/C.S. Lewis/C.S. Lewis/The Chronicles of Narnia/BBC Audio/The Chronicles of Narnia (BBC)/3 The Horse and His Boy
+    - P:/04_Media/Audiobooks/C.S. Lewis/C.S. Lewis/The Chronicles of Narnia/BBC Audio/The Chronicles of Narnia (BBC)/2 The Lion, The Witch and The Wardrobe
+    - P:/04_Media/Audiobooks/C.S. Lewis/C.S. Lewis/The Chronicles of Narnia/BBC Audio/The Chronicles of Narnia (BBC)/1 The Magician's Nephew
+  Set 273: Camel Spiders: Amazing Facts and Myths About Camel Spiders by Hathai Ross
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Graphic Novel/Marvel audio books/Marvel -The Amazing Spiderman (BBC-256k)/The Amazing Spiderman CD2
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Graphic Novel/Marvel audio books/Marvel -The Amazing Spiderman (BBC-256k)/The Amazing Spiderman CD1
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Marvel/Audio Books/Marvel audio books/Marvel audio books/Marvel -The Amazing Spiderman (BBC-256k)/The Amazing Spiderman CD2
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Marvel/Audio Books/Marvel audio books/Marvel audio books/Marvel -The Amazing Spiderman (BBC-256k)/The Amazing Spiderman CD1
+  Set 274: Miles Morales by Jason Reynolds
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Graphic Novel/Marvel audio books/Jason Reynolds - Miles Morales Spider-Man/Jason Reynolds - Miles Morales Spider-Man
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Marvel/Audio Books/Marvel audio books/Marvel audio books/Jason Reynolds - Miles Morales Spider-Man/Jason Reynolds - Miles Morales Spider-Man
+  Set 275: Foundation (Apple Series Tie-in Edition) by Isaac Asimov
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_1/Isaac Asimov - Foundation 01 - Foundation (new version - Scott Brick)
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_0/Isaac Asimov - Foundation 01 - Foundation (new version - Scott Brick)
+    - P:/04_Media/Audiobooks/Sci-FI/Sci-FI/Sci-FI/Isaac Asimov/Isaac Asimov - Foundation 01 - Foundation (new version - Scott Brick)
+  Set 276: Hacia la Fundación [Forward the Foundation] by Isaac Asimov, Albert Solé Company - translator
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov/Foundation dled/Book 2 - Foundation and Empire
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Sci-FI/Isaac Asimov_dup_134/Foundation dled/Book 2 - Foundation and Empire
+  Set 277: El misterio de Salem's Lot [Salem's Lot] by Stephen King, Marta Isabel Gustavino Castro
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Horror/Stephen King (45 novels - 69)/Stephen King - Salems Lot/Salem's Lot (Disc 15)
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Horror/Stephen King (45 novels - 69)/Stephen King - Salems Lot/Salem's Lot (Disc 14)
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Horror/Stephen King (45 novels - 69)/Stephen King - Salems Lot/Salem's Lot (Disc 13)
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Horror/Stephen King (45 novels - 69)/Stephen King - Salems Lot/Salem's Lot (Disc 12)
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Horror/Stephen King (45 novels - 69)/Stephen King - Salems Lot/Salem's Lot (Disc 11)
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Horror/Stephen King (45 novels - 69)/Stephen King - Salems Lot/Salem's Lot (Disc 10)
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Horror/Stephen King (45 novels - 69)/Stephen King - Salems Lot/Salem's Lot (Disc 09)
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Horror/Stephen King (45 novels - 69)/Stephen King - Salems Lot/Salem's Lot (Disc 08)
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Horror/Stephen King (45 novels - 69)/Stephen King - Salems Lot/Salem's Lot (Disc 07)
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Horror/Stephen King (45 novels - 69)/Stephen King - Salems Lot/Salem's Lot (Disc 06)
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Horror/Stephen King (45 novels - 69)/Stephen King - Salems Lot/Salem's Lot (Disc 05)
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Horror/Stephen King (45 novels - 69)/Stephen King - Salems Lot/Salem's Lot (Disc 04)
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Horror/Stephen King (45 novels - 69)/Stephen King - Salems Lot/Salem's Lot (Disc 03)
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Horror/Stephen King (45 novels - 69)/Stephen King - Salems Lot/Salem's Lot (Disc 02)
+    - P:/04_Media/Audiobooks/To_Sort/From_Archive/Horror/Stephen King (45 novels - 69)/Stephen King - Salems Lot/Salem's Lot (Disc 01)
+  Set 278: La Torre Oscura [The Dark Tower VII] by Stephen King, Verónica Canales Medina - translator
+    - P:/04_Media/Audiobooks/Stephen King/Stephen King/The Dark Tower/Complete Collection/Complete Dark Tower audiobook collection/Stephen King - Dark Tower 7 - The Dark Tower
+    - P:/04_Media/Audiobooks/Stephen King/Stephen King/The Dark Tower/Complete Collection/Complete Dark Tower audiobook collection/Stephen King - Dark Tower 5 - Wolves of the Calla
+    - P:/04_Media/Audiobooks/Stephen King/Stephen King/The Dark Tower/Complete Collection/Complete Dark Tower audiobook collection/Stephen King - Dark Tower 4 - Wizard and Glass
+  Set 279: El pistolero [The Gunslinger] by Stephen King
+    - P:/04_Media/Audiobooks/Stephen King/Stephen King/The Dark Tower/Complete Collection/Complete Dark Tower audiobook collection/Stephen King - Dark Tower 6 - Song of Susannah
+    - P:/04_Media/Audiobooks/Stephen King/Stephen King/The Dark Tower/Complete Collection/Complete Dark Tower audiobook collection/Stephen King - Dark Tower 3 - The waist Lands
+    - P:/04_Media/Audiobooks/Stephen King/Stephen King/The Dark Tower/Complete Collection/Complete Dark Tower audiobook collection/Stephen King - Dark Tower 2 - Drawing of the three
+  Set 280: Dark Tower I by Stephen King
+    - P:/04_Media/Audiobooks/Stephen King/Stephen King/The Dark Tower/Complete Collection/Complete Dark Tower audiobook collection/Stephen King - Dark Tower 1 - The Gunslinger - Revised Edition
+    - P:/04_Media/Audiobooks/Stephen King/Stephen King/The Dark Tower/Complete Collection/Complete Dark Tower audiobook collection/Audio Book - Stephen King - The Dark Tower - The Gunslinger Complete.mp3
+    - P:/04_Media/Audiobooks/Stephen King/Stephen King/The Dark Tower/Complete Collection/Complete Dark Tower audiobook collection/Stephen King - (The Dark Tower VII) The Dark Tower/D22
+    - P:/04_Media/Audiobooks/Stephen King/Stephen King/The Dark Tower/Complete Collection/Complete Dark Tower audiobook collection/Stephen King - (The Dark Tower VII) The Dark Tower/D21
+    - P:/04_Media/Audiobooks/Stephen King/Stephen King/The Dark Tower/Complete Collection/Complete Dark Tower audiobook collection/Stephen King - (The Dark Tower VII) The Dark Tower/D20
+    - P:/04_Media/Audiobooks/Stephen King/Stephen King/The Dark Tower/Complete Collection/Complete Dark Tower audiobook collection/Stephen King - (The Dark Tower VII) The Dark Tower/D19
+    - P:/04_Media/Audiobooks/Stephen King/Stephen King/The Dark Tower/Complete Collection/Complete Dark Tower audiobook collection/Stephen King - (The Dark Tower VII) The Dark Tower/D18
+    - P:/04_Media/Audiobooks/Stephen King/Stephen King/The Dark Tower/Complete Collection/Complete Dark Tower audiobook collection/Stephen King - (The Dark Tower VII) The Dark Tower/D17
+    - P:/04_Media/Audiobooks/Stephen King/Stephen King/The Dark Tower/Complete Collection/Complete Dark Tower audiobook collection/Stephen King - (The Dark Tower VII) The Dark Tower/D16
+    - P:/04_Media/Audiobooks/Stephen King/Stephen King/The Dark Tower/Complete Collection/Complete Dark Tower audiobook collection/Stephen King - (The Dark Tower VII) The Dark Tower/D15
+    - P:/04_Media/Audiobooks/Stephen King/Stephen King/The Dark Tower/Complete Collection/Complete Dark Tower audiobook collection/Stephen King - (The Dark Tower VII) The Dark Tower/D14
+    - P:/04_Media/Audiobooks/Stephen King/Stephen King/The Dark Tower/Complete Collection/Complete Dark Tower audiobook collection/Stephen King - (The Dark Tower VII) The Dark Tower/D13
+    - P:/04_Media/Audiobooks/Stephen King/Stephen King/The Dark Tower/Complete Collection/Complete Dark Tower audiobook collection/Stephen King - (The Dark Tower VII) The Dark Tower/D12
+    - P:/04_Media/Audiobooks/Stephen King/Stephen King/The Dark Tower/Complete Collection/Complete Dark Tower audiobook collection/Stephen King - (The Dark Tower VII) The Dark Tower/D11
+    - P:/04_Media/Audiobooks/Stephen King/Stephen King/The Dark Tower/Complete Collection/Complete Dark Tower audiobook collection/Stephen King - (The Dark Tower VII) The Dark Tower/D10
+    - P:/04_Media/Audiobooks/Stephen King/Stephen King/The Dark Tower/Complete Collection/Complete Dark Tower audiobook collection/Stephen King - (The Dark Tower VII) The Dark Tower/D09
+    - P:/04_Media/Audiobooks/Stephen King/Stephen King/The Dark Tower/Complete Collection/Complete Dark Tower audiobook collection/Stephen King - (The Dark Tower VII) The Dark Tower/D08
+    - P:/04_Media/Audiobooks/Stephen King/Stephen King/The Dark Tower/Complete Collection/Complete Dark Tower audiobook collection/Stephen King - (The Dark Tower VII) The Dark Tower/D07
+    - P:/04_Media/Audiobooks/Stephen King/Stephen King/The Dark Tower/Complete Collection/Complete Dark Tower audiobook collection/Stephen King - (The Dark Tower VII) The Dark Tower/D06
+    - P:/04_Media/Audiobooks/Stephen King/Stephen King/The Dark Tower/Complete Collection/Complete Dark Tower audiobook collection/Stephen King - (The Dark Tower VII) The Dark Tower/D05
+    - P:/04_Media/Audiobooks/Stephen King/Stephen King/The Dark Tower/Complete Collection/Complete Dark Tower audiobook collection/Stephen King - (The Dark Tower VII) The Dark Tower/D04
+    - P:/04_Media/Audiobooks/Stephen King/Stephen King/The Dark Tower/Complete Collection/Complete Dark Tower audiobook collection/Stephen King - (The Dark Tower VII) The Dark Tower/D03
+    - P:/04_Media/Audiobooks/Stephen King/Stephen King/The Dark Tower/Complete Collection/Complete Dark Tower audiobook collection/Stephen King - (The Dark Tower VII) The Dark Tower/D02
+    - P:/04_Media/Audiobooks/Stephen King/Stephen King/The Dark Tower/Complete Collection/Complete Dark Tower audiobook collection/Stephen King - (The Dark Tower VII) The Dark Tower/D01
+  Set 281: Children of the Mind by Orson Scott Card
+    - P:/04_Media/Audiobooks/Orson Scott Card/Orson Scott Card/Ender's Game Series/Collection/Orson Scott Card Audiobook Collection @ Fenopy.com/Orson Scott Card - Children of the Mind
+    - P:/04_Media/Audiobooks/Orson Scott Card/Orson Scott Card/Ender's Game Series/Collection/Orson Scott Card Audiobook Collection @ Fenopy.com/Orson Scott Card - Enderverse 1 - 8/4 - Childeren of the Mind
+  Set 282: Green Lantern - Sleepers by Dc, MARVEL - GraphicAudio Collection
+    - P:/04_Media/Audiobooks/DC & MARVEL/DC & MARVEL/DC & MARVEL - GraphicAudio Collection/DC & MARVEL - GraphicAudio Collection/DC Comics - GraphicAudio Collection/Green Lantern - Sleepers - Book 3
+    - P:/04_Media/Audiobooks/DC & MARVEL/DC & MARVEL/DC & MARVEL - GraphicAudio Collection/DC & MARVEL - GraphicAudio Collection/DC Comics - GraphicAudio Collection/Green Lantern - Sleepers - Book 2
+    - P:/04_Media/Audiobooks/DC & MARVEL/DC & MARVEL/DC & MARVEL - GraphicAudio Collection/DC & MARVEL - GraphicAudio Collection/DC Comics - GraphicAudio Collection/Green Lantern - Sleepers - Book 1
+  Set 283: Deception Point by Dan Brown
+    - P:/04_Media/Audiobooks/Dan Brown/Dan Brown/Dan Brown - All 4 books/Dan Brown - All 4 books/Dan Brown - Deception Point (48kbps)/Deception Point(15 of 15)
+    - P:/04_Media/Audiobooks/Dan Brown/Dan Brown/Dan Brown - All 4 books/Dan Brown - All 4 books/Dan Brown - Deception Point (48kbps)/Deception Point(14 of 15)
+    - P:/04_Media/Audiobooks/Dan Brown/Dan Brown/Dan Brown - All 4 books/Dan Brown - All 4 books/Dan Brown - Deception Point (48kbps)/Deception Point(13 of 15)
+    - P:/04_Media/Audiobooks/Dan Brown/Dan Brown/Dan Brown - All 4 books/Dan Brown - All 4 books/Dan Brown - Deception Point (48kbps)/Deception Point(12 of 15)
+    - P:/04_Media/Audiobooks/Dan Brown/Dan Brown/Dan Brown - All 4 books/Dan Brown - All 4 books/Dan Brown - Deception Point (48kbps)/Deception Point(11 of 15)
+    - P:/04_Media/Audiobooks/Dan Brown/Dan Brown/Dan Brown - All 4 books/Dan Brown - All 4 books/Dan Brown - Deception Point (48kbps)/Deception Point(10 of 15)
+    - P:/04_Media/Audiobooks/Dan Brown/Dan Brown/Dan Brown - All 4 books/Dan Brown - All 4 books/Dan Brown - Deception Point (48kbps)/Deception Point(09 of 15)
+    - P:/04_Media/Audiobooks/Dan Brown/Dan Brown/Dan Brown - All 4 books/Dan Brown - All 4 books/Dan Brown - Deception Point (48kbps)/Deception Point(08 of 15)
+    - P:/04_Media/Audiobooks/Dan Brown/Dan Brown/Dan Brown - All 4 books/Dan Brown - All 4 books/Dan Brown - Deception Point (48kbps)/Deception Point(07 of 15)
+    - P:/04_Media/Audiobooks/Dan Brown/Dan Brown/Dan Brown - All 4 books/Dan Brown - All 4 books/Dan Brown - Deception Point (48kbps)/Deception Point(06 of 15)
+    - P:/04_Media/Audiobooks/Dan Brown/Dan Brown/Dan Brown - All 4 books/Dan Brown - All 4 books/Dan Brown - Deception Point (48kbps)/Deception Point(05 of 15)
+    - P:/04_Media/Audiobooks/Dan Brown/Dan Brown/Dan Brown - All 4 books/Dan Brown - All 4 books/Dan Brown - Deception Point (48kbps)/Deception Point(04 of 15)
+    - P:/04_Media/Audiobooks/Dan Brown/Dan Brown/Dan Brown - All 4 books/Dan Brown - All 4 books/Dan Brown - Deception Point (48kbps)/Deception Point(03 of 15)
+    - P:/04_Media/Audiobooks/Dan Brown/Dan Brown/Dan Brown - All 4 books/Dan Brown - All 4 books/Dan Brown - Deception Point (48kbps)/Deception Point(02 of 15)
+    - P:/04_Media/Audiobooks/Dan Brown/Dan Brown/Dan Brown - All 4 books/Dan Brown - All 4 books/Dan Brown - Deception Point (48kbps)/Deception Point(01 of 15)
+  Set 284: Angels & Demons Disc 2 by Dan Brown
+    - P:/04_Media/Audiobooks/Dan Brown/Dan Brown/Dan Brown - All 4 books/Dan Brown - All 4 books/Dan Brown - Angels & Demons (128 Kbps)/Dan Brown Angels & Demons Disk2
+    - P:/04_Media/Audiobooks/Dan Brown/Dan Brown/Dan Brown - All 4 books/Dan Brown - All 4 books/Dan Brown - Angels & Demons (128 Kbps)/Dan Brown Angels & Demons Disk1
+  Set 285: Astonishing X-Men: Gifted by Peter David, Marvel
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Marvel/Marvel audio books/Marvel audio books/Marvel audio books/Marvel - Astonishing X-Men - Gifted [Graphic Audio 256]
+    - P:/04_Media/Audiobooks/Multiple Authors/Multiple Authors/Marvel/Audio Books/Marvel audio books/Marvel audio books/Marvel - Astonishing X-Men - Gifted [Graphic Audio 256]
+  Set 286: Blood Communion by Anne Rice
+    - P:/04_Media/Audiobooks/Anne Rice/Anne Rice/Vampire Chronicles/Collection/Anne Rice/TVC02 - The Vampire Lestat/The Vampire Lestat Disc 20
+    - P:/04_Media/Audiobooks/Anne Rice/Anne Rice/Vampire Chronicles/Collection/Anne Rice/TVC02 - The Vampire Lestat/The Vampire Lestat Disc 19
+    - P:/04_Media/Audiobooks/Anne Rice/Anne Rice/Vampire Chronicles/Collection/Anne Rice/TVC02 - The Vampire Lestat/The Vampire Lestat Disc 18
+    - P:/04_Media/Audiobooks/Anne Rice/Anne Rice/Vampire Chronicles/Collection/Anne Rice/TVC02 - The Vampire Lestat/The Vampire Lestat Disc 17
+    - P:/04_Media/Audiobooks/Anne Rice/Anne Rice/Vampire Chronicles/Collection/Anne Rice/TVC02 - The Vampire Lestat/The Vampire Lestat Disc 16
+    - P:/04_Media/Audiobooks/Anne Rice/Anne Rice/Vampire Chronicles/Collection/Anne Rice/TVC02 - The Vampire Lestat/The Vampire Lestat Disc 15
+    - P:/04_Media/Audiobooks/Anne Rice/Anne Rice/Vampire Chronicles/Collection/Anne Rice/TVC02 - The Vampire Lestat/The Vampire Lestat Disc 14
+    - P:/04_Media/Audiobooks/Anne Rice/Anne Rice/Vampire Chronicles/Collection/Anne Rice/TVC02 - The Vampire Lestat/The Vampire Lestat Disc 13
+    - P:/04_Media/Audiobooks/Anne Rice/Anne Rice/Vampire Chronicles/Collection/Anne Rice/TVC02 - The Vampire Lestat/The Vampire Lestat Disc 12
+    - P:/04_Media/Audiobooks/Anne Rice/Anne Rice/Vampire Chronicles/Collection/Anne Rice/TVC02 - The Vampire Lestat/The Vampire Lestat Disc 11
+    - P:/04_Media/Audiobooks/Anne Rice/Anne Rice/Vampire Chronicles/Collection/Anne Rice/TVC02 - The Vampire Lestat/The Vampire Lestat Disc 10
+    - P:/04_Media/Audiobooks/Anne Rice/Anne Rice/Vampire Chronicles/Collection/Anne Rice/TVC02 - The Vampire Lestat/The Vampire Lestat Disc 09
+    - P:/04_Media/Audiobooks/Anne Rice/Anne Rice/Vampire Chronicles/Collection/Anne Rice/TVC02 - The Vampire Lestat/The Vampire Lestat Disc 08
+    - P:/04_Media/Audiobooks/Anne Rice/Anne Rice/Vampire Chronicles/Collection/Anne Rice/TVC02 - The Vampire Lestat/The Vampire Lestat Disc 07
+    - P:/04_Media/Audiobooks/Anne Rice/Anne Rice/Vampire Chronicles/Collection/Anne Rice/TVC02 - The Vampire Lestat/The Vampire Lestat Disc 06
+    - P:/04_Media/Audiobooks/Anne Rice/Anne Rice/Vampire Chronicles/Collection/Anne Rice/TVC02 - The Vampire Lestat/The Vampire Lestat Disc 05
+    - P:/04_Media/Audiobooks/Anne Rice/Anne Rice/Vampire Chronicles/Collection/Anne Rice/TVC02 - The Vampire Lestat/The Vampire Lestat Disc 04
+    - P:/04_Media/Audiobooks/Anne Rice/Anne Rice/Vampire Chronicles/Collection/Anne Rice/TVC02 - The Vampire Lestat/The Vampire Lestat Disc 03
+    - P:/04_Media/Audiobooks/Anne Rice/Anne Rice/Vampire Chronicles/Collection/Anne Rice/TVC02 - The Vampire Lestat/The Vampire Lestat Disc 02
+    - P:/04_Media/Audiobooks/Anne Rice/Anne Rice/Vampire Chronicles/Collection/Anne Rice/TVC02 - The Vampire Lestat/The Vampire Lestat Disc 01
+  Set 287: Interview with the Vampire by Anne Rice
+    - P:/04_Media/Audiobooks/Anne Rice/Anne Rice/Vampire Chronicles/Collection/Anne Rice/TVC01 - Interview With the Vampire/Interview With the Vampire Disc 13
+    - P:/04_Media/Audiobooks/Anne Rice/Anne Rice/Vampire Chronicles/Collection/Anne Rice/TVC01 - Interview With the Vampire/Interview With the Vampire Disc 12
+    - P:/04_Media/Audiobooks/Anne Rice/Anne Rice/Vampire Chronicles/Collection/Anne Rice/TVC01 - Interview With the Vampire/Interview With the Vampire Disc 11
+    - P:/04_Media/Audiobooks/Anne Rice/Anne Rice/Vampire Chronicles/Collection/Anne Rice/TVC01 - Interview With the Vampire/Interview With the Vampire Disc 10
+    - P:/04_Media/Audiobooks/Anne Rice/Anne Rice/Vampire Chronicles/Collection/Anne Rice/TVC01 - Interview With the Vampire/Interview With the Vampire Disc 09
+    - P:/04_Media/Audiobooks/Anne Rice/Anne Rice/Vampire Chronicles/Collection/Anne Rice/TVC01 - Interview With the Vampire/Interview With the Vampire Disc 08
+    - P:/04_Media/Audiobooks/Anne Rice/Anne Rice/Vampire Chronicles/Collection/Anne Rice/TVC01 - Interview With the Vampire/Interview With the Vampire Disc 07
+    - P:/04_Media/Audiobooks/Anne Rice/Anne Rice/Vampire Chronicles/Collection/Anne Rice/TVC01 - Interview With the Vampire/Interview With the Vampire Disc 06
+    - P:/04_Media/Audiobooks/Anne Rice/Anne Rice/Vampire Chronicles/Collection/Anne Rice/TVC01 - Interview With the Vampire/Interview With the Vampire Disc 05
+    - P:/04_Media/Audiobooks/Anne Rice/Anne Rice/Vampire Chronicles/Collection/Anne Rice/TVC01 - Interview With the Vampire/Interview With the Vampire Disc 04
+    - P:/04_Media/Audiobooks/Anne Rice/Anne Rice/Vampire Chronicles/Collection/Anne Rice/TVC01 - Interview With the Vampire/Interview With the Vampire Disc 03
+    - P:/04_Media/Audiobooks/Anne Rice/Anne Rice/Vampire Chronicles/Collection/Anne Rice/TVC01 - Interview With the Vampire/Interview With the Vampire Disc 02
+    - P:/04_Media/Audiobooks/Anne Rice/Anne Rice/Vampire Chronicles/Collection/Anne Rice/TVC01 - Interview With the Vampire/Interview With the Vampire Disc 01
+  Set 288: Treason's Harbour by Patrick O'brian
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/9 Treason's Harbour/Treason's Harbour - Cd 9(1994)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/9 Treason's Harbour/Treason's Harbour - Cd 8(1994)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/9 Treason's Harbour/Treason's Harbour - Cd 7(1994)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/9 Treason's Harbour/Treason's Harbour - Cd 6(1994)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/9 Treason's Harbour/Treason's Harbour - Cd 5(1994)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/9 Treason's Harbour/Treason's Harbour - Cd 4(1994)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/9 Treason's Harbour/Treason's Harbour - Cd 3(1994)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/9 Treason's Harbour/Treason's Harbour - Cd 2(1994)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/9 Treason's Harbour/Treason's Harbour - Cd 11(1994)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/9 Treason's Harbour/Treason's Harbour - Cd 10(1994)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/9 Treason's Harbour/Treason's Harbour - Cd 1(1994)
+  Set 289: Desolation Island by Patrick O'brian
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/5 Desolation Island/Desolation Island - Cd 9(1993)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/5 Desolation Island/Desolation Island - Cd 8(1993)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/5 Desolation Island/Desolation Island - Cd 7(1993)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/5 Desolation Island/Desolation Island - Cd 6(1993)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/5 Desolation Island/Desolation Island - Cd 5(1993)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/5 Desolation Island/Desolation Island - Cd 4(1993)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/5 Desolation Island/Desolation Island - Cd 3(1993)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/5 Desolation Island/Desolation Island - Cd 2(1993)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/5 Desolation Island/Desolation Island - Cd 11(1993)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/5 Desolation Island/Desolation Island - Cd 10(1993)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/5 Desolation Island/Desolation Island - Cd 1(1993)
+  Set 290: The Mauritius Command by Patrick O'brian
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/4 The Mauritius Command/The Mauritius Command - Cd 9(1992)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/4 The Mauritius Command/The Mauritius Command - Cd 8(1992)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/4 The Mauritius Command/The Mauritius Command - Cd 7(1992)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/4 The Mauritius Command/The Mauritius Command - Cd 6(1992)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/4 The Mauritius Command/The Mauritius Command - Cd 5(1992)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/4 The Mauritius Command/The Mauritius Command - Cd 4(1992)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/4 The Mauritius Command/The Mauritius Command - Cd 3(1992)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/4 The Mauritius Command/The Mauritius Command - Cd 2(1992)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/4 The Mauritius Command/The Mauritius Command - Cd 12(1992)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/4 The Mauritius Command/The Mauritius Command - Cd 11(1992)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/4 The Mauritius Command/The Mauritius Command - Cd 10(1992)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/4 The Mauritius Command/The Mauritius Command - Cd 1(1992)
+  Set 291: The Far Side of the World by Patrick O'brian
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/10 The Far side of the world/The Far Side Of The World - Cd 9(1992)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/10 The Far side of the world/The Far Side Of The World - Cd 8(1992)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/10 The Far side of the world/The Far Side Of The World - Cd 7(1992)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/10 The Far side of the world/The Far Side Of The World - Cd 6(1992)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/10 The Far side of the world/The Far Side Of The World - Cd 5(1992)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/10 The Far side of the world/The Far Side Of The World - Cd 4(1992)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/10 The Far side of the world/The Far Side Of The World - Cd 3(1992)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/10 The Far side of the world/The Far Side Of The World - Cd 2(1992)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/10 The Far side of the world/The Far Side Of The World - Cd 13(1992)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/10 The Far side of the world/The Far Side Of The World - Cd 12(1992)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/10 The Far side of the world/The Far Side Of The World - Cd 11(1992)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/10 The Far side of the world/The Far Side Of The World - Cd 10(1992)
+    - P:/04_Media/Audiobooks/Patrick O'Brian/Patrick O'Brian/Aubrey-Maturin/Patrick O'Brian/Patrick O'Brian/Patrick O'Brian/10 The Far side of the world/The Far Side Of The World - Cd 1(1992)
+  Set 292: Blood Canticle by Anne Rice
+    - P:/04_Media/Audiobooks/Anne Rice/Anne Rice/Vampire Chronicles/Collection/Anne Rice/Anne Rice (TVC)/TVC10 - Blood Canticle/Blood Canticle Disc 9
+    - P:/04_Media/Audiobooks/Anne Rice/Anne Rice/Vampire Chronicles/Collection/Anne Rice/Anne Rice (TVC)/TVC10 - Blood Canticle/Blood Canticle Disc 8
+    - P:/04_Media/Audiobooks/Anne Rice/Anne Rice/Vampire Chronicles/Collection/Anne Rice/Anne Rice (TVC)/TVC10 - Blood Canticle/Blood Canticle Disc 7
+    - P:/04_Media/Audiobooks/Anne Rice/Anne Rice/Vampire Chronicles/Collection/Anne Rice/Anne Rice (TVC)/TVC10 - Blood Canticle/Blood Canticle Disc 6
+    - P:/04_Media/Audiobooks/Anne Rice/Anne Rice/Vampire Chronicles/Collection/Anne Rice/Anne Rice (TVC)/TVC10 - Blood Canticle/Blood Canticle Disc 5
+    - P:/04_Media/Audiobooks/Anne Rice/Anne Rice/Vampire Chronicles/Collection/Anne Rice/Anne Rice (TVC)/TVC10 - Blood Canticle/Blood Canticle Disc 4
+    - P:/04_Media/Audiobooks/Anne Rice/Anne Rice/Vampire Chronicles/Collection/Anne Rice/Anne Rice (TVC)/TVC10 - Blood Canticle/Blood Canticle Disc 3
+    - P:/04_Media/Audiobooks/Anne Rice/Anne Rice/Vampire Chronicles/Collection/Anne Rice/Anne Rice (TVC)/TVC10 - Blood Canticle/Blood Canticle Disc 2
+    - P:/04_Media/Audiobooks/Anne Rice/Anne Rice/Vampire Chronicles/Collection/Anne Rice/Anne Rice (TVC)/TVC10 - Blood Canticle/Blood Canticle Disc 1
