@@ -6,6 +6,8 @@ param(
     [string[]]$TargetDirectories
 )
 
+$ErrorActionPreference = "Stop"
+
 $LogFile = "Manual_Review_Log.csv"
 if (-not (Test-Path -LiteralPath $LogFile)) {
     "TargetFolder,Reason" | Out-File -LiteralPath $LogFile -Encoding utf8
@@ -27,12 +29,15 @@ function Get-FolderSize {
 
 $MasterHashtable = @{}
 
-# Scan Master
+# Scan Master for Anchored Folders (Leaf folders physically containing audio files)
 try {
-    $MasterBooks = Get-ChildItem -LiteralPath $MasterDirectory -Directory
-    foreach ($Book in $MasterBooks) {
-        $CleanTitle = Get-CleanTitle -FolderName $Book.Name
-        $MasterHashtable[$CleanTitle] = $Book.FullName
+    $AllMasterDirs = @(Get-ChildItem -LiteralPath $MasterDirectory -Recurse -Directory)
+    foreach ($Dir in $AllMasterDirs) {
+        $AudioFiles = @(Get-ChildItem -LiteralPath $Dir.FullName -File | Where-Object { $_.Extension -match '(?i)\.(mp3|m4b|m4a|flac)$' })
+        if ($AudioFiles.Count -gt 0) {
+            $CleanTitle = Get-CleanTitle -FolderName $Dir.Name
+            $MasterHashtable[$CleanTitle] = $Dir.FullName
+        }
     }
 } catch {
     Write-Error "Failed to scan MasterDirectory: $_"
@@ -42,49 +47,70 @@ try {
 # Scan Targets
 foreach ($TargetRoot in $TargetDirectories) {
     try {
-        $TargetBooks = Get-ChildItem -LiteralPath $TargetRoot -Directory
+        $AllTargetDirs = @(Get-ChildItem -LiteralPath $TargetRoot -Recurse -Directory)
         $ToDeleteDir = Join-Path -Path $TargetRoot -ChildPath "To Delete Audio Books"
         
         if (-not (Test-Path -LiteralPath $ToDeleteDir)) {
             New-Item -Path $ToDeleteDir -ItemType Directory -Force | Out-Null
         }
 
-        foreach ($Book in $TargetBooks) {
-            if ($Book.Name -eq "To Delete Audio Books") { continue }
-            
-            # Check Empty Shell
-            $AudioFiles = Get-ChildItem -LiteralPath $Book.FullName -Recurse -File | Where-Object { $_.Extension -match '(?i)\.(mp3|m4b|m4a|flac)$' }
-            if (@($AudioFiles).Count -eq 0) {
-                # Empty Shell
-                try {
-                    $Dest = Join-Path -Path $ToDeleteDir -ChildPath $Book.Name
-                    Move-Item -LiteralPath $Book.FullName -Destination $Dest -Force
-                    "$($Book.FullName),Reason: Empty Shell" | Out-File -LiteralPath $LogFile -Append -Encoding utf8
-                } catch {
-                    Write-Error "Failed to move empty shell $($Book.FullName): $_"
-                }
-                continue
-            }
+        $AnchoredFolders = @()
+        $EmptyShells = @()
 
-            # Asymmetrical Resolution Engine
-            $CleanTitle = Get-CleanTitle -FolderName $Book.Name
+        foreach ($Dir in $AllTargetDirs) {
+            if ($Dir.FullName -match [regex]::Escape($ToDeleteDir)) { continue }
+            if ($Dir.Name -eq "To Delete Audio Books") { continue }
+            
+            $AudioFiles = @(Get-ChildItem -LiteralPath $Dir.FullName -File | Where-Object { $_.Extension -match '(?i)\.(mp3|m4b|m4a|flac)$' })
+            if ($AudioFiles.Count -gt 0) {
+                $AnchoredFolders += $Dir
+            } else {
+                $RecAudio = @(Get-ChildItem -LiteralPath $Dir.FullName -Recurse -File | Where-Object { $_.Extension -match '(?i)\.(mp3|m4b|m4a|flac)$' })
+                if ($RecAudio.Count -eq 0) {
+                    $EmptyShells += $Dir
+                }
+            }
+        }
+
+        # Process Empty Shells
+        # Sort ascending by depth so we move parents before children, which is fine since moving a parent moves everything
+        $EmptyShells = $EmptyShells | Sort-Object @{Expression={$_.FullName.Length}; Ascending=$true}
+        foreach ($Shell in $EmptyShells) {
+            if (-not (Test-Path -LiteralPath $Shell.FullName)) { continue }
+            try {
+                $Dest = Join-Path -Path $ToDeleteDir -ChildPath $Shell.Name
+                if (Test-Path -LiteralPath $Dest) {
+                    $Dest = $Dest + "_" + (Get-Date -Format "yyyyMMddHHmmss")
+                }
+                Move-Item -LiteralPath $Shell.FullName -Destination $Dest -Force
+                "$($Shell.FullName),Reason: Empty Shell" | Out-File -LiteralPath $LogFile -Append -Encoding utf8
+            } catch {
+                Write-Error "Failed to move empty shell $($Shell.FullName): $_"
+            }
+        }
+
+        # Process Anchored Target Folders
+        foreach ($Anchored in $AnchoredFolders) {
+            if (-not (Test-Path -LiteralPath $Anchored.FullName)) { continue }
+            $CleanTitle = Get-CleanTitle -FolderName $Anchored.Name
             if ($MasterHashtable.ContainsKey($CleanTitle)) {
                 $MasterBookPath = $MasterHashtable[$CleanTitle]
                 $MasterSize = Get-FolderSize -FolderPath $MasterBookPath
-                $TargetSize = Get-FolderSize -FolderPath $Book.FullName
+                $TargetSize = Get-FolderSize -FolderPath $Anchored.FullName
 
                 if ($MasterSize -ge $TargetSize) {
-                    # Master >= Target
                     try {
-                        $Dest = Join-Path -Path $ToDeleteDir -ChildPath $Book.Name
-                        Move-Item -LiteralPath $Book.FullName -Destination $Dest -Force
-                        "$($Book.FullName),Reason: Exact/Inferior Duplicate" | Out-File -LiteralPath $LogFile -Append -Encoding utf8
+                        $Dest = Join-Path -Path $ToDeleteDir -ChildPath $Anchored.Name
+                        if (Test-Path -LiteralPath $Dest) {
+                            $Dest = $Dest + "_" + (Get-Date -Format "yyyyMMddHHmmss")
+                        }
+                        Move-Item -LiteralPath $Anchored.FullName -Destination $Dest -Force
+                        "$($Anchored.FullName),Reason: Exact/Inferior Duplicate" | Out-File -LiteralPath $LogFile -Append -Encoding utf8
                     } catch {
-                        Write-Error "Failed to move inferior duplicate $($Book.FullName): $_"
+                        Write-Error "Failed to move inferior duplicate $($Anchored.FullName): $_"
                     }
                 } else {
-                    # Master < Target
-                    "$($Book.FullName),Reason: Target Superior" | Out-File -LiteralPath $LogFile -Append -Encoding utf8
+                    "$($Anchored.FullName),Reason: Target Superior" | Out-File -LiteralPath $LogFile -Append -Encoding utf8
                 }
             }
         }
