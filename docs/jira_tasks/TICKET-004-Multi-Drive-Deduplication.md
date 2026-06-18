@@ -1,7 +1,7 @@
 # [TICKET-004] Multi-Drive Cloud Deduplication
 
-**Status:** IN PROGRESS
-**Assignee:** Sandbox Developer
+**Status:** [x] DONE
+**Assignee:** Gatekeeper (Merged)
 
 ## Goal Description
 Build `tests/Deduplicate-CloudDrives.ps1`. The script must compare a Master source directory against an array of 4 pCloud directories. For any audiobook found in the pCloud directories that already exists in the Master directory, the script will non-destructively move the pCloud duplicate into a local `To Delete Audio Books` staging folder located inside that specific pCloud directory.
