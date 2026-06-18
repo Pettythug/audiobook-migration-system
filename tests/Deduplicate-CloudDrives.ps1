@@ -49,17 +49,21 @@ foreach ($TargetRoot in $TargetDirectories) {
     try {
         $AllTargetDirs = @(Get-ChildItem -LiteralPath $TargetRoot -Recurse -Directory)
         $ToDeleteDir = Join-Path -Path $TargetRoot -ChildPath "To Delete Audio Books"
+        $ToDeleteEmptyDir = Join-Path -Path $TargetRoot -ChildPath "To Delete Empty Folders"
         
         if (-not (Test-Path -LiteralPath $ToDeleteDir)) {
             New-Item -Path $ToDeleteDir -ItemType Directory -Force | Out-Null
+        }
+        if (-not (Test-Path -LiteralPath $ToDeleteEmptyDir)) {
+            New-Item -Path $ToDeleteEmptyDir -ItemType Directory -Force | Out-Null
         }
 
         $AnchoredFolders = @()
         $EmptyShells = @()
 
         foreach ($Dir in $AllTargetDirs) {
-            if ($Dir.FullName -match [regex]::Escape($ToDeleteDir)) { continue }
-            if ($Dir.Name -eq "To Delete Audio Books") { continue }
+            if ($Dir.FullName -match [regex]::Escape($ToDeleteDir) -or $Dir.FullName -match [regex]::Escape($ToDeleteEmptyDir)) { continue }
+            if ($Dir.Name -eq "To Delete Audio Books" -or $Dir.Name -eq "To Delete Empty Folders") { continue }
             
             $AudioFiles = @(Get-ChildItem -LiteralPath $Dir.FullName -File | Where-Object { $_.Extension -match '(?i)\.(mp3|m4b|m4a|flac)$' })
             if ($AudioFiles.Count -gt 0) {
@@ -78,7 +82,7 @@ foreach ($TargetRoot in $TargetDirectories) {
         foreach ($Shell in $EmptyShells) {
             if (-not (Test-Path -LiteralPath $Shell.FullName)) { continue }
             try {
-                $Dest = Join-Path -Path $ToDeleteDir -ChildPath $Shell.Name
+                $Dest = Join-Path -Path $ToDeleteEmptyDir -ChildPath $Shell.Name
                 if (Test-Path -LiteralPath $Dest) {
                     $Dest = $Dest + "_" + (Get-Date -Format "yyyyMMddHHmmss")
                 }
