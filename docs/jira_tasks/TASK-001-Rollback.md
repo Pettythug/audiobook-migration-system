@@ -1,16 +1,21 @@
 # TASK-001: Cloud Drive Rollback
 
-## Objective
+## 1. Objective
 Restore the `G:\My Drive\pcloud` drive to its original state prior to executing the Content-Aware Deduplication phase.
 
-## Requirements
+## 2. Requirements & Inputs
 - **Input:** `Sandbox_Drive\Manual_Review_Log.csv`
 - **Criteria:** Filter for entries where `Reason = Empty Shell` or `Reason = Exact/Inferior Duplicate`.
-- **Action:** Reconstruct the original path and move the folders from `To Delete Audio Books`/`To Delete Empty Folders` back to their original locations in `G:\My Drive\pcloud`.
-- **Constraint:** MUST USE `Move-Item -WhatIf` to safely simulate the restoration without actually moving files yet.
-- **Output:** A console log (via `Write-Verbose`) detailing exactly what would be moved.
+- **Target Logic:** Reconstruct the original path and move the folders from `To Delete Audio Books` or `To Delete Empty Folders` back to their original `TargetFolder` paths in `G:\My Drive\pcloud`.
 
-## Acceptance Criteria
-- Code executes without error.
-- Try/Catch blocks handle file read issues gracefully.
-- The output clearly proves that the restoration logic maps correctly to the original paths.
+## 3. Strict Execution Constraints
+- **File:** Draft your code in `src/Rollback-CloudDrives.ps1`.
+- **Safety:** MUST USE `Move-Item -WhatIf`. Do not perform physical destructive moves.
+- **Protocol:** You must strictly follow all Universal SRE rules (Try/Catch, StrictMode, Verbose/Error output only).
+
+## 4. Output & Routing Directive
+1. Execute your script using the `-WhatIf` parameter.
+2. Capture the console output.
+3. Create a new file named `docs/jira_tasks/TASK-001-Rollback-Audit.md`.
+4. Write your execution results and console output to that Audit file.
+5. HALT execution. Do not ask for further instructions.
