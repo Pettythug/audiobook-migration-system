@@ -48,7 +48,9 @@ foreach ($row in $csvData) {
         } else {
             "To Delete Audio Books"
         }
-        $stagingRoot = Join-Path -Path $TargetDrive -ChildPath $stagingRootName
+        $topLevelFolder = ($relativePath -split "[\\/]")[0]
+        $stagingRoot = Join-Path -Path $TargetDrive -ChildPath $topLevelFolder
+        $stagingRoot = Join-Path -Path $stagingRoot -ChildPath $stagingRootName
 
         $folderName = Split-Path -Path $resolvedTargetFolder -Leaf
 
