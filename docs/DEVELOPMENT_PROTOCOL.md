@@ -42,9 +42,9 @@
 - `ON_AMBIGUITY`: `HALT_AND_PROMPT_USER`
 
 ## 5. Coding_Standards (Universal SRE + Local Patterns)
-- `ERROR_HANDLING`: `MUST_USE: Try/Catch blocks for all File I/O. Terminating errors must bubble up.`
-- `DRY_RUN_SAFETY`: `REQUIRE: -WhatIf switch support built into all destructive functions.`
-- `LANGUAGE_PRAGMA`: `REQUIRE: Set-StrictMode -Version Latest` at the top of all scripts to catch undeclared variables.
-- `OUTPUT_STREAMS`: `DENY: Write-Host.` `REQUIRE: Write-Verbose` for state tracking and `Write-Error` for failures.
-- `VARIABLE_NAMING`: `REQUIRE: PascalCase for Globals, camelCase for Locals.`
+- `ERROR_HANDLING`: `REQUIRE(Try/Catch) SCOPE(File I/O) ACTION(Throw Terminating Errors)`
+- `DRY_RUN_SAFETY`: `REQUIRE(-WhatIf) SCOPE(Destructive Functions)`
+- `LANGUAGE_PRAGMA`: `REQUIRE(Set-StrictMode -Version Latest) LOCATION(Script Header)`
+- `OUTPUT_STREAMS`: `DENY(Write-Host) REQUIRE(Write-Verbose, Write-Error)`
+- `VARIABLE_NAMING`: `REQUIRE(Global: PascalCase, Local: camelCase)`
 - `DESTRUCTIVE_ACTIONS`: `DENY: Remove-Item. MUST_USE: Move-Item.`
