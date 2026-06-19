@@ -29,6 +29,7 @@
   - `TRACK_EPICS: REQUIRE(docs/jira_board.md)`
   - `ASSIGN_TASKS: REQUIRE(docs/jira_tasks/TASK-*.md)`
   - `TICKET_SYNTAX: REQUIRE(Deterministic_Pseudo_Code) DENY(Conversational_English)`
+  - `TICKET_SECURITY: REQUIRE(SYSTEM_OVERRIDE: HALT_PLANNING_MODE)`
 - `EXECUTION_SEQUENCE`:
   1. `EVALUATE: AUDIT_REPORT`
   2. `IF (Audit == PASS): AWAIT_USER_MERGE_APPROVAL`
@@ -52,7 +53,10 @@
 - `MANAGER_EXECUTION`:
   1. `EVALUATE: System_Requirements`
   2. `EXECUTE: CREATE_FILE(docs/jira_tasks/TASK-*.md, content=[Instructions])`
-  3. `OUTPUT_TO_HUMAN: "Deploy Developer Agent targeting docs/jira_tasks/TASK-*.md"`
+  3. `OUTPUT_TO_HUMAN: [Strict Pseudo-Code Deployment Payload]`
+     - `REQUIRE(Absolute_Workspace_Root)`
+     - `REQUIRE(Absolute_Boot_Sequence_Path)`
+     - `REQUIRE(Absolute_Envelope_Path)`
 - `DEVELOPER_EXECUTION`:
   1. `EVALUATE: READ_FILE(docs/jira_tasks/TASK-*.md)`
   2. `EXECUTE: TASK_LOGIC`
