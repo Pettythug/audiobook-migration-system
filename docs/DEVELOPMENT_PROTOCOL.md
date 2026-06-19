@@ -1,8 +1,8 @@
 # Audiobook Migration System - Local Development Protocol
 
 ## 1. Project_Metadata
-- `Domain`: "Audiobook storage cleanup, deduplication, and file migration across external drives."
-- `Tech_Stack`: `["PowerShell"]`
+- `DOMAIN`: "Audiobook storage cleanup, deduplication, and file migration across external drives."
+- `TECH_STACK`: `["PowerShell"]`
 
 ## 2. Machine_Topology
 - `ALLOW_EXECUTION`: `["/src/*", "/tests/*"]`
@@ -12,13 +12,9 @@
 ## 3. Role Execution & Isolation
 
 ### Role: Sandbox_Developer
-- **Workspace_Access**: `ALLOW: ["/src/*", "/tests/*"]`
-- **Infrastructure_Access**: `DENY: ["/docs/*", "README.md", "GLOBAL_RULES.md"]`
-- **Git_Permissions**:
-  - `ALLOW`: `git checkout -b <manager_assigned_branch>`
-  - `ALLOW`: `git add .`
-  - `ALLOW`: `git commit -m "<msg>"`
-  - `DENY`: `git push *`
+- `WORKSPACE_ACCESS`: `ALLOW(["/src/*", "/tests/*"])`
+- `INFRASTRUCTURE_ACCESS`: `DENY(["/docs/*", "README.md", "GLOBAL_RULES.md"])`
+- `GIT_PERMISSIONS`: `ALLOW([checkout -b, add ., commit -m]) DENY([push *])`
 - `EXECUTION_SEQUENCE`: 
   1. `AWAIT: STATE_CHANGE(docs/jira_tasks/TASK-*.md)`
   2. `EXECUTE: ASSIGNED_TICKET_LOGIC`
@@ -27,8 +23,8 @@
   5. `OUTPUT: AUDIT_REPORT`
 
 ### Role: Manager_Gatekeeper
-- **Workspace_Access**: `ALLOW: ["/*"]`
-- **Git_Permissions**: `ALLOW: ["ALL"]`
+- `WORKSPACE_ACCESS`: `ALLOW(["/*"])`
+- `GIT_PERMISSIONS`: `ALLOW(["ALL"])`
 - `WORK_MANAGEMENT`:
   - `TRACK_EPICS: REQUIRE(docs/jira_board.md)`
   - `ASSIGN_TASKS: REQUIRE(docs/jira_tasks/TASK-*.md)`
@@ -47,4 +43,4 @@
 - `LANGUAGE_PRAGMA`: `REQUIRE(Set-StrictMode -Version Latest) LOCATION(Script Header)`
 - `OUTPUT_STREAMS`: `DENY(Write-Host) REQUIRE(Write-Verbose, Write-Error)`
 - `VARIABLE_NAMING`: `REQUIRE(Global: PascalCase, Local: camelCase)`
-- `DESTRUCTIVE_ACTIONS`: `DENY: Remove-Item. MUST_USE: Move-Item.`
+- `DESTRUCTIVE_ACTIONS`: `DENY(Remove-Item) REQUIRE(Move-Item)`
