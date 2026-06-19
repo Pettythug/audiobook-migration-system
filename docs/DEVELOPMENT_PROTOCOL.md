@@ -28,6 +28,7 @@
 - `WORK_MANAGEMENT`:
   - `TRACK_EPICS: REQUIRE(docs/jira_board.md)`
   - `ASSIGN_TASKS: REQUIRE(docs/jira_tasks/TASK-*.md)`
+  - `TICKET_SYNTAX: REQUIRE(Deterministic_Pseudo_Code) DENY(Conversational_English)`
 - `EXECUTION_SEQUENCE`:
   1. `EVALUATE: AUDIT_REPORT`
   2. `IF (Audit == PASS): AWAIT_USER_MERGE_APPROVAL`

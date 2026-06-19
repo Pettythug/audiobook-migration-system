@@ -1,21 +1,28 @@
-# TASK-001: Cloud Drive Rollback
+# ENVELOPE: TASK-001
 
-## 1. Objective
-Restore the `G:\My Drive\pcloud` drive to its original state prior to executing the Content-Aware Deduplication phase.
+## 1. META
+- `OBJECTIVE`: `EXECUTE(RESTORE_DRIVE_STATE)`
+- `TARGET_DRIVE`: `G:\My Drive\pcloud`
 
-## 2. Requirements & Inputs
-- **Input:** `Sandbox_Drive\Manual_Review_Log.csv`
-- **Criteria:** Filter for entries where `Reason = Empty Shell` or `Reason = Exact/Inferior Duplicate`.
-- **Target Logic:** Reconstruct the original path and move the folders from `To Delete Audio Books` or `To Delete Empty Folders` back to their original `TargetFolder` paths in `G:\My Drive\pcloud`.
+## 2. INPUT_PARAMETERS
+- `DATA_SOURCE`: `REQUIRE(READ: Sandbox_Drive\Manual_Review_Log.csv)`
+- `FILTER_CRITERIA`: `[Reason == "Empty Shell" OR Reason == "Exact/Inferior Duplicate"]`
 
-## 3. Strict Execution Constraints
-- **File:** Draft your code in `src/Rollback-CloudDrives.ps1`.
-- **Safety:** MUST USE `Move-Item -WhatIf`. Do not perform physical destructive moves.
-- **Protocol:** You must strictly follow all Universal SRE rules (Try/Catch, StrictMode, Verbose/Error output only).
+## 3. EXECUTION_LOGIC
+- `TARGET_FILE`: `src/Rollback-CloudDrives.ps1`
+- `ALGORITHM`: 
+  1. `EVAL: Staging_Location(To Delete Audio Books OR To Delete Empty Folders)`
+  2. `EVAL: TargetFolder(from CSV)`
+  3. `EXECUTE: Move-Item -Path [Staging_Location] -Destination [TargetFolder]`
 
-## 4. Output & Routing Directive
-1. Write the code to `src/Rollback-CloudDrives.ps1`.
-2. Commit the file to your branch.
-3. **DO NOT EXECUTE THE SCRIPT.**
-4. Create a new file named `docs/jira_tasks/TASK-001-Rollback-Audit.md` containing the source code you wrote for Manager Review.
-5. HALT execution. Do not ask for further instructions.
+## 4. CONSTRAINTS
+- `PHYSICAL_DESTRUCTION`: `DENY`
+- `SAFETY_OVERRIDE`: `REQUIRE(-WhatIf)`
+- `SRE_RULES`: `REQUIRE(Strict_Mode, Try/Catch, Write-Verbose, Write-Error)`
+
+## 5. OUTPUT_ROUTING
+1. `EXECUTE: WRITE_FILE(src/Rollback-CloudDrives.ps1)`
+2. `EXECUTE: GIT_COMMIT`
+3. `SCRIPT_EXECUTION`: `DENY`
+4. `EXECUTE: WRITE_FILE(docs/jira_tasks/TASK-001-Rollback-Audit.md, content=[Rollback-CloudDrives.ps1 Source Code])`
+5. `EXECUTE: HALT`
