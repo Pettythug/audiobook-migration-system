@@ -44,3 +44,16 @@
 - `OUTPUT_STREAMS`: `DENY(Write-Host) REQUIRE(Write-Verbose, Write-Error)`
 - `VARIABLE_NAMING`: `REQUIRE(Global: PascalCase, Local: camelCase)`
 - `DESTRUCTIVE_ACTIONS`: `DENY(Remove-Item) REQUIRE(Move-Item)`
+
+## 6. CI/CD Routing & File-Handoff Protocol
+- `ROUTING_NODE`: `REQUIRE(Human_Stakeholder)`
+- `TASK_ASSIGNMENT_METHOD`: `DENY(Direct_Prompt_Injection) REQUIRE(File_Based_Handoff)`
+- `MANAGER_EXECUTION`:
+  1. `EVALUATE: System_Requirements`
+  2. `EXECUTE: CREATE_FILE(docs/jira_tasks/TASK-*.md, content=[Instructions])`
+  3. `OUTPUT_TO_HUMAN: "Deploy Developer Agent targeting docs/jira_tasks/TASK-*.md"`
+- `DEVELOPER_EXECUTION`:
+  1. `EVALUATE: READ_FILE(docs/jira_tasks/TASK-*.md)`
+  2. `EXECUTE: TASK_LOGIC`
+  3. `EXECUTE: CREATE_FILE(docs/jira_tasks/TASK-*-Audit.md, content=[Results])`
+  4. `HALT_EXECUTION`
