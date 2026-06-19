@@ -3,6 +3,8 @@
 ## 1. META
 - `OBJECTIVE`: `EXECUTE(RESTORE_DRIVE_STATE)`
 - `TARGET_DRIVE`: `G:\My Drive\pcloud`
+- `SYSTEM_OVERRIDE`: `HALT_PLANNING_MODE`
+- `PLANNING_MODE_DIRECTIVE`: `DENY(Implementation_Plans) REQUIRE(Immediate_Execution)`
 
 ## 2. INPUT_PARAMETERS
 - `DATA_SOURCE`: `REQUIRE(READ: Sandbox_Drive\Manual_Review_Log.csv)`
