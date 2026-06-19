@@ -1,4 +1,3 @@
-Set-StrictMode -Version Latest
 
 [CmdletBinding(SupportsShouldProcess)]
 param(
@@ -9,6 +8,7 @@ param(
     [string]$CsvPath = "Manual_Review_Log.csv"
 )
 
+Set-StrictMode -Version Latest
 # Initialize local variables (camelCase)
 $originalPrefix = "G:\My Drive\pcloud"
 
