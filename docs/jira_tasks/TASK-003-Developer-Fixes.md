@@ -23,14 +23,15 @@
   </RESOURCES>
   <SEQUENCE>
     1. READ `tests/Deduplicate-CloudDrives.ps1`.
-    2. MODIFY:
+    2. PLAN: Write your implementation plan to `docs/jira_tasks/plans/PLAN-003.md` and commit it.
+    3. MODIFY:
        - Move the file to `src/Deduplicate-CloudDrives.ps1`.
        - Add `[CmdletBinding(SupportsShouldProcess)]` to the top of the param block.
        - Wrap `New-Item` calls (lines 55, 58) in `if ($PSCmdlet.ShouldProcess($ToDeleteDir, "Create Directory")) { ... }`.
        - Wrap `Move-Item` calls for Empty Shells (line 89) and Inferior Duplicates (line 111) in `if ($PSCmdlet.ShouldProcess($Shell.FullName, "Move to $Dest")) { ... }`.
        - Remove `tests/Deduplicate-CloudDrives.ps1`.
-    3. AUDIT: Generate `/audit_log_003.md` in the workspace root detailing changes.
-    4. VERIFY: Execute a mock test run against synthetic data in `tests/MockTarget` using the `-WhatIf` flag to prove it does not throw errors.
+    4. AUDIT: Generate `/audit_log_003.md` in the workspace root detailing changes.
+    5. VERIFY: Execute a mock test run against synthetic data in `tests/MockTarget` using the `-WhatIf` flag to prove it does not throw errors.
   </SEQUENCE>
 </TASK_EXECUTION_PROTOCOL>
 ```

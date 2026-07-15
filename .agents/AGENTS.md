@@ -57,10 +57,11 @@
       </RESOURCES>
       <SEQUENCE>
         1. READ [Target Files].
-        2. MODIFY [Target Files]:
+        2. PLAN: Write your implementation plan to `docs/jira_tasks/plans/PLAN-[ID].md` and commit it.
+        3. MODIFY [Target Files]:
            - [Detailed step-by-step instructions on logic edits]
-        3. AUDIT: Generate `/audit_log_[ID].md` in the workspace root detailing changes.
-        4. VERIFY: Run compilation/build verification commands.
+        4. AUDIT: Generate `/audit_log_[ID].md` in the workspace root detailing changes.
+        5. VERIFY: Run compilation/build verification commands.
       </SEQUENCE>
     </TASK_EXECUTION_PROTOCOL>
     ` ` `
@@ -88,7 +89,7 @@
   <DELEGATION_SEQUENCE>
     1. SPECIFY: Create developer JIRA task file `docs/jira_tasks/TASK-[ID].md`.
     2. DELEGATE: Hand off the task file using the DEPLOYMENT_HANDOFF_ENVELOPE (The Subagent will handle the branch checkout).
-    3. PLAN_REVIEW: Verify and approve the implementation plan created by the developer.
+    3. PLAN_REVIEW: The Manager must run `git pull` (or fetch from the branch) and read `docs/jira_tasks/plans/PLAN-[ID].md` directly from the repository to audit the developer's intent before approving execution.
     4. AWAIT_DEV: Wait for DEVELOPMENT_TASK_COMPLETE signal.
     5. SPECIFY_QA: Create QA verification JIRA task file `docs/jira_tasks/TASK-QA-[ID].md`.
     6. DELEGATE_QA: Hand off to QA_Engineer using the DEPLOYMENT_HANDOFF_ENVELOPE.
