@@ -62,14 +62,15 @@ New-Item -Path $NestedEmpty -ItemType Directory | Out-Null
 Push-Location -LiteralPath $TestDir
 
 # Run script
-& (Join-Path -Path $PSScriptRoot -ChildPath "Deduplicate-CloudDrives.ps1") -MasterDirectory $MasterDir -TargetDirectories @($TargetDir)
+& (Join-Path -Path $PSScriptRoot -ChildPath "../src/Deduplicate-CloudDrives.ps1") -MasterDirectory $MasterDir -TargetDirectories @($TargetDir)
 
 # Assertions
 Write-Host "Running Assertions..."
 $ToDeleteDir = Join-Path -Path $TargetDir -ChildPath "To Delete Audio Books"
+$ToDeleteEmptyDir = Join-Path -Path $TargetDir -ChildPath "To Delete Empty Folders"
 
 # 1. Empty Shell moved
-if (Test-Path -LiteralPath (Join-Path -Path $ToDeleteDir -ChildPath "Empty Book [789]")) {
+if (Test-Path -LiteralPath (Join-Path -Path $ToDeleteEmptyDir -ChildPath "Empty Book [789]")) {
     Write-Host "PASS: Empty Shell moved." -ForegroundColor Green
 } else {
     Write-Host "FAIL: Empty Shell not moved." -ForegroundColor Red
@@ -102,7 +103,7 @@ if (Test-Path -LiteralPath $GenericFolder) {
     Write-Host "FAIL: Generic Parent Folder deleted!" -ForegroundColor Red
 }
 
-if (Test-Path -LiteralPath (Join-Path -Path $ToDeleteDir -ChildPath "Nested Empty [123]")) {
+if (Test-Path -LiteralPath (Join-Path -Path $ToDeleteEmptyDir -ChildPath "Nested Empty [123]")) {
     Write-Host "PASS: Nested Empty Shell moved." -ForegroundColor Green
 } else {
     Write-Host "FAIL: Nested Empty Shell not moved." -ForegroundColor Red

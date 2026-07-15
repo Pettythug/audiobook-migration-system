@@ -1,3 +1,4 @@
+[CmdletBinding(SupportsShouldProcess)]
 param(
     [Parameter(Mandatory=$true)]
     [string]$MasterDirectory,
@@ -52,10 +53,14 @@ foreach ($TargetRoot in $TargetDirectories) {
         $ToDeleteEmptyDir = Join-Path -Path $TargetRoot -ChildPath "To Delete Empty Folders"
         
         if (-not (Test-Path -LiteralPath $ToDeleteDir)) {
-            New-Item -Path $ToDeleteDir -ItemType Directory -Force | Out-Null
+            if ($PSCmdlet.ShouldProcess($ToDeleteDir, "Create Directory")) {
+                New-Item -Path $ToDeleteDir -ItemType Directory -Force | Out-Null
+            }
         }
         if (-not (Test-Path -LiteralPath $ToDeleteEmptyDir)) {
-            New-Item -Path $ToDeleteEmptyDir -ItemType Directory -Force | Out-Null
+            if ($PSCmdlet.ShouldProcess($ToDeleteEmptyDir, "Create Directory")) {
+                New-Item -Path $ToDeleteEmptyDir -ItemType Directory -Force | Out-Null
+            }
         }
 
         $AnchoredFolders = @()
@@ -86,8 +91,10 @@ foreach ($TargetRoot in $TargetDirectories) {
                 if (Test-Path -LiteralPath $Dest) {
                     $Dest = $Dest + "_" + (Get-Date -Format "yyyyMMddHHmmss")
                 }
-                Move-Item -LiteralPath $Shell.FullName -Destination $Dest -Force
-                "$($Shell.FullName),Reason: Empty Shell" | Out-File -LiteralPath $LogFile -Append -Encoding utf8
+                if ($PSCmdlet.ShouldProcess($Shell.FullName, "Move to $Dest")) {
+                    Move-Item -LiteralPath $Shell.FullName -Destination $Dest -Force
+                    "$($Shell.FullName),Reason: Empty Shell" | Out-File -LiteralPath $LogFile -Append -Encoding utf8
+                }
             } catch {
                 Write-Error "Failed to move empty shell $($Shell.FullName): $_"
             }
@@ -108,8 +115,10 @@ foreach ($TargetRoot in $TargetDirectories) {
                         if (Test-Path -LiteralPath $Dest) {
                             $Dest = $Dest + "_" + (Get-Date -Format "yyyyMMddHHmmss")
                         }
-                        Move-Item -LiteralPath $Anchored.FullName -Destination $Dest -Force
-                        "$($Anchored.FullName),Reason: Exact/Inferior Duplicate" | Out-File -LiteralPath $LogFile -Append -Encoding utf8
+                        if ($PSCmdlet.ShouldProcess($Anchored.FullName, "Move to $Dest")) {
+                            Move-Item -LiteralPath $Anchored.FullName -Destination $Dest -Force
+                            "$($Anchored.FullName),Reason: Exact/Inferior Duplicate" | Out-File -LiteralPath $LogFile -Append -Encoding utf8
+                        }
                     } catch {
                         Write-Error "Failed to move inferior duplicate $($Anchored.FullName): $_"
                     }

@@ -6,7 +6,9 @@ try {
     $masterDir = Join-Path $testRoot "Master"
     New-Item -ItemType Directory -Path $masterDir | Out-Null
     New-Item -ItemType Directory -Path (Join-Path $masterDir "Book A [ID123]") | Out-Null
+    New-Item -ItemType File -Path (Join-Path $masterDir "Book A [ID123]\audio.mp3") -Value "AUDIO" | Out-Null
     New-Item -ItemType Directory -Path (Join-Path $masterDir "Book B [ID456]") | Out-Null
+    New-Item -ItemType File -Path (Join-Path $masterDir "Book B [ID456]\audio.mp3") -Value "AUDIO" | Out-Null
 
     # Create Mock Target directories
     $targets = @()
@@ -17,17 +19,20 @@ try {
         
         # Add a duplicate that matches master
         New-Item -ItemType Directory -Path (Join-Path $targetDir "Book A [ID99$i]") | Out-Null
+        New-Item -ItemType File -Path (Join-Path $targetDir "Book A [ID99$i]\audio.mp3") -Value "AUDIO" | Out-Null
         # Add a unique book
         New-Item -ItemType Directory -Path (Join-Path $targetDir "Unique Book $i [ID00$i]") | Out-Null
+        New-Item -ItemType File -Path (Join-Path $targetDir "Unique Book $i [ID00$i]\audio.mp3") -Value "AUDIO" | Out-Null
         
         # In one target, let's also put Book B duplicate
         if ($i -eq 2) {
             New-Item -ItemType Directory -Path (Join-Path $targetDir "Book B [ID88$i]") | Out-Null
+            New-Item -ItemType File -Path (Join-Path $targetDir "Book B [ID88$i]\audio.mp3") -Value "AUDIO" | Out-Null
         }
     }
 
     # Run the script
-    $scriptPath = Join-Path $PSScriptRoot "Deduplicate-CloudDrives.ps1"
+    $scriptPath = Join-Path $PSScriptRoot "../src/Deduplicate-CloudDrives.ps1"
     & $scriptPath -MasterDirectory $masterDir -TargetDirectories $targets
 
     # Verify
