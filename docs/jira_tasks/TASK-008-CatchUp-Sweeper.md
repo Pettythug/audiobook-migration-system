@@ -7,6 +7,7 @@
   <GATEKEEPER>
     - TASK_CLASS: MULTI_FILE_Refactoring
     - REQUIRED_MODEL_TIER: HIGH_TIER
+    - ALIGNMENT_CHECK: IF(Active_Model NOT IN [Gemini 3.1 Pro (High), Claude Opus 4.6 (Thinking)]) THEN(HALT -> OUTPUT: "Model Alignment Error: Please switch my model to Gemini 3.1 Pro (High) or Claude Opus 4.6 (Thinking) to proceed.")
   </GATEKEEPER>
   <ROLE_DEFINITION>
     - ASSIGNED_ROLE: Sandbox_Developer
