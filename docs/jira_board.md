@@ -1,11 +1,16 @@
 # Enterprise Staged Migration & Reorganization - JIRA Master Board
 
+> **Master Architecture Reference:** See [docs/BLUEPRINT_AUDIOBOOK_MIGRATION.md](BLUEPRINT_AUDIOBOOK_MIGRATION.md) for full algorithmic specifications, storage axioms, and data structures.
+
+---
+
 ## 1. System Operating Axioms & Governance
 - **Staged Batch Architecture:** Operations are strictly performed in isolated batches staged on `G:\My Drive\`.
 - **Absolute Boundary Rule:** `STRICTLY_DENY(Access: "P:\*")`. AI agents must NEVER interact with or touch the `P:\` drive. All transfers between `P:\` and `G:\` are manually controlled by the user.
-- **Zero-Deletion Safety Mandate:** `STRICTLY_DENY(Remove-Item)`. Permanent deletions are prohibited. All dead shells, empty folders, and duplicate candidates are relocated to dedicated holding cells.
-- **Ground-Truth Authority:** `docs/audiobookshelf_library.json` serves as the canonical baseline for identifying verified original audiobooks, canonical titles, authors, series, and ASINs.
-- **Target Organization Standard:** `Author Name \ Series Name \ Book Title`.
+- **Zero-Deletion Safety Mandate:** `STRICTLY_DENY(Remove-Item)`. Permanent deletions are prohibited. All dead shells, empty folders, and duplicate candidates are relocated to dedicated holding cells (`To Delete Empty Folders` and `To Delete Audio Books`).
+- **Ground-Truth Authority:** `docs/audiobookshelf_library.json` (2,608 cataloged records, 2,334 Audible ASINs) serves as the canonical baseline for identifying verified original audiobooks, canonical titles, authors, series, and ASINs.
+- **Target Organization Standard:** `Author Name \ Series Name \ Book Title [ASIN]`.
+- **Quarantine Protocol:** Any audiobook found on disk that does not match the Audiobookshelf JSON is safely isolated into `Organized Audiobooks\_Uncataloged`.
 
 ---
 
@@ -21,8 +26,8 @@
 | **`TASK-006`** | Consolidation Engine Build | `src/Consolidate-AudioBooks.ps1` | Native same-volume moves, `tests/test_consolidate.ps1` | **COMPLETED** |
 | **`TASK-007`** | Live Initial Consolidation | Moved `Drive I` & `Drive E` into `Organized` | `docs/jira_tasks/plans/PLAN-007.md`, `audit_log_007.md` | **COMPLETED** |
 | **`TASK-008`** | Safe Sweeper Build & Catch-Up Sweep | `src/Clean-EmptyDirectories.ps1` | 7,472 empty directories moved to holding cell; 0 files touched | **COMPLETED** |
-| **`TASK-009`** | Full Library Consolidation | `src/Consolidate-AudioBooks.ps1` | 161 directories consolidated into Organized Audiobooks; 0 errors; 0 deletions | **COMPLETED** |
 | **`CORP-001`** | Corporate Template Standardization | `corporate-standards/TASK_TEMPLATE.md` | Unified enterprise task template with Pre-Flight checks | **COMPLETED** |
+| **`TASK-009`** | Full Library Consolidation | Consolidated `Audiobooks` (55k files) into `Organized Audiobooks` | 161 directories moved; `Manual_Review_Log.csv`, `audit_log_009.md` | **COMPLETED** |
 
 ---
 
@@ -32,15 +37,16 @@
 
 ### Active & Upcoming Ticket Sequence
 
-### [COMPLETED] TASK-009: Full Library Consolidation into `Organized Audiobooks`
-- **Assigned Role:** Sandbox_Developer (Medium Tier)
-- **Scope:** Sweep unmerged source audiobooks from `G:\My Drive\04_Media\Audiobooks` (55,708 files) and `G:\My Drive\04_Media\Audio Books` (839 files) into `G:\My Drive\04_Media\Organized Audiobooks`.
-- **Constraint:** Use native `Move-Item` intra-volume moves to prevent Google Drive Trash duplication.
-
-### [PENDING] TASK-010: Audiobookshelf Manifest Deduplication & Originality Audit
+### [READY] TASK-010: Audiobookshelf Manifest Deduplication & Layout Restructuring
 - **Assigned Role:** Sandbox_Developer (High Tier)
-- **Scope:** Parse `docs/audiobookshelf_library.json`. Cross-reference every book folder in `Organized Audiobooks` against canonical ASINs, titles, and track sizes.
-- **Action:** Retain verified original copies. Relocate redundant/inferior duplicates to `G:\My Drive\04_Media\To Delete Audio Books`. Flag uncataloged books for review.
+- **Scope:** Parse `docs/audiobookshelf_library.json`. Scan `G:\My Drive\04_Media\Organized Audiobooks`.
+- **Engineering Requirements:**
+  - Extended path handling (`\\?\`) via .NET to prevent 260-character MAX_PATH errors.
+  - Google Drive sync-lock retry-with-backoff logic (3 retries, 2s backoff).
+  - 3-tier matching: Canonical ASIN matching, normalized title/author fuzzy scan, track/byte-size arbitration.
+  - Relocate verified books into `Author Name \ Series Name \ Book Title [ASIN]`.
+  - Quarantine non-matching books into `Organized Audiobooks\_Uncataloged`.
+  - Relocate confirmed duplicate copies to `G:\My Drive\04_Media\To Delete Audio Books`.
 
 ### [PENDING] TASK-011: Pre-Stage Non-Media Residuals
 - **Assigned Role:** Sandbox_Developer (Medium Tier)
@@ -50,7 +56,7 @@
 ### [PENDING] TASK-012: Master Catalog Generation (Spreadsheet Index)
 - **Assigned Role:** Sandbox_Developer (Low/Medium Tier)
 - **Scope:** Generate `Media_Master_Catalog.csv` in `G:\My Drive\04_Media\`.
-- **Fields:** Title, Series, Series Sequence, Author, Genre(s), ASIN, Duration, Track Count, Relative File Path.
+- **Fields:** Title, Subtitle, Series, Series Sequence, Author, Narrator, Genre(s), ASIN, Duration, Format, Total Size (MB), Disk Path, Status.
 - **Output:** Importable into Google Sheets / Excel for instant searching and browsing.
 
 ### [PENDING] TASK-013: Final Empty Directory Sweep & Batch 1 Sign-Off
@@ -60,9 +66,15 @@
 
 ---
 
-## 4. Backlog: Future Staged Batches (Post-Batch 1)
+## 4. Phase 2: Ingestion of pCloud Audiobooks Snapshot
+- **`TASK-014`:** Targeted Ingestion of ~2,000 Audiobookshelf titles from `G:\My Drive\pcloud` into `G:\My Drive\04_Media\Organized Audiobooks` using JSON manifest matching.
+- **`TASK-015`:** pCloud Snapshot Deduplication & Residual Audit.
+
+---
+
+## 5. Backlog: Future Staged Batches (Post-Batch 1)
 *These batches remain completely deferred until Batch 1 is 100% completed and signed off:*
-- **Batch 2:** `02_Projects` (Code, IDE settings, development environments)
-- **Batch 3:** `03_Personal` (Personal records, workout data, household)
+- **Batch 2:** `02_Projects` (Development code, virtual environments, IDE configs)
+- **Batch 3:** `03_Personal` (Personal records, workout data, household media)
 - **Batch 4:** `01_Inbox` (Unsorted downloads and incoming assets)
-- **Batch 5:** `05_Backup` & `09_Archive` (Long-term retention and historical archives)
+- **Batch 5:** `05_Backup` & `09_Archive` (Cold storage and long-term retention)
