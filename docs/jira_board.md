@@ -28,6 +28,7 @@
 | **`TASK-008`** | Safe Sweeper Build & Catch-Up Sweep | `src/Clean-EmptyDirectories.ps1` | 7,472 empty directories moved to holding cell; 0 files touched | **COMPLETED** |
 | **`CORP-001`** | Corporate Template Standardization | `corporate-standards/TASK_TEMPLATE.md` | Unified enterprise task template with Pre-Flight checks | **COMPLETED** |
 | **`TASK-009`** | Full Library Consolidation | Consolidated `Audiobooks` (55k files) into `Organized Audiobooks` | 161 directories moved; `Manual_Review_Log.csv`, `audit_log_009.md` | **COMPLETED** |
+| **`TASK-010`** | Audiobookshelf Manifest Deduplication | Restructured canonical layout & quarantined duplicates | `src/Reorganize-AudiobookshelfManifest.ps1`, `audit_log_010.md` | **COMPLETED** |
 
 ---
 
@@ -37,7 +38,10 @@
 
 ### Active & Upcoming Ticket Sequence
 
-### [READY] TASK-010: Audiobookshelf Manifest Deduplication & Layout Restructuring
+### [COMPLETED] TASK-010: Audiobookshelf Manifest Deduplication & Layout Restructuring
+- **Status:** COMPLETED on branch `TASK-010` and merged into `main`. Canonical layouts generated, duplicates quarantined to `To Delete Audio Books`, uncataloged assets isolated in `_Uncataloged`.
+
+### [READY] TASK-011: Pre-Stage Non-Media Residuals
 - **Assigned Role:** Sandbox_Developer (High Tier)
 - **Scope:** Parse `docs/audiobookshelf_library.json`. Scan `G:\My Drive\04_Media\Organized Audiobooks`.
 - **Engineering Requirements:**
