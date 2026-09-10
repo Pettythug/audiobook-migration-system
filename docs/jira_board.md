@@ -31,10 +31,11 @@
 | **`TASK-010`** | Audiobookshelf Manifest Deduplication | Restructured canonical layout & quarantined duplicates | `src/Reorganize-AudiobookshelfManifest.ps1`, `audit_log_010.md` | **COMPLETED** |
 | **`TASK-011`** | Pre-Stage Non-Media Residuals | Relocated PyCharm, Rackspace, Workout Stuff out of 04_Media | `src/PreStage-NonMedia.ps1`, `audit_log_011.md` | **COMPLETED** |
 | **`TASK-012`** | Master Catalog Generation | Interactive spreadsheet catalog (`Media_Master_Catalog.csv`) | 1,801 entries indexed; `audit_log_012.md` | **COMPLETED** |
+| **`TASK-013`** | Final Empty Directory Sweep & Batch 1 Sign-Off | Swept lingering empty shells, holding cell audit, formal sign-off | 7,474 shells swept (0 files); `audit_log_013.md` | **COMPLETED** |
 
 ---
 
-## 3. Active Epic: Batch 1 — `04_Media` Reorganization & Reconciliation
+## 3. Active Epic: Batch 1 — `04_Media` Reorganization & Reconciliation [COMPLETED]
 
 **Goal:** Completely consolidate, deduplicate, organize, and catalog all assets within `G:\My Drive\04_Media` into a verified state with an exportable spreadsheet inventory, preparing it for clean restoration.
 
@@ -49,10 +50,8 @@
 ### [COMPLETED] TASK-012: Master Catalog Generation (Spreadsheet Index)
 - **Status:** COMPLETED on branch `TASK-012` and merged into `main`. Generated `G:\My Drive\04_Media\Media_Master_Catalog.csv` (1,801 rows, 1.24 TB indexed, 13 fields).
 
-### [READY] TASK-013: Final Empty Directory Sweep & Batch 1 Sign-Off
-- **Assigned Role:** QA_Engineer / Manager
-- **Scope:** Run `Clean-EmptyDirectories.ps1` across `04_Media` to sweep newly emptied source directories into `To Delete Empty Folders`.
-- **Verification:** Confirm 0 files in holding cell, verify all media assets accounted for in catalog, formal Batch 1 sign-off.
+### [COMPLETED] TASK-013: Final Empty Directory Sweep & Batch 1 Sign-Off
+- **Status:** COMPLETED on branch `TASK-013` and merged into `main`. Swept empty directory shells into `To Delete Empty Folders` (verified 0 payload files). Formal sign-off granted for restoration to `P:\04_Media` and cloud wipe of `G:\My Drive\04_Media`.
 
 ---
 
