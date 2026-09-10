@@ -1,25 +1,67 @@
-# AudioBook Migration - Jira Board
+# Enterprise Staged Migration & Reorganization - JIRA Master Board
 
-## Epic 1: Sandbox Environment Setup
-- **Assignee Model**: Gemini Flash or Gemini 3 Pro (Low)
-- **Status**: COMPLETED
-- **Task 1.1**: Set up basic mock audio book data in the /tests folder to simulate the G: drive structures.
+## 1. System Operating Axioms & Governance
+- **Staged Batch Architecture:** Operations are strictly performed in isolated batches staged on `G:\My Drive\`.
+- **Absolute Boundary Rule:** `STRICTLY_DENY(Access: "P:\*")`. AI agents must NEVER interact with or touch the `P:\` drive. All transfers between `P:\` and `G:\` are manually controlled by the user.
+- **Zero-Deletion Safety Mandate:** `STRICTLY_DENY(Remove-Item)`. Permanent deletions are prohibited. All dead shells, empty folders, and duplicate candidates are relocated to dedicated holding cells.
+- **Ground-Truth Authority:** `docs/audiobookshelf_library.json` serves as the canonical baseline for identifying verified original audiobooks, canonical titles, authors, series, and ASINs.
+- **Target Organization Standard:** `Author Name \ Series Name \ Book Title`.
 
-## Epic 2: Directory Mapping & Comparison Script
-- **Assignee Model**: Gemini 3.1 Pro (High)
-- **Status**: COMPLETED
-- **Task 2.1**: Write a PowerShell script that parses gdrive_manifest.csv.
-- **Task 2.2**: Script must scan the G:\My Drive\pcloud equivalent (mocked initially) and find titles not in the manifest.
+---
 
-## Epic 3: Non-Destructive Migration Script
-- **Assignee Model**: Gemini 3.1 Pro (High)
-- **Status**: COMPLETED
-- **Task 3.1**: Script must identify duplicate titles existing in both locations.
-- **Task 3.2**: Script must non-destructively MOVE duplicates to G:\My Drive\pcloud\To Delete Audio Books.
+## 2. Ledger of Completed Work (Sprint History)
 
-## Epic 4: Mock Testing & Audit Submission
-- **Assignee Model**: Gemini Flash or Gemini 3 Pro (Low)
-- **Status**: COMPLETED
-- **Task 4.1**: Execute tests against the mock data in /tests.
-- **Task 4.2**: Verify that the staging folder To Delete Audio Books is never deleted or wiped.
-- **Task 4.3**: Prepare audit submission with paths, summary, and terminal output of passing tests.
+| Task ID | Task Title | Primary Deliverable | Audit / Artifacts | Status |
+| :--- | :--- | :--- | :--- | :--- |
+| **`TASK-001`** | Rollback Engine Implementation | `src/Rollback-CloudDrives.ps1` | `docs/jira_tasks/TASK-001-Rollback.md` | **COMPLETED** |
+| **`TASK-002`** | Physical Dry-Run Stress Testing | Mock testing suite | `tests/test_rollback.ps1` | **COMPLETED** |
+| **`TASK-003`** | Engine Hardening & Relocation | `$PSCmdlet.ShouldProcess` added | `src/Deduplicate-CloudDrives.ps1`, `audit_log_003.md` | **COMPLETED** |
+| **`TASK-004`** | Production `-WhatIf` Safety Audit | 24k operations dry-run verified | `docs/jira_tasks/plans/PLAN-004.md`, `audit_log_004.md` | **COMPLETED** |
+| **`TASK-005`** | Production Deduplication Run | Relocated initial duplicates | `Manual_Review_Log.csv`, `audit_log_005.md` | **COMPLETED** |
+| **`TASK-006`** | Consolidation Engine Build | `src/Consolidate-AudioBooks.ps1` | Native same-volume moves, `tests/test_consolidate.ps1` | **COMPLETED** |
+| **`TASK-007`** | Live Initial Consolidation | Moved `Drive I` & `Drive E` into `Organized` | `docs/jira_tasks/plans/PLAN-007.md`, `audit_log_007.md` | **COMPLETED** |
+| **`TASK-008`** | Safe Sweeper Build & Catch-Up Sweep | `src/Clean-EmptyDirectories.ps1` | 7,472 empty directories moved to holding cell; 0 files touched | **COMPLETED** |
+| **`CORP-001`** | Corporate Template Standardization | `corporate-standards/TASK_TEMPLATE.md` | Unified enterprise task template with Pre-Flight checks | **COMPLETED** |
+
+---
+
+## 3. Active Epic: Batch 1 — `04_Media` Reorganization & Reconciliation
+
+**Goal:** Completely consolidate, deduplicate, organize, and catalog all assets within `G:\My Drive\04_Media` into a verified state with an exportable spreadsheet inventory, preparing it for clean restoration.
+
+### Active & Upcoming Ticket Sequence
+
+### [READY] TASK-009: Full Library Consolidation into `Organized Audiobooks`
+- **Assigned Role:** Sandbox_Developer (Medium Tier)
+- **Scope:** Sweep unmerged source audiobooks from `G:\My Drive\04_Media\Audiobooks` (55,708 files) and `G:\My Drive\04_Media\Audio Books` (839 files) into `G:\My Drive\04_Media\Organized Audiobooks`.
+- **Constraint:** Use native `Move-Item` intra-volume moves to prevent Google Drive Trash duplication.
+
+### [PENDING] TASK-010: Audiobookshelf Manifest Deduplication & Originality Audit
+- **Assigned Role:** Sandbox_Developer (High Tier)
+- **Scope:** Parse `docs/audiobookshelf_library.json`. Cross-reference every book folder in `Organized Audiobooks` against canonical ASINs, titles, and track sizes.
+- **Action:** Retain verified original copies. Relocate redundant/inferior duplicates to `G:\My Drive\04_Media\To Delete Audio Books`. Flag uncataloged books for review.
+
+### [PENDING] TASK-011: Pre-Stage Non-Media Residuals
+- **Assigned Role:** Sandbox_Developer (Medium Tier)
+- **Scope:** Isolate non-media directories currently in `Drive G\To Delete Empty Folders` (`PyCharm`, `Rackspace`, `Workout Stuff` totaling 39,911 files) out of `04_Media`.
+- **Action:** Move them into root pre-staging directories: `G:\My Drive\02_Projects` and `G:\My Drive\03_Personal`.
+
+### [PENDING] TASK-012: Master Catalog Generation (Spreadsheet Index)
+- **Assigned Role:** Sandbox_Developer (Low/Medium Tier)
+- **Scope:** Generate `Media_Master_Catalog.csv` in `G:\My Drive\04_Media\`.
+- **Fields:** Title, Series, Series Sequence, Author, Genre(s), ASIN, Duration, Track Count, Relative File Path.
+- **Output:** Importable into Google Sheets / Excel for instant searching and browsing.
+
+### [PENDING] TASK-013: Final Empty Directory Sweep & Batch 1 Sign-Off
+- **Assigned Role:** QA_Engineer / Manager
+- **Scope:** Run `Clean-EmptyDirectories.ps1` across `04_Media` to sweep newly emptied source directories into `To Delete Empty Folders`.
+- **Verification:** Confirm 0 files in holding cell, verify all media assets accounted for in catalog, formal Batch 1 sign-off.
+
+---
+
+## 4. Backlog: Future Staged Batches (Post-Batch 1)
+*These batches remain completely deferred until Batch 1 is 100% completed and signed off:*
+- **Batch 2:** `02_Projects` (Code, IDE settings, development environments)
+- **Batch 3:** `03_Personal` (Personal records, workout data, household)
+- **Batch 4:** `01_Inbox` (Unsorted downloads and incoming assets)
+- **Batch 5:** `05_Backup` & `09_Archive` (Long-term retention and historical archives)
