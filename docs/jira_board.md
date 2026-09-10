@@ -29,6 +29,7 @@
 | **`CORP-001`** | Corporate Template Standardization | `corporate-standards/TASK_TEMPLATE.md` | Unified enterprise task template with Pre-Flight checks | **COMPLETED** |
 | **`TASK-009`** | Full Library Consolidation | Consolidated `Audiobooks` (55k files) into `Organized Audiobooks` | 161 directories moved; `Manual_Review_Log.csv`, `audit_log_009.md` | **COMPLETED** |
 | **`TASK-010`** | Audiobookshelf Manifest Deduplication | Restructured canonical layout & quarantined duplicates | `src/Reorganize-AudiobookshelfManifest.ps1`, `audit_log_010.md` | **COMPLETED** |
+| **`TASK-011`** | Pre-Stage Non-Media Residuals | Relocated PyCharm, Rackspace, Workout Stuff out of 04_Media | `src/PreStage-NonMedia.ps1`, `audit_log_011.md` | **COMPLETED** |
 
 ---
 
@@ -41,23 +42,10 @@
 ### [COMPLETED] TASK-010: Audiobookshelf Manifest Deduplication & Layout Restructuring
 - **Status:** COMPLETED on branch `TASK-010` and merged into `main`. Canonical layouts generated, duplicates quarantined to `To Delete Audio Books`, uncataloged assets isolated in `_Uncataloged`.
 
-### [READY] TASK-011: Pre-Stage Non-Media Residuals
-- **Assigned Role:** Sandbox_Developer (High Tier)
-- **Scope:** Parse `docs/audiobookshelf_library.json`. Scan `G:\My Drive\04_Media\Organized Audiobooks`.
-- **Engineering Requirements:**
-  - Extended path handling (`\\?\`) via .NET to prevent 260-character MAX_PATH errors.
-  - Google Drive sync-lock retry-with-backoff logic (3 retries, 2s backoff).
-  - 3-tier matching: Canonical ASIN matching, normalized title/author fuzzy scan, track/byte-size arbitration.
-  - Relocate verified books into `Author Name \ Series Name \ Book Title [ASIN]`.
-  - Quarantine non-matching books into `Organized Audiobooks\_Uncataloged`.
-  - Relocate confirmed duplicate copies to `G:\My Drive\04_Media\To Delete Audio Books`.
+### [COMPLETED] TASK-011: Pre-Stage Non-Media Residuals
+- **Status:** COMPLETED on branch `TASK-011`. 39,910 files and 6,931 directories relocated (`PyCharm` & `Rackspace` to `02_Projects`, `Workout Stuff` to `03_Personal`). `To Delete Empty Folders` drained to 0 items.
 
-### [PENDING] TASK-011: Pre-Stage Non-Media Residuals
-- **Assigned Role:** Sandbox_Developer (Medium Tier)
-- **Scope:** Isolate non-media directories currently in `Drive G\To Delete Empty Folders` (`PyCharm`, `Rackspace`, `Workout Stuff` totaling 39,911 files) out of `04_Media`.
-- **Action:** Move them into root pre-staging directories: `G:\My Drive\02_Projects` and `G:\My Drive\03_Personal`.
-
-### [PENDING] TASK-012: Master Catalog Generation (Spreadsheet Index)
+### [READY] TASK-012: Master Catalog Generation (Spreadsheet Index)
 - **Assigned Role:** Sandbox_Developer (Low/Medium Tier)
 - **Scope:** Generate `Media_Master_Catalog.csv` in `G:\My Drive\04_Media\`.
 - **Fields:** Title, Subtitle, Series, Series Sequence, Author, Narrator, Genre(s), ASIN, Duration, Format, Total Size (MB), Disk Path, Status.

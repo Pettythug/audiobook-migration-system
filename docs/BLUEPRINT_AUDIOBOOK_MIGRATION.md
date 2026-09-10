@@ -91,8 +91,8 @@ Upon completion of the deduplication and restructuring phases, an automated cata
 ### Phase 1: Batch 1 (`04_Media`) Completion (Active)
 - [x] **`TASK-001` through `TASK-008`:** Rollback engine, dry-run safety audits, initial consolidation, and 7,472 empty directory sweep.
 - [x] **`TASK-009`:** Full library consolidation of `Audiobooks` (55k files) and `Audio Books` into `Organized Audiobooks`.
-- [ ] **`TASK-010`:** Audiobookshelf Manifest Deduplication & Layout Restructuring (`Author \ Series \ Title [ASIN]`).
-- [ ] **`TASK-011`:** Pre-Stage Non-Media Residuals (Move `PyCharm`, `Rackspace`, `Workout Stuff` to `G:\My Drive\02_Projects` and `03_Personal`).
+- [x] **`TASK-010`:** Audiobookshelf Manifest Deduplication & Layout Restructuring (`Author \ Series \ Title [ASIN]`).
+- [x] **`TASK-011`:** Pre-Stage Non-Media Residuals (Move `PyCharm`, `Rackspace`, `Workout Stuff` to `G:\My Drive\02_Projects` and `03_Personal`).
 - [ ] **`TASK-012`:** Master Catalog Generation (`Media_Master_Catalog.csv`).
 - [ ] **`TASK-013`:** Final Empty Directory Sweep & Batch 1 Formal Sign-Off.
 
