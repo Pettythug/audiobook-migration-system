@@ -30,6 +30,7 @@
 | **`TASK-009`** | Full Library Consolidation | Consolidated `Audiobooks` (55k files) into `Organized Audiobooks` | 161 directories moved; `Manual_Review_Log.csv`, `audit_log_009.md` | **COMPLETED** |
 | **`TASK-010`** | Audiobookshelf Manifest Deduplication | Restructured canonical layout & quarantined duplicates | `src/Reorganize-AudiobookshelfManifest.ps1`, `audit_log_010.md` | **COMPLETED** |
 | **`TASK-011`** | Pre-Stage Non-Media Residuals | Relocated PyCharm, Rackspace, Workout Stuff out of 04_Media | `src/PreStage-NonMedia.ps1`, `audit_log_011.md` | **COMPLETED** |
+| **`TASK-012`** | Master Catalog Generation | Interactive spreadsheet catalog (`Media_Master_Catalog.csv`) | 1,801 entries indexed; `audit_log_012.md` | **COMPLETED** |
 
 ---
 
@@ -45,13 +46,10 @@
 ### [COMPLETED] TASK-011: Pre-Stage Non-Media Residuals
 - **Status:** COMPLETED on branch `TASK-011`. 39,910 files and 6,931 directories relocated (`PyCharm` & `Rackspace` to `02_Projects`, `Workout Stuff` to `03_Personal`). `To Delete Empty Folders` drained to 0 items.
 
-### [READY] TASK-012: Master Catalog Generation (Spreadsheet Index)
-- **Assigned Role:** Sandbox_Developer (Low/Medium Tier)
-- **Scope:** Generate `Media_Master_Catalog.csv` in `G:\My Drive\04_Media\`.
-- **Fields:** Title, Subtitle, Series, Series Sequence, Author, Narrator, Genre(s), ASIN, Duration, Format, Total Size (MB), Disk Path, Status.
-- **Output:** Importable into Google Sheets / Excel for instant searching and browsing.
+### [COMPLETED] TASK-012: Master Catalog Generation (Spreadsheet Index)
+- **Status:** COMPLETED on branch `TASK-012` and merged into `main`. Generated `G:\My Drive\04_Media\Media_Master_Catalog.csv` (1,801 rows, 1.24 TB indexed, 13 fields).
 
-### [PENDING] TASK-013: Final Empty Directory Sweep & Batch 1 Sign-Off
+### [READY] TASK-013: Final Empty Directory Sweep & Batch 1 Sign-Off
 - **Assigned Role:** QA_Engineer / Manager
 - **Scope:** Run `Clean-EmptyDirectories.ps1` across `04_Media` to sweep newly emptied source directories into `To Delete Empty Folders`.
 - **Verification:** Confirm 0 files in holding cell, verify all media assets accounted for in catalog, formal Batch 1 sign-off.
