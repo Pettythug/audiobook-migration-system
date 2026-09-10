@@ -32,6 +32,7 @@
 | **`TASK-011`** | Pre-Stage Non-Media Residuals | Relocated PyCharm, Rackspace, Workout Stuff out of 04_Media | `src/PreStage-NonMedia.ps1`, `audit_log_011.md` | **COMPLETED** |
 | **`TASK-012`** | Master Catalog Generation | Interactive spreadsheet catalog (`Media_Master_Catalog.csv`) | 1,801 entries indexed; `audit_log_012.md` | **COMPLETED** |
 | **`TASK-013`** | Final Empty Directory Sweep & Batch 1 Sign-Off | Swept lingering empty shells, holding cell audit, formal sign-off | 7,474 shells swept (0 files); `audit_log_013.md` | **COMPLETED** |
+| **`TASK-014`** | Targeted Ingestion of pCloud Audiobooks | Cross-referenced manifest, upgraded 182 books, quarantined 1,311 dupes | `src/Ingest-PCloudAudiobooks.ps1`, `audit_log_014.md` | **COMPLETED** |
 
 ---
 
@@ -56,8 +57,13 @@
 ---
 
 ## 4. Phase 2: Ingestion of pCloud Audiobooks Snapshot
-- **`TASK-014`:** Targeted Ingestion of ~2,000 Audiobookshelf titles from `G:\My Drive\pcloud` into `G:\My Drive\04_Media\Organized Audiobooks` using JSON manifest matching.
-- **`TASK-015`:** pCloud Snapshot Deduplication & Residual Audit.
+
+### [COMPLETED] TASK-014: Targeted Ingestion of pCloud Audiobooks Snapshot
+- **Status:** COMPLETED on branch `TASK-014` and merged into `main`. Evaluated 2,529 candidates; ingested 29 new canonical books; upgraded 182 existing titles to superior copies; quarantined 1,311 duplicates to `To Delete Audio Books`; master catalog refreshed to 1,888 books.
+
+### [READY] TASK-015: pCloud Snapshot Deduplication & Residual Audit
+- **Assigned Role:** QA_Engineer / Manager
+- **Scope:** Audit remaining 1,007 non-manifest assets in `G:\My Drive\pcloud`, consolidate uncataloged audiobooks into `04_Media\Organized Audiobooks\_Uncataloged`, and sweep empty directory shells.
 
 ---
 
