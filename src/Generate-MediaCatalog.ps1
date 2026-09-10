@@ -19,10 +19,10 @@ Param(
     [string]$LibraryJsonPath = "C:\Users\wance\Documents\Git\audiobook-migration-system\docs\audiobookshelf_library.json",
 
     [Parameter(Mandatory=$false)]
-    [string]$OrganizedAudiobooksPath = "G:\My Drive\04_Media\Organized Audiobooks",
+    [string]$OrganizedAudiobooksPath = "G:\My Drive\04_Media\Audiobooks",
 
     [Parameter(Mandatory=$false)]
-    [string]$OutputCsvPath = "G:\My Drive\04_Media\Media_Master_Catalog.csv"
+    [string]$OutputCsvPath = "G:\My Drive\04_Media\Audiobooks\Media_Master_Catalog.csv"
 )
 
 $ErrorActionPreference = "Stop"

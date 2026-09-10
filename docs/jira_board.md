@@ -34,6 +34,7 @@
 | **`TASK-013`** | Final Empty Directory Sweep & Batch 1 Sign-Off | Swept lingering empty shells, holding cell audit, formal sign-off | 7,474 shells swept (0 files); `audit_log_013.md` | **COMPLETED** |
 | **`TASK-014`** | Targeted Ingestion of pCloud Audiobooks | Cross-referenced manifest, upgraded 182 books, quarantined 1,311 dupes | `src/Ingest-PCloudAudiobooks.ps1`, `audit_log_014.md` | **COMPLETED** |
 | **`TASK-015`** | pCloud Residual Audio Audit & Consolidation | Relocated 947 residual audio assets to `_Uncataloged`, swept 4,176 shells | `src/Audit-PCloudResiduals.ps1`, `audit_log_015.md` | **COMPLETED** |
+| **`TASK-016`** | Final Residual Reconciliation & Layout Finalization | Rescued 4 titles, swept 4 drive shells, renamed to `Audiobooks`, extras audit | `src/Finalize-MediaLayout.ps1`, `audit_log_016.md` | **COMPLETED** |
 
 ---
 
